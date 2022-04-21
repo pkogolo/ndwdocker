@@ -1,6 +1,4 @@
 import React from "react";
-import circle1 from "../images/circle1.png";
-import circle2 from "../images/circle2.png";
 import Button from "./Button";
 
 function MainCard({
@@ -8,9 +6,11 @@ function MainCard({
   title,
   paragraph,
   buttonText,
-  buttonLink,
+  buttonLinks,
   mainImage,
   showCircles,
+  circleImages,
+  
 }) {
   return (
     <div className="flex items-center justify-center sm:px-0 px-4">
@@ -27,23 +27,17 @@ function MainCard({
             ))}
             {showCircles && (
               <div className="grid grid-cols-3 gap-6 sm:my-24 my-12 w-3/4">
-                <div
-                  className="sm:w-[98px] sm:h-[98px] w-[58px] h-[58px] bg-cover"
-                  style={{ backgroundImage: `url(${circle1})` }}
-                ></div>
-                <div
-                  className="sm:w-[98px] sm:h-[98px] w-[58px] h-[58px] bg-cover"
-                  style={{ backgroundImage: `url(${circle1})` }}
-                ></div>
-                <div
-                  className="sm:w-[98px] sm:h-[98px] w-[58px] h-[58px] bg-cover"
-                  style={{ backgroundImage: `url(${circle1})` }}
-                ></div>
+                {circleImages.map((item) => (
+                  <div
+                    className="sm:w-[98px] sm:h-[98px] w-[58px] bg-cover rounded-full bg-center h-[58px] bg-cover"
+                    style={{ backgroundImage: `url(${item})` }}
+                  ></div>
+                ))}
               </div>
             )}
             {buttonText && (
               <div className="w-full mt-12">
-                <Button text={buttonText} />
+                <Button text={buttonText} itemlink={buttonLinks} />
               </div>
             )}
           </div>
@@ -62,23 +56,17 @@ function MainCard({
             ))}
             {showCircles && (
               <div className="grid grid-cols-3 gap-6 sm:my-24 my-12 w-3/4">
-                <div
-                  className="w-[98px] h-[98px] sm:w-[98px] sm:h-[98px] w-[58px] h-[58px] bg-cover"
-                  style={{ backgroundImage: `url(${circle1})` }}
-                ></div>
-                <div
-                  className="w-[98px] h-[98px] sm:w-[98px] sm:h-[98px] w-[58px] h-[58px] bg-cover"
-                  style={{ backgroundImage: `url(${circle1})` }}
-                ></div>
-                <div
-                  className="w-[98px] h-[98px] sm:w-[98px] sm:h-[98px] w-[58px] h-[58px] bg-cover"
-                  style={{ backgroundImage: `url(${circle1})` }}
-                ></div>
+                {circleImages.map((item) => (
+                  <div
+                    className="sm:w-[98px] sm:h-[98px] w-[58px] bg-cover rounded-full bg-center h-[58px] bg-cover"
+                    style={{ backgroundImage: `url(${item})` }}
+                  ></div>
+                ))}
               </div>
             )}
             {buttonText && (
               <div className="w-full mt-12">
-                <Button text={buttonText} />
+                <Button text={buttonText} itemlink={buttonLinks} />
               </div>
             )}
           </div>

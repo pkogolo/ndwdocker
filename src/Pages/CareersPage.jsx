@@ -15,10 +15,10 @@ function CareersPage() {
       />
 
       <div>
-        <div className="grid grid-cols-2 place-items-center my-24">
-          <div className="w-full p-12">
+        <div className="grid sm:grid-cols-2 grid place-items-center sm:my-24 my-6">
+          <div className="w-full sm:p-12 p-8">
             <div
-              className="bg-cover bg-no-repeat w-[595px] h-[521px]"
+              className="bg-cover bg-no-repeat sm:w-[595px] sm:h-[521px] w-[295px] h-[221px]"
               style={{ backgroundImage: `url(${careersGroup})` }}
             ></div>
           </div>
@@ -30,7 +30,13 @@ function CareersPage() {
             />
           </div>
         </div>
-        <div className="grid grid-cols-2 place-items-center my-24">
+        <div className="grid sm:grid-cols-2 grid-cols-1 place-items-center sm:my-24 my-6">
+          <div className="w-full sm:p-12 p-8 sm:hidden grid">
+            <div
+              className="bg-cover bg-no-repeat sm:w-[595px] sm:h-[521px] w-[295px] h-[221px]"
+              style={{ backgroundImage: `url(${careersGroup})` }}
+            ></div>
+          </div>
           <div>
             <FormattedParagraph
               paragraph={
@@ -38,9 +44,9 @@ function CareersPage() {
               }
             />
           </div>
-          <div className="w-full p-12">
+          <div className="w-full sm:p-12 sm:grid hidden">
             <div
-              className="bg-cover bg-no-repeat w-[595px] h-[521px]"
+              className="bg-cover bg-no-repeat sm:w-[595px] sm:h-[521px] w-[295px] h-[221px]"
               style={{ backgroundImage: `url(${careersGroup})` }}
             ></div>
           </div>

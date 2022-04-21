@@ -3,6 +3,7 @@ import girlBlob from "../images/girl-circle.png";
 import boyBlob from "../images/boy-circle.png";
 import blobVector from "../images/blob-vector.png";
 import SVGIcons from "./SVGIcons";
+import { Link } from "react-router-dom";
 
 function CSRSection() {
   return (
@@ -18,8 +19,10 @@ function CSRSection() {
             of young change makers
           </h1>
 
-          <button className="flex items-center text-white text-sm mt-4">
-            View our CSR Philosophy <SVGIcons type={"ARROW"}></SVGIcons>
+          <button className="">
+            <Link to={"/about/csr"} className="flex items-center text-white text-sm mt-4">
+              View our CSR Philosophy <SVGIcons type={"ARROW"}></SVGIcons>
+            </Link>
           </button>
         </div>
       </div>

@@ -129,7 +129,7 @@ function Navbar() {
                   onClick={() => {
                     setOpen(false);
                   }}
-                  to={"/about"}
+                  to={"/about/ESG"}
                   className="border-b hover:text-[#0A4D2A] w-full border-[#41D958] text-3xl py-8 text-white"
                 >
                   ESG
@@ -361,7 +361,7 @@ function Navbar() {
                   setOpen(false);
                   setHidden(false);
                 }}
-                to={"/about"}
+                to={"/about/ESG"}
                 className="border-b hover:text-[#0A4D2A] w-full border-[#41D958] text-3xl py-8 text-white"
               >
                 ESG

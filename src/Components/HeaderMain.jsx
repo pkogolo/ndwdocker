@@ -1,11 +1,12 @@
 import React from "react";
 import headerCircles from "../images/headerCircles.png";
 
-function HeaderMain({ title, image }) {
+function HeaderMain({ title, image, pageName }) {
   return (
-    <div className="bg-[#1E7F3C] w-full h-screen grid sm:grid-cols-2 grid-cols-1 pt-24">
-      <div className="flex items-center justify-center sm:px-24 px-4 w-full">
-        <h1 className="sm:text-6xl text-3xl">{title}</h1>
+    <div className="bg-[#0A4D2A] w-full h-screen grid sm:grid-cols-2 grid-cols-1 pt-24">
+      <div className="flex items-start flex-col justify-center sm:px-12 px-4 w-full">
+        <h3 className="sm:text-2xl text-xl text-[#65B32E] sm:mb-12 mb-4">{pageName}</h3>
+        <h1 className="sm:text-6xl text-3xl leading-loose">{title}</h1>
       </div>
       <div
         style={{ backgroundImage: `url(${headerCircles})` }}

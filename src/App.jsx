@@ -27,6 +27,7 @@ import Production from "./Pages/Production";
 import CareersPage from "./Pages/CareersPage";
 import ContactPage from "./Pages/ContactPage";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import ESGPage from "./Pages/ESGPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,6 +47,9 @@ function App() {
             </Route>
             <Route path={"/about/HSE"} exact>
               <HSEPage />
+            </Route>
+            <Route path={"/about/ESG"} exact>
+              <ESGPage />
             </Route>
             <Route path={"/about/code_of_business_conduct"} exact>
               <CodeofBusiness />

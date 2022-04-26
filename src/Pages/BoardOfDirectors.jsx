@@ -43,15 +43,7 @@ function BoardOfDirectors() {
     {
       image: michel,
       name: "Michel-Ange Dossou",
-      position: "Chairman",
-      text: "Michel-Ange Dossou is Managing Director of the Petrolin Group of Companies./n He is a Chemical Engineer with over 20 years experience in the downstream and upstream sectors of the petroleum industry. He commenced his career at Hess Corporation in the US - New Jersey and Houston - where he worked in various sectors of refining processes and productions operations and rose through the ranks from Process Engineer in 1993 where he was in charge of MTBE, WTP, PTU and SWS refining units, to Senior Process & Operations Engineer and then to Deputy Operations Manager in charge of refinery economics & planning and production operations.",
-      fullText:
-        "Michel-Ange Dossou is Managing Director of the Petrolin Group of Companies./nHe is a Chemical Engineer with over 20 years experience in the downstream and upstream sectors of the petroleum industry. He commenced his career at Hess Corporation in the US - New Jersey and Houston - where he worked in various sectors of refining processes and productions operations and rose through the ranks from Process Engineer in 1993 where he was in charge of MTBE, WTP, PTU and SWS refining units, to Senior Process & Operations Engineer and then to Deputy Operations Manager in charge of refinery economics & planning and production operations./n  He joined Petrolin Group in 1999 to oversee the Trading activities of the Group and has since seen his areas of responsibilities expand to include Exploration and Production activities of the Group in the Middle East and Africa./n Michel-Ange is a member of several professional bodies including the American Institute of Chemical Engineers (AIChE) and the American Chemical Society (ACS).",
-    },
-    {
-      image: michel,
-      name: "Michel-Ange Dossou",
-      position: "Chairman",
+      position: "Director",
       text: "Michel-Ange Dossou is Managing Director of the Petrolin Group of Companies./n He is a Chemical Engineer with over 20 years experience in the downstream and upstream sectors of the petroleum industry. He commenced his career at Hess Corporation in the US - New Jersey and Houston - where he worked in various sectors of refining processes and productions operations and rose through the ranks from Process Engineer in 1993 where he was in charge of MTBE, WTP, PTU and SWS refining units, to Senior Process & Operations Engineer and then to Deputy Operations Manager in charge of refinery economics & planning and production operations.",
       fullText:
         "Michel-Ange Dossou is Managing Director of the Petrolin Group of Companies./nHe is a Chemical Engineer with over 20 years experience in the downstream and upstream sectors of the petroleum industry. He commenced his career at Hess Corporation in the US - New Jersey and Houston - where he worked in various sectors of refining processes and productions operations and rose through the ranks from Process Engineer in 1993 where he was in charge of MTBE, WTP, PTU and SWS refining units, to Senior Process & Operations Engineer and then to Deputy Operations Manager in charge of refinery economics & planning and production operations./n  He joined Petrolin Group in 1999 to oversee the Trading activities of the Group and has since seen his areas of responsibilities expand to include Exploration and Production activities of the Group in the Middle East and Africa./n Michel-Ange is a member of several professional bodies including the American Institute of Chemical Engineers (AIChE) and the American Chemical Society (ACS).",
@@ -119,11 +111,27 @@ function BoardOfDirectors() {
         <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
       </div>
       <div className="flex justify-center my-24">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 place-items-center px-40 w-3/4">
-          <LargePageButtons text={"Board of Directors"} image={chairman} />
-          <LargePageButtons text={"Management Team"} image={ebereoji} />
-          <LargePageButtons text={"Our People"} image={temitope} />
-          <LargePageButtons text={"Life at NDW"} image={people1} />
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 place-items-center px-40 ">
+          <LargePageButtons
+            text={"Board of Directors"}
+            image={chairman}
+            link={"/about/human_assets/board_of_directors"}
+          />
+          <LargePageButtons
+            text={"Management Team"}
+            image={ebereoji}
+            link={"/about/human_assets/management_team"}
+          />
+          <LargePageButtons
+            text={"Our People"}
+            image={temitope}
+            link={"/about/human_assets/our_people"}
+          />
+          <LargePageButtons
+            text={"Life at NDW"}
+            image={people1}
+            link={"/about/human_assets/life_at_ndw"}
+          />
         </div>
       </div>
     </div>

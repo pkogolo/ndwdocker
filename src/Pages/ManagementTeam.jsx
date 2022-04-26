@@ -52,7 +52,6 @@ function ManagementTeam() {
       fullText:
         "James is an accomplished Oil and Gas Engineer. A graduate of Chemical Engineering from the University of Benin, he joined the Shell Petroleum Development Company in 1985 as a trainee engineer. Thereafter, he worked variously as Facilities, Terminals/Offshore and Conceptual/Appraisal Engineer prior to majoring in Project Management./n In 1998, he became the Head of Engineering for the Land Area of Shell's Western Division's operations. More recently, in 2008, he became the Resident/Chief Engineer for the world class Gbaran-Ubie integrated oil/gas project with a processing capacity for 1bscf/d of gas and 220,000bbls of liquids. He is a member of the Nigeria Society of Engineers (NSE). He left Shell in 2012 to join ND Western.",
     },
-   
   ];
 
   function generateCards() {
@@ -84,11 +83,27 @@ function ManagementTeam() {
         <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
       </div>
       <div className="flex justify-center my-24">
-        <div className="grid grid-cols-2 gap-6 place-items-center px-40 w-3/4">
-          <LargePageButtons text={"Board of Directors"} image={chairman} />
-          <LargePageButtons text={"Management Team"} image={ebereoji} />
-          <LargePageButtons text={"Our People"} image={temitope} />
-          <LargePageButtons text={"Life at NDW"} image={people1} />
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 place-items-center px-40 ">
+          <LargePageButtons
+            text={"Board of Directors"}
+            image={chairman}
+            link={"/about/human_assets/board_of_directors"}
+          />
+          <LargePageButtons
+            text={"Management Team"}
+            image={ebereoji}
+            link={"/about/human_assets/management_team"}
+          />
+          <LargePageButtons
+            text={"Our People"}
+            image={temitope}
+            link={"/about/human_assets/our_people"}
+          />
+          <LargePageButtons
+            text={"Life at NDW"}
+            image={people1}
+            link={"/about/human_assets/life_at_ndw"}
+          />
         </div>
       </div>
     </div>

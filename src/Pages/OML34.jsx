@@ -41,7 +41,7 @@ function OML34() {
         <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
       </div>
       <div className="flex justify-center my-24">
-        <div className="grid grid-cols-2 gap-6 place-items-center px-40 w-3/4">
+        <div className="grid grid-cols-2 gap-6 place-items-center px-40">
           
           <LargePageButtons text={"Oil & Gas Assets"} image={pipes} />
           <LargePageButtons text={"Non Oil & Gas Assets"} image={house} />

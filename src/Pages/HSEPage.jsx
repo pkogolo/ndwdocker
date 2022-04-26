@@ -11,6 +11,7 @@ import medal from "../images/medal.jpg";
 import hse2 from "../images/hse2.png";
 import LowerBanner from "../Components/LowerBanner";
 
+
 function HSEPage() {
   return (
     <div className="">
@@ -37,6 +38,8 @@ function HSEPage() {
         }
         reversed={true}
       />
+
+    
 
       <div className="">
         <LowerBanner

@@ -57,7 +57,8 @@ function Home() {
       </div>
 
       <div className="w-full mb-40">
-        <InstagramFeed token="IGQVJVNk9MVFpITW43ZADBCSnd3bjVUbGhVUUhZAYXRqd0RnSHpYa1pDdURWYlhZAaXU4dkVTNy1nRnhZAc19HVzlTY1RwT3hDRnB1QlUwelYtMUxSV2ZASa3V0a2ZAKaU9ZAZAThQbW1wb0lJcVlzU3JqMHI2WgZDZD" />
+        <InstagramFeed token="IGQVJXaml3NXpBVlpwTmNvUDM0ZADYwNUloVnNWdjUzM2FZANGxINU9WN2lCcVNxeGFWb2hmSE5xUmtJczBLUHVVN0dzU1VIUVdtSVpqZA3pCZATIzbXA0Uk9DWVg0RWo0ZAHc3UTlRZAm14U2VOLWFDdFVVWAZDZD" />
+
         {/* <InstagramFeed
           token="IGQVJVNk9MVFpITW43ZADBCSnd3bjVUbGhVUUhZAYXRqd0RnSHpYa1pDdURWYlhZAaXU4dkVTNy1nRnhZAc19HVzlTY1RwT3hDRnB1QlUwelYtMUxSV2ZASa3V0a2ZAKaU9ZAZAThQbW1wb0lJcVlzU3JqMHI2WgZDZD"
           counter="10"

@@ -11,7 +11,17 @@ import drilling from "../images/drilling.png";
 import medal from "../images/medal.jpg";
 import hse2 from "../images/hse2.png";
 import LowerBanner from "../Components/LowerBanner";
-import manwithboy from "../images/manwithboy.png"
+import manwithboy from "../images/manwithboy.png";
+import ogunu from "../images/ogunu.png";
+import givinggift from "../images/givinggift.png";
+import governance from "../images/governance.png";
+import CSRGrid from "../Components/CSRGrid";
+import SDGgrid from "../Components/SDGgrid";
+import GreenCard from "../Components/GreenCard";
+import coo from "../images/coo.png";
+import LargePageButtons from "../Components/LargePageButtons";
+import nigerDelta from "../images/nigerDelta.png";
+import towers from "../images/towers.jpg";
 
 function ESGPage() {
   return (
@@ -33,20 +43,74 @@ function ESGPage() {
         reversed={false}
       />
 
-
-      <div className="grid grid-cols-4">
-
-        
-      </div>
+      <CSRGrid />
       <MainCard
-        title={"HSSE Principles"}
+        title={"Our ESG Framework"}
         mainImage={hse2}
         paragraph={
-          "At ND Western, we: /n Operate to the highest HSSE standards/n Conduct active Health, safety and environment awareness campaigns for our staff and for people in communities in which we operate. /n Empower our staff to stop work on any project if they ever feel unsafe and to continue to report all health and safety breaches. /n Build partnership and participate in industry initiatives in reducing negative environmental impact on communities in which we operate out of i.e. oil spillage into rivers, oceans etc."
+          "ND Western’s ESG Framework is aligned to United Nations Sustainable Development Goals (SDGs) Framework. The UN SDGs was adopted by member states including Nigeria in 2015, as part of the global 2030 Agenda for Sustainable Development. The SDGs address a number of global challenges, in the form of 17 goals aimed at creating a better future for people and the planet, some of which include:/n • eradicating hunger and poverty /n • strengthening environmental protection /n • achieving peace /n• widening access to education/n • encouraging responsible consumption"
         }
         reversed={true}
       />
 
+      <div className="w-full flex items-center justify-center sm:my-24 my-6 px-4">
+        <p className="sm:w-1/2 w-full">
+          The UN SDGs have been widely adopted across the oil and gas industry.
+          The oil and gas industry association IPIECA, has identified those
+          SDG’s that have the largest impact in oil and gas operations and NDW
+          aligns its ESG objectives with these SDGs, listed below:
+        </p>
+      </div>
+
+      <SDGgrid />
+
+      <div className="w-full flex items-center justify-center sm:my-24 my-6 px-4">
+        <p className="sm:w-1/2 w-full">
+          To ensure excellence in both environmental and social management, NDW
+          plans to achieve social and environmental performance excellence by
+          meeting International Finance Corporation Performance Standards (IFC
+          PS) to ensure industry best practice is adopted. Also, NDW plans to
+          enhance its reporting and disclosure to full TCFD reporting standards
+          over the next 5 years. The Task Force on Climate-Related Financial
+          Disclosures (TCFD) was created in 2015 by the Financial Stability
+          Board to develop consistent climate-related financial risk disclosures
+          for use by companies, banks, and investors in providing information to
+          stakeholders
+        </p>
+      </div>
+
+      <div className="w-full flex items-center justify-center">
+        <GreenCard
+          mainImage={coo}
+          reverse={true}
+          paragraph={
+            "At NDW, we believe that early engagement with key stakeholders, especially the communities local to our areas of operations, throughout the lifecycle of our projects is critical to the success of our business. In line with industry best practice, NDW plans to: /n • Manage our ‘social’ performance as part of our ESMS /n • Continue to conduct Environmental, Social and Health Impact Assessments (ESHIAs) when planning key projects /n • Continue to conduct Environmental Evaluation Studies (EES) for our brown fields /n• Invest in early and continuous stakeholder engagement /n • Conduct Human Rights Due Diligence./n • Conduct a Human Rights Impact Assessment on any areas of concern identified in our operations, such as, where Private Security Companies (PSCs) are used. /n • Ensure continuous business and social performance improvement, via feedback and action from our grievance mechanisms, both internal and external. "
+          }
+        />
+      </div>
+
+      <div className="w-full flex items-center justify-center mt-24 ">
+        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
+      </div>
+      <div className="flex justify-center my-24">
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 place-items-center px-40 ">
+          <LargePageButtons
+            text={"ESG Overview"}
+            image={pipes}
+            link={"/about/ESG"}
+          />
+          <LargePageButtons
+            text={"ESOHS MS Framework"}
+            image={house}
+            link={"/about/ESG/ESOHS"}
+          />
+          <LargePageButtons
+            text={"Reducing Scope 1 and 2 Emmissions"}
+            image={towers}
+          />
+          <LargePageButtons text={""} image={nigerDelta} arrow={"none"} />
+        </div>
+      </div>
       <div className="">
         <LowerBanner
           text={

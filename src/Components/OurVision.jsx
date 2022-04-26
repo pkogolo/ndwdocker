@@ -6,10 +6,10 @@ import cutCircle from "../images/side-cut-circle.png";
 
 function OurVision() {
   return (
-    <div className="bg-[#0A4D2A] sm:h-screen min-h-screen sm:p-24 p-4">
-      <h2 className="text-white text-4xl text-center "> Our Vision</h2>
+    <div className="bg-[#0A4D2A] sm:h-screen h-full sm:p-24 p-4">
+      <h2 className="text-white text-4xl text-center mt-24 "> Our Vision</h2>
 
-      <div className="grid sm:grid-cols-3 grid-cols-1 sm:gap-12 gap-6 mt-24 place-items-center">
+      <div className="sm:grid sm:grid-cols-3 grid-cols-1 sm:gap-12 gap-6 hidden  mt-40 place-items-center">
         <div
           className="h-[328px] w-[328px] bg-cover "
           style={{ backgroundImage: `url(${asset1})` }}

@@ -2,7 +2,7 @@ import React from "react";
 import SVGIcons from "./SVGIcons";
 import { Link } from "react-router-dom";
 
-function LargePageButtons({ text, link, image }) {
+function LargePageButtons({ text, link, image, arrow }) {
   return (
     <div>
       <div className="w-[320px] h-[320px] cursor-pointer rounded-lg  bg-[#1E7F3C] relative">
@@ -13,9 +13,11 @@ function LargePageButtons({ text, link, image }) {
           ></div>
           <div className="flex  items-center absolute top-[50%] left-[10%]">
             <p className="text-white">{text}</p>
-            <div className="ml-2">
-              <SVGIcons type={"SHARP-ARROW"} />
-            </div>
+            {arrow != "none" && (
+              <div className="ml-2">
+                <SVGIcons type={"SHARP-ARROW"} />
+              </div>
+            )}
           </div>
         </Link>
       </div>

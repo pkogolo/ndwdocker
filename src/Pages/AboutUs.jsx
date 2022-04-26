@@ -62,7 +62,7 @@ function AboutUs() {
     <div className="pt-24 sm:pt-0">
       <HeaderMain
         title={
-          "We are becoming the world class Energy Company of choice in Africa."
+          "We are the world class Energy Company of choice in Africa."
         }
         image={hseMan}
       />

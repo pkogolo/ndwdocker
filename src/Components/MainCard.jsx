@@ -13,9 +13,9 @@ function MainCard({
   
 }) {
   return (
-    <div className="flex items-center justify-center sm:px-0 px-4">
+    <div className="flex items-center  justify-center sm:px-0 px-4">
       {!reversed && (
-        <div className="grid sm:grid-cols-12 grid-cols-1 sm:h-[503px]  sm:w-3/4 w-full mt-24">
+        <div className="grid sm:grid-cols-12 grid-cols-1 sm:h-[640px] h-full sm:w-3/4 w-full mt-24">
           <div
             className="sm:col-span-5 bg-cover bg-center border-l h-[400px] sm:h-full border-[#47A942] border-l-8"
             style={{ backgroundImage: `url(${mainImage})` }}
@@ -44,7 +44,7 @@ function MainCard({
         </div>
       )}
       {reversed && (
-        <div className="grid sm:grid-cols-12 grid-cols-1 sm:h-[503px] sm:w-3/4 w-full mt-24">
+        <div className="grid sm:grid-cols-12 grid-cols-1  sm:h-[640px] h-full sm:w-3/4 w-full mt-24">
           <div
             className="sm:col-span-5 bg-cover sm:hidden bg-center border-l h-[400px] sm:h-full border-[#47A942] border-l-8"
             style={{ backgroundImage: `url(${mainImage})` }}

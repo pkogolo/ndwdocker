@@ -32,7 +32,7 @@ function CSRSection() {
         style={{ backgroundImage: `url(${boyBlob})` }}
       ></div>
       <div
-        className="sm:w-[540px] sm:h-[595px] w-[140px] h-[195px] bg-contain bg-no-repeat absolute bottom-0 left-0 "
+        className="sm:w-[540px] sm:h-[595px] w-[140px] h-[195px] hidden sm:grid bg-contain bg-no-repeat absolute bottom-0 left-0 "
         style={{ backgroundImage: `url(${blobVector})` }}
       ></div>
     </div>

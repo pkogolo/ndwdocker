@@ -9,7 +9,7 @@ function ProfileComponent({ image, name, position, text, fullText }) {
     setShowFullProfile(!showFullProfile);
   }
   return (
-    <div className="grid sm:grid-cols-2 grid-cols-1 mt-24">
+    <div className="grid sm:grid-cols-2 grid-cols-1 mt-24 sm:px-24 px-4">
       <div className="flex items-start justify-center">
         <div className="p-4 border border-2 border-[#41D958]">
           <div

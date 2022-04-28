@@ -8,7 +8,7 @@ function SecondaryHeader({ image, heading, greenHeader }) {
         className={
           !greenHeader
             ? "w-full grid grid-cols-2 bg-white h-[24rem] place-items-center pl-24 relative overflow-hidden"
-            : "w-full grid grid-cols-2 bg-[#65B32E] h-[24rem] place-items-center pl-24 relative overflow-hidden"
+            : "w-full grid grid-cols-2 bg-[#1E7F3C] h-[24rem] place-items-center pl-24 relative overflow-hidden"
         }
       >
         <div>

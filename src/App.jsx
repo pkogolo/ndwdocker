@@ -29,6 +29,8 @@ import ContactPage from "./Pages/ContactPage";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import ESGPage from "./Pages/ESGPage";
 import ESOHS from "./Pages/ESOHS";
+import TrackingEmmissions from "./Pages/TrackingEmmissions";
+import Exploration from "./Pages/Exploration";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -54,6 +56,9 @@ function App() {
             </Route>
             <Route path={"/about/ESG/ESOHS"} exact>
               <ESOHS />
+            </Route>
+            <Route path={"/about/ESG/approach_to_reducing_emmissions"} exact>
+              <TrackingEmmissions />
             </Route>
             <Route path={"/about/code_of_business_conduct"} exact>
               <CodeofBusiness />
@@ -101,6 +106,9 @@ function App() {
             </Route>
             <Route path={"/operations/production"} exact>
               <Production />
+            </Route>
+            <Route path={"/operations/exploration"} exact>
+              <Exploration />
             </Route>
             <Route path={"/careers"} exact>
               <CareersPage />

@@ -15,12 +15,36 @@ import InstagramFeed from "../Components/InstagramFeed";
 import CSRSection from "../Components/CSRSection";
 import LowerBanner from "../Components/LowerBanner";
 import Popup from "../Components/Popup";
-// import "react-ig-feed/dist/index.css";
+import CookieConsent from "react-cookie-consent";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 function Home() {
   return (
     <div className="">
-      <Popup />
+      <CookieConsent
+        debug={true}
+        location="bottom"
+        buttonText="Accept cookies"
+        cookieName="myAwesomeCookieName2"
+        style={{ background: "#FFFFFF" }}
+        buttonStyle={{
+          color: "#ffffff",
+          backgroundColor: "#47A942",
+          fontSize: "16px",
+        }}
+        expires={150}
+      >
+        <span className="text-black">
+          ND Western.com uses cookies to provide necessary website
+          functionality, improve your experience and analyze our traffic. By
+          using our website, you agree to our{" "}
+          <Link to={"/privacy_policy"} className="font-bold">
+            Privacy Policy
+          </Link>{" "}
+          and our cookies usage.
+        </span>
+        {/* <span style={{ fontSize: "10px" }}>This bit of text is smaller :O</span> */}
+      </CookieConsent>
       <HeaderMain
         title={
           "We are leading the way in sustainable oil exploration and production"

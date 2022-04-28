@@ -45,17 +45,32 @@ function NonOilAndGasAssets() {
           paragraph={"An office block in Edjeba"}
           reversed={true}
         />
-        
       </div>
       <div className="w-full flex items-center justify-center mt-24 ">
         <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
       </div>
       <div className="flex justify-center my-24">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 place-items-center px-40">
-          <LargePageButtons text={"OML 34"} image={pipes} />
-          <LargePageButtons text={"Non Oil & Gas Assets"} image={house} />
-          <LargePageButtons text={"Production"} image={towers} />
-          <LargePageButtons text={"Exploration"} image={nigerDelta} />
+        <div className="grid grid-cols-2 gap-6 place-items-center px-40">
+          <LargePageButtons
+            text={"Oil & Gas Assets"}
+            image={pipes}
+            link={"/operations/our_assets"}
+          />
+          <LargePageButtons
+            text={"Non Oil & Gas Assets"}
+            image={house}
+            link={"/operations/non_oil_and_gas_assets"}
+          />
+          <LargePageButtons
+            text={"Production"}
+            image={towers}
+            link={"/operations/production"}
+          />
+          <LargePageButtons
+            text={"Exploration"}
+            image={nigerDelta}
+            link={"/operations/exploration"}
+          />
         </div>
       </div>
     </div>

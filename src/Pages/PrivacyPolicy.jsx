@@ -22,6 +22,7 @@ import ogunu from "../images/ogunu.png";
 import edjeba from "../images/edjeba.png";
 import gasplant from "../images/gasplant.png";
 import LegalParagraph from "../Components/LegalParagraph";
+import Button from "../Components/Button";
 
 function PrivacyPolicy() {
   return (
@@ -94,8 +95,9 @@ function PrivacyPolicy() {
           }
         />
       </div>
-    
-    
+      <div className="items-center flex justify-end sm:px-40 px-4 sm:mb-24 mb-12">
+        <Button text={"Back to Home Page"} itemlink={"/"} />
+      </div>
     </div>
   );
 }

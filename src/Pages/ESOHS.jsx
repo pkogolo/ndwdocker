@@ -7,16 +7,17 @@ import environmenttowers from "../images/environmenttowers.png";
 import hse2 from "../images/hse2.png";
 import SecondaryHeader from "../Components/SecondaryHeader";
 import LargePageButtons from "../Components/LargePageButtons";
-import pipes from "../images/pipes.jpg"
-import house from "../images/house.jpg"
-import towers from "../images/towers.jpg"
-import nigerDelta from "../images/nigerDelta.png"
+import pipes from "../images/pipes.jpg";
+import house from "../images/house.jpg";
+import towers from "../images/towers.jpg";
+import nigerDelta from "../images/nigerDelta.png";
+import people from "../images/people.png";
 
 function ESOHS() {
   return (
     <div>
       <SecondaryHeader
-        image={temitopeLong}
+        image={people}
         heading={
           "Environmental, Social, and Occupational Health and Safety Management Framework "
         }
@@ -80,7 +81,7 @@ function ESOHS() {
         />
       </div>
 
-      <div className="w-full flex items-center justify-center mt-24 ">
+      <div className="w-full flex items-center justify-center mt-40 ">
         <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
       </div>
       <div className="flex justify-center my-24">
@@ -91,7 +92,7 @@ function ESOHS() {
             text={"Reducing Scope 1 and 2 Emmissions"}
             image={towers}
           />
-          <LargePageButtons text={""} image={nigerDelta} />
+          <LargePageButtons text={""} image={nigerDelta} arrow={true} />
         </div>
       </div>
       <div className="">

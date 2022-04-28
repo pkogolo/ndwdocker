@@ -18,52 +18,44 @@ import drilling from "../images/drilling.png";
 import ugheliEast from "../images/ughelieast.png";
 import ugheliWest from "../images/ugheliWest.png";
 import warriRiver from "../images/warririver.png";
+import asset3 from "../images/asset3.jpg";
 
-function OilAndGasAssets() {
+function Exploration() {
   return (
     <div>
       <SecondaryHeader
-        image={warriRiver}
-        heading={"Oil & Gas Assets"}
+        image={asset3}
+        heading={"Exploration"}
         greenHeader={true}
       />
 
       <div className="flex items-center flex-col justify-center w-full">
         <MainCard
           showCircles={false}
-          title={"Utorogu"}
+          title={"Overview"}
           mainImage={pipeAsset}
           paragraph={
-            "Utorogu field was discovered in 1964 and is located some 42 km south east of Warri. It currently produces about 10 Mbpd of oil & condensate and 300 MMscf/d of gas. /n The Utorogu Flowstation was commissioned in 1968 with a 30 Mbpd processing capacity. It currently also has one Non Associated Gas (NAG) plant of 360 MMscf/d and a Field Logistics Base. The station processes fluids from The Utorogu oil wells and condensate from the Utorogu NAG Plant. The station also handles hydrocarbon fluid from NPDC's Abura field, and sends high pressure gas to Ughelli West flow station for gas lifting."
+            "ND Western in partnership with NPDC as operator, carry out exploration and exploitation activities in OML 34./n In meeting today's energy supply challenges, our Asset Team comprises well experienced multi-disciplinary professionals from Geology & Geophysics, Production Technology, Reservoir Engineering, Well Engineering and Facilities Operations & Management for optimized production. This diverse team of Professionals are strategically anchored to provide sound technical expertise to our partners for the growth of the venture."
           }
           reversed={false}
         />
         <MainCard
           showCircles={false}
-          title={"Ughelli East"}
+          title={"Exploration at OML 34"}
           mainImage={ugheliEast}
           paragraph={
-            "Ughelli East field was discovered in 1959 and is located within 25 km south east of Warri. The field production is currently about 4.50 Mbpd of oil and 90 MMscf/d of gas with potentials for doubling the rates./n The Ughelli East Flowstation was commissioned in 1966, with a processing capacity of 30 Mbpd. The flowstation processes Oil from Ughelli East field and condensate from the Ughelli East gas plant."
+            "OML 34 is located in the Greater Ughelli depo belt of the Niger Delta Land terrain. Four fields are already established with oil and gas production, namely Ughelli West, Ughelli East, Utorogu and Warri River fields. The block has a lot of exploration and appraisal/development potentials. The Greater Ughelli depo belt is dominated by simple/faulted rollover structures. This sub play has been proven to be very successful with numerous known producing fields. A large number of prospects and leads have also been identified within the concession for future drilling. /n ND Western is focused on driving upwards its energy deliverables to the nation and beyond by boosting its current exploration and production activities to a fully grown asset. Currently, the NPDC/ND Western JV is appraising a new oil reservoir and few gas reservoirs discovered in the northern part of Utorogu field which when fully developed will boost our oil and gas production significantly."
           }
           reversed={true}
         />
         <MainCard
           showCircles={false}
-          title={"Ugheli West"}
+          title={"Exploration Strategy"}
           mainImage={ugheliWest}
           paragraph={
-            "Ughelli West field was discovered in 1960 and is located some 20 km east of Warri. The field produce currently about 2.5 Mbpd of oil./n The Ughelli West Flowstation was commissioned in 1969, and has a processing capacity of 30 Mbpd. The station processes fluids from the Ughelli West oil wells, and receives high pressure gas from Utorogu flow station for lift gas."
+            "The overall exploration strategy of ND Western can be summarized as follows:/n  • Establishment of a robust exploration funnel with credible leads and prospects/n  • Aggressive maturation of identified leads to prospect level to become drillable candidates /n • Aggressively appraise existing discoveries within the license to increase reserves and maintain the production profile plateau /n • Drill deep gas and oil exploration wells /n • Deploy novel technologies where needed especially in the area of seismic acquisition and reprocessing ./n • Proactively share evaluation results with internal and external stakeholders for seamless alignment purposes"
           }
           reversed={false}
-        />
-        <MainCard
-          showCircles={false}
-          title={"Warri River"}
-          mainImage={ugheliEast}
-          paragraph={
-            "Warri River field was discovered in 1961 and is located some 20 km south east of Warri. There are 5 wells drilled to date. The flowstation is currently mothballed."
-          }
-          reversed={true}
         />
       </div>
       <div className="w-full flex items-center justify-center mt-24 ">
@@ -97,4 +89,4 @@ function OilAndGasAssets() {
   );
 }
 
-export default OilAndGasAssets;
+export default Exploration;

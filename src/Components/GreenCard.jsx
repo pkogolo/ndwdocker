@@ -2,7 +2,7 @@ import React from "react";
 
 function GreenCard({ title, paragraph, mainImage, reverse}) {
   return (
-    <div className="grid sm:grid-cols-12 grid-cols-1 h-full sm:h-[540px] sm:w-3/4 sm:mt-24 w-full px-4 mt-12">
+    <div className="grid sm:grid-cols-12 grid-cols-1 h-full sm:h-[540px] sm:w-3/4 sm:mt-24 w-full px-4 my-24">
       {reverse && (
         <div
           className="col-span-5 bg-cover bg-center border-r border-[#47A942] h-[380px] sm:h-full sm:border-r-8 border-none"

@@ -8,8 +8,7 @@ import bushhouse from "../images/bushhouse.png";
 import covidRelief from "../images/covid-relief.png";
 import walk4Alimb from "../images/walk4alimb.png";
 import drilling from "../images/drilling.png";
-import medal from "../images/medal.jpg";
-import hse2 from "../images/hse2.png";
+import booth from "../images/booth.jpg";
 import LowerBanner from "../Components/LowerBanner";
 import manwithboy from "../images/manwithboy.png";
 import ogunu from "../images/ogunu.png";
@@ -23,6 +22,8 @@ import LargePageButtons from "../Components/LargePageButtons";
 import nigerDelta from "../images/nigerDelta.png";
 import towers from "../images/towers.jpg";
 import ESGBottomLinks from "../Components/ESGBottomLinks";
+import smiles from "../images/smiles.jpg";
+import crowd from "../images/crowd.jpg";
 
 function ESGPage() {
   return (
@@ -32,7 +33,7 @@ function ESGPage() {
         title={
           "Our  ESG Framework is closely  aligned to United Nations Sustainable Development Goals (SDGs) Framework"
         }
-        image={bushhouse}
+        image={smiles}
       />
 
       <MainCard
@@ -47,7 +48,7 @@ function ESGPage() {
       <CSRGrid />
       <MainCard
         title={"Our ESG Framework"}
-        mainImage={hse2}
+        mainImage={crowd}
         paragraph={
           "ND Western’s ESG Framework is aligned to United Nations Sustainable Development Goals (SDGs) Framework. The UN SDGs was adopted by member states including Nigeria in 2015, as part of the global 2030 Agenda for Sustainable Development. The SDGs address a number of global challenges, in the form of 17 goals aimed at creating a better future for people and the planet, some of which include:/n • eradicating hunger and poverty /n • strengthening environmental protection /n • achieving peace /n• widening access to education/n • encouraging responsible consumption"
         }

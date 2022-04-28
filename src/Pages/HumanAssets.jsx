@@ -2,7 +2,7 @@ import React from "react";
 import HeaderMain from "../Components/HeaderMain";
 import MainCard from "../Components/MainCard";
 import ebereOji from "../images/ebereoji.jpg";
-import ha1 from "../images/hassests1.png";
+import ha1 from "../images/chairman.jpg";
 import people1 from "../images/people1.jpg";
 import our_people from "../images/our_people.jpg";
 import life_at_ndw from "../images/life_at_ndw.jpg";
@@ -12,7 +12,7 @@ function HumanAssets() {
     <div>
       <HeaderMain
         title={
-          "We are leading the way in sustainable oil exploration and production"
+          "ND Western is being steered in an upward direction by a group of highly professional and competent individuals."
         }
         image={ebereOji}
       />

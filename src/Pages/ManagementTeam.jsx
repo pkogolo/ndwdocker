@@ -15,8 +15,9 @@ import ebereoji from "../images/ebereoji.jpg";
 import people1 from "../images/people1.jpg";
 import temitope from "../images/temitope.png";
 import ceoSmall from "../images/ceo-small.jpg";
-import azfar from "../images/azfar.png";
+import azfar from "../images/afzar2.jpg";
 import james from "../images/james.png";
+import basil from "../images/basil.png";
 
 function ManagementTeam() {
   const profileData = [
@@ -51,6 +52,14 @@ function ManagementTeam() {
       text: "James is an accomplished Oil and Gas Engineer. A graduate of Chemical Engineering from the University of Benin, he joined the Shell Petroleum Development Company in 1985 as a trainee engineer. Thereafter, he worked variously as Facilities, Terminals/Offshore and Conceptual/Appraisal Engineer prior to majoring in Project Management.",
       fullText:
         "James is an accomplished Oil and Gas Engineer. A graduate of Chemical Engineering from the University of Benin, he joined the Shell Petroleum Development Company in 1985 as a trainee engineer. Thereafter, he worked variously as Facilities, Terminals/Offshore and Conceptual/Appraisal Engineer prior to majoring in Project Management./n In 1998, he became the Head of Engineering for the Land Area of Shell's Western Division's operations. More recently, in 2008, he became the Resident/Chief Engineer for the world class Gbaran-Ubie integrated oil/gas project with a processing capacity for 1bscf/d of gas and 220,000bbls of liquids. He is a member of the Nigeria Society of Engineers (NSE). He left Shell in 2012 to join ND Western.",
+    },
+    {
+      image: basil,
+      name: "Basil Okoye",
+      position: "General Manager Engineering & Projects",
+      text: "Basil Okoye joined ND Western as GM Engineering & Projects in March 2022 with over 31 years’ experience in the Oil and Gas sector. He is a Corporate Member of the Nigerian Society of Engineers (NSE) and a Chattered Engineer with The Council for Regulation of Engineering in Nigeria (COREN) with a Bachelor’s Degree (B. Eng) Electrical & Electronic Engineering from University of Benin.",
+      fullText:
+        "Basil Okoye joined ND Western as GM Engineering & Projects in March 2022 with over 31 years’ experience in the Oil and Gas sector. He is a Corporate Member of the Nigerian Society of Engineers (NSE) and a Chattered Engineer with The Council for Regulation of Engineering in Nigeria (COREN) with a Bachelor’s Degree (B. Eng) Electrical & Electronic Engineering from University of Benin./n Prior to joining ND Western, his Fields of experience included: /n Upstream and Midstream Oil & Gas Engineering, Site Installation & Commissioning Leadership as Group Construction Manager Lead NNPC 7CGDP Project. /n Exploration and Production Oil and Gas Project Management & Delivery as Project Manager Heritage Energy Operational Services Limited. /n Global experience with Greenfield & Brownfield Projects in the Netherlands, Germany, UK, Libya, Oman, Brunei, China, Australia, Turkey, United States etc. Championed & delivered Shell Bonny NAG Project (600MMSCF/D) based on Foundation Fieldbus (First in Shell). /n Accredited Technical Authority Shell Global Solutions International BV./n  Author of Shell Design & Engineering Practice (DEP) Guidelines on Instrumented Protective Functions used globally across Shell. /n Technical Authority & Discipline Lead for SNEPCo Deep Water Greenfield & Brownfield Projects and Oil & Gas Producing Assets Support with over 250kbopd oil & 600MMSCF/D of gas production and facilities. /n Asset Integrity Review Lead for Oman LNG & Nigeria LNG plants, Shell Refineries and Oil & Gas Operating Plants in Netherlands, UK, Germany, France, Norway, Turkey, PDO Oman, Brunei./n Shell Group Certified SIFpro Facilitator & Assessor, Certified Teacher & SME for Safety Integrity Functions Classifications & Implementation per IEC-61508/61511. Facilitated the SIF Classification & Design of NLNG T1/2/3/4/5/6, FLNG, Oman LNG, Pearl Qatar GTL, SBM Okha Offshore Australia, CRI Kataleuna Catalyst Plant Germany, Shell NAM, Pernis Refinery Netherlands etc./n His area of experience covers: Project Management, Major Projects delivery – Greenfield & Brownfield, Engineering Design from Concept to DED, Field Operations & Asset Support, Process Safety Management, Technical Integrity Improvement & Optimisation in Operating Oil & Gas Assets,  Oil & Gas Facilities Life Cycle Management, New Business Development, Commercial Deal negotiation, Coaching & Mentoring, Community Relations management, Government Relations management amongst others.",
     },
   ];
 

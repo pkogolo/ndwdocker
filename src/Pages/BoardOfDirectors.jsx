@@ -11,7 +11,7 @@ import coo from "../images/coo.png";
 import timi from "../images/timi.png";
 import LargePageButtons from "../Components/LargePageButtons";
 import ebereoji from "../images/ebereoji.jpg";
-import people1 from "../images/people1.jpg";
+import people1 from "../images/people.png";
 import temitope from "../images/temitope.png";
 
 function BoardOfDirectors() {

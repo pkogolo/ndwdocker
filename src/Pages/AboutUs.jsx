@@ -10,7 +10,10 @@ import walk4Alimb from "../images/walk4alimb.png";
 import drilling from "../images/drilling.png";
 import medal from "../images/medal.jpg";
 import hse2 from "../images/hse2.png";
+import towers from "../images/towers.jpg";
+import groupengineers from "../images/groupengineers.jpg";
 import GreenCard from "../Components/GreenCard";
+import smiles from "../images/smiles.jpg";
 
 function AboutUs() {
   const coreValuesData = [
@@ -18,7 +21,7 @@ function AboutUs() {
       title: "High Performance",
       paragraph:
         "We value all people, praise efforts, reward and recognize high performance through our best-in-class performance management strategy.",
-      image: drilling,
+      image: groupengineers,
     },
     {
       title: "Honesty and Integrity",
@@ -42,7 +45,7 @@ function AboutUs() {
       title: "Team Work",
       paragraph:
         "As the saying goes, the 'whole is greater than the sum of its parts'. While we recognize individual ingenuity, we encourage and celebrate team work because we have seen it produce incredible results compared to individual output. Effective team work enhances and harmonizes contributions towards a common goal.",
-      image: walk4Alimb,
+      image: smiles,
     },
   ];
 
@@ -61,15 +64,13 @@ function AboutUs() {
   return (
     <div className="pt-24 sm:pt-0">
       <HeaderMain
-        title={
-          "We are the world class Energy Company of choice in Africa."
-        }
+        title={"We are the world class Energy Company of choice in Africa."}
         image={hseMan}
       />
 
       <MainCard
         title={"Our Vision"}
-        mainImage={oilMan}
+        mainImage={pipes}
         paragraph={
           "To be a world class Energy Company of choice in Africa, effectively and prudently producing oil and gas, and delivering value to its people and shareholders."
         }
@@ -86,7 +87,7 @@ function AboutUs() {
 
       <MainCard
         title={"Our Story"}
-        mainImage={house}
+        mainImage={towers}
         paragraph={
           'ND Western Limited ("ND Western") is an independent Nigerian oil and gas exploration and production company made up of a consortium of four companies; Niger Delta Petroleum Resources Limited (NDPR), Petrolin Trading Limited (PETROLIN), FIRST Exploration & Petroleum Development OML 34 Limited and Walter-Smith Exploration and Production Limited.'
         }

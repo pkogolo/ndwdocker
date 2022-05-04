@@ -64,6 +64,7 @@ function AboutUs() {
   return (
     <div className="pt-24 sm:pt-0">
       <HeaderMain
+        pageName={"About Us"}
         title={"We are the world class Energy Company of choice in Africa."}
         image={hseMan}
       />
@@ -95,7 +96,7 @@ function AboutUs() {
         buttonText={"Read More"}
       />
 
-      <div className=" sm:mt-40 mt-12 sm:w-full min-h-screen flex items-center flex-col mb-24">
+      <div className=" lg:mt-40 mt-12 lg:w-full min-h-screen flex items-center flex-col mb-24">
         <h2 className="text-[#41D958] text-center sm:text-5xl text-3xl font-bold">
           Core Values
         </h2>

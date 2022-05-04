@@ -16,6 +16,7 @@ function OperationsPage() {
   return (
     <div>
       <HeaderMain
+        pageName={"Operations"}
         title={
           "Our production facilities contribute immensely to the supply of gas for electricity generation in Nigeria"
         }

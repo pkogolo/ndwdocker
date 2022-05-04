@@ -4,13 +4,13 @@ import MainCard from "../Components/MainCard";
 import OurVision from "../Components/OurVision";
 import oilman from "../images/oilasset1.png";
 import people1 from "../images/people1.jpg";
+import manandlady from "../images/manandlady.png";
 import headerImage from "../images/HeaderImage.jpg";
 import circle1 from "../images/circle1.png";
 import circle2 from "../images/circle2.png";
 import afzar from "../images/azfar.png";
 import temitope from "../images/temitope.png";
 import coo from "../images/coo.png";
-// import InstagramFeed from "react-ig-feed";
 import InstagramFeed from "../Components/InstagramFeed";
 import CSRSection from "../Components/CSRSection";
 import LowerBanner from "../Components/LowerBanner";
@@ -76,7 +76,7 @@ function Home() {
           }
           buttonText={"Learn our Culture"}
           buttonLinks={"/about/human_assets"}
-          mainImage={people1}
+          mainImage={manandlady}
         />
       </div>
 

@@ -10,14 +10,13 @@ function MainCard({
   mainImage,
   showCircles,
   circleImages,
-  
 }) {
   return (
     <div className="flex items-center  justify-center sm:px-0 px-4">
       {!reversed && (
-        <div className="grid sm:grid-cols-12 grid-cols-1 sm:h-[640px] h-full sm:w-3/4 w-full mt-24">
+        <div className="grid lg:grid-cols-12 grid-cols-1 md:grid-cols-1  lg:h-[640px] h-full sm:w-3/4 w-full mt-24 ">
           <div
-            className="sm:col-span-5 bg-cover bg-center border-l h-[400px] sm:h-full border-[#47A942] border-l-8"
+            className="sm:col-span-5 bg-cover bg-center border-l h-[400px] md:h-[400px] lg:h-full border-[#47A942] border-l-8"
             style={{ backgroundImage: `url(${mainImage})` }}
           ></div>
           <div className="bg-white sm:col-span-7 sm:p-12 p-6 w-full">
@@ -44,9 +43,9 @@ function MainCard({
         </div>
       )}
       {reversed && (
-        <div className="grid sm:grid-cols-12 grid-cols-1  sm:h-[640px] h-full sm:w-3/4 w-full mt-24">
+        <div className="grid lg:grid-cols-12 grid-cols-1 md:grid-cols-1  lg:h-[640px] h-full sm:w-3/4 w-full mt-24">
           <div
-            className="sm:col-span-5 bg-cover sm:hidden bg-center border-l h-[400px] sm:h-full border-[#47A942] border-l-8"
+            className="lg:col-span-5 bg-cover lg:hidden bg-center border-l h-[400px] lg:h-full md:h-[400px] border-[#47A942] border-l-8"
             style={{ backgroundImage: `url(${mainImage})` }}
           ></div>
           <div className="bg-white sm:col-span-7 sm:p-12 p-6 w-full">
@@ -71,7 +70,7 @@ function MainCard({
             )}
           </div>
           <div
-            className="sm:col-span-5 bg-cover hidden sm:grid bg-center h-[400px] sm:h-full border-[#47A942] border-r-8"
+            className="sm:col-span-5 bg-cover hidden lg:grid md:hidden bg-center h-[400px] sm:h-full border-[#47A942] border-r-8"
             style={{ backgroundImage: `url(${mainImage})` }}
           ></div>
         </div>

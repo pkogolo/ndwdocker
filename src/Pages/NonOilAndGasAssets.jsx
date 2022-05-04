@@ -20,6 +20,8 @@ import warriRiver from "../images/warririver.png";
 import lab from "../images/lab.jpg";
 import ogunu from "../images/ogunu.png";
 import edjeba from "../images/edjeba.png";
+import GreenCard from "../Components/GreenCard";
+import OperationsBottomLinks from "../Components/OperationsBottomLinks";
 
 function NonOilAndGasAssets() {
   return (
@@ -33,46 +35,39 @@ function NonOilAndGasAssets() {
       <div className="flex items-center flex-col justify-center">
         <MainCard
           showCircles={false}
-          title={"Ogunu Estate"}
+          title={"NOGA Profile"}
           mainImage={ogunu}
-          paragraph={"UA residential unit in ogunu"}
+          paragraph={
+            "NOGA (Non-Oil &amp; Gas) department is responsible for the commercialization of NPDC/NDWHousing Estate in Edjeba and Ogunu. NOGA provides value-added services to the occupants in the estate by creating a successful partnership with the occupants through the services we provide which include, horticulture/housekeeping of the estate to always maintain a good hygiene environment, Provision of accommodation for NPDC/NDW staff, Civil repairs &amp; maintenance of bungalows, Provision of good portable drinking water, Electrical repairs &amp; maintenance, Refuse collection and disposal, 24hours security and steady power supply in the estate which has positioned the estate as a sought after estate for clients desiring a safe, serene and cozy accommodation in Warri Delta State."
+          }
           reversed={false}
         />
         <MainCard
           showCircles={false}
-          title={"Edjeba Estate"}
+          title={"Our Facility:"}
           mainImage={edjeba}
-          paragraph={"An office block in Edjeba"}
+          paragraph={
+            "We rent service apartments for clients/customers in need of a safe, comfortable, and exquisite living accommodation, office space/complex, and hall rental in a serene and peaceful location for weddings, meetings, and functions in Edjeba and Ogunu Estate located in the heart of Warri City in Delta State. Our facilities include High rise/office complex, 3- Bedroom Bungalows, 4-Bedroom Bungalows, Guesthouse, a swimming pool, etc."
+          }
           reversed={true}
         />
+
+        <GreenCard
+          title={"Edjeba Estate"}
+          paragraph={
+            "The facilities in Edjeba include the following:/n  333 Service Apartment /n  17 High rises/office complex /n Gym center /n  Football field /n  Children playground /n  Multi-Purpose Hall /n Activity Centre /n Bank /n School /n Squash hall /n  Volley Court"
+          }
+          mainImage={ogunu}
+        />
+        <GreenCard
+          title={"Ogunu Estate"}
+          paragraph={
+            "TThe facilities in Ogunu include the following: /n 142 Service Apartment /n Olympic-size swimming pool /n Management Guest House (Forcados 1 &amp; 2) /n Medical Laboratory Center /n School /n Supermarket /n Gym center /n Children Playground /n Football pitch /n Hockey pitch /n Long tennis Court"
+          }
+          mainImage={edjeba}
+        />
       </div>
-      <div className="w-full flex items-center justify-center mt-24 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
-      </div>
-      <div className="flex justify-center my-24">
-        <div className="grid grid-cols-2 gap-6 place-items-center px-40">
-          <LargePageButtons
-            text={"Oil & Gas Assets"}
-            image={pipes}
-            link={"/operations/our_assets"}
-          />
-          <LargePageButtons
-            text={"Non Oil & Gas Assets"}
-            image={house}
-            link={"/operations/non_oil_and_gas_assets"}
-          />
-          <LargePageButtons
-            text={"Production"}
-            image={towers}
-            link={"/operations/production"}
-          />
-          <LargePageButtons
-            text={"Exploration"}
-            image={nigerDelta}
-            link={"/operations/exploration"}
-          />
-        </div>
-      </div>
+      <OperationsBottomLinks />
     </div>
   );
 }

@@ -56,7 +56,7 @@ function ESGPage() {
       />
 
       <div className="w-full flex items-center justify-center sm:my-24 my-6 px-4">
-        <p className="sm:w-1/2 w-full">
+        <p className="lg:w-1/2 md:w-3/4 w-full">
           The UN SDGs have been widely adopted across the oil and gas industry.
           The oil and gas industry association IPIECA, has identified those
           SDG’s that have the largest impact in oil and gas operations and NDW
@@ -67,7 +67,7 @@ function ESGPage() {
       <SDGgrid />
 
       <div className="w-full flex items-center justify-center sm:my-24 my-6 px-4">
-        <p className="sm:w-1/2 w-full">
+        <p className="lg:w-1/2 md:w-3/4 w-full">
           To ensure excellence in both environmental and social management, NDW
           plans to achieve social and environmental performance excellence by
           meeting International Finance Corporation Performance Standards (IFC

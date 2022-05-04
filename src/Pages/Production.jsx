@@ -22,6 +22,7 @@ import ogunu from "../images/ogunu.png";
 import edjeba from "../images/edjeba.png";
 import gasplant from "../images/gasplant.png";
 import LegalParagraph from "../Components/LegalParagraph";
+import OperationsBottomLinks from "../Components/OperationsBottomLinks";
 
 function Production() {
   return (
@@ -52,33 +53,7 @@ function Production() {
           }
         />
       </div>
-      <div className="w-full flex items-center justify-center mt-24 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
-      </div>
-      <div className="flex justify-center my-24">
-        <div className="grid grid-cols-2 gap-6 place-items-center px-40">
-          <LargePageButtons
-            text={"Oil & Gas Assets"}
-            image={pipes}
-            link={"/operations/our_assets"}
-          />
-          <LargePageButtons
-            text={"Non Oil & Gas Assets"}
-            image={house}
-            link={"/operations/non_oil_and_gas_assets"}
-          />
-          <LargePageButtons
-            text={"Production"}
-            image={towers}
-            link={"/operations/production"}
-          />
-          <LargePageButtons
-            text={"Exploration"}
-            image={nigerDelta}
-            link={"/operations/exploration"}
-          />
-        </div>
-      </div>
+   <OperationsBottomLinks/>
     </div>
   );
 }

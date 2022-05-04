@@ -7,12 +7,18 @@ function SecondaryHeader({ image, heading, greenHeader }) {
       <div
         className={
           !greenHeader
-            ? "w-full grid grid-cols-2 bg-white h-[24rem] place-items-center pl-24 relative overflow-hidden"
-            : "w-full grid grid-cols-2 bg-[#1E7F3C] h-[24rem] place-items-center pl-24 relative overflow-hidden"
+            ? "w-full grid lg:grid-cols-2 md:grid-cols-1 md:pl-4 bg-white h-[24rem] place-items-center lg:pl-24 md:pl-4 relative overflow-hidden"
+            : "w-full grid lg:grid-cols-2 md:grid-cols-1 md:pl-4 bg-[#1E7F3C] h-[24rem]  place-items-center lg:pl-24 md:pl-4 relative overflow-hidden"
         }
       >
         <div>
-          <h2 className={!greenHeader?"text-5xl text-green":"text-5xl text-white"}>{heading}</h2>
+          <h2
+            className={
+              !greenHeader ? "lg:text-5xl md:text-4xl text-3xl lg:text-left md:text-center md:leading-loose text-green" : "lg:text-5xl md:text-4xl text-3xl lg:text-left md:text-center md:leading-loose text-white"
+            }
+          >
+            {heading}
+          </h2>
         </div>
         <div
           style={{ backgroundImage: `url(${swirl})` }}

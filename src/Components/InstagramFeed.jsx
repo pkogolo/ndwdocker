@@ -32,18 +32,9 @@ function InstagramFeed({ token }) {
         </h2>
         {data.length >= 2 && (
           <Carousel itemsToShow={3}>
-            <InstagramCard image={data[2].media_url} link={data[2].permalink} />
-            <InstagramCard image={data[3].media_url} link={data[3].permalink} />
-            <InstagramCard image={data[4].media_url} link={data[4].permalink} />
-            <InstagramCard image={data[5].media_url} link={data[5].permalink} />
-            <InstagramCard image={data[6].media_url} link={data[6].permalink} />
-            <InstagramCard image={data[7].media_url} link={data[7].permalink} />
-            <InstagramCard image={data[8].media_url} link={data[8].permalink} />
-            <InstagramCard image={data[9].media_url} link={data[9].permalink} />
-            <InstagramCard
-              image={data[10].media_url}
-              link={data[2].media_url}
-            />
+            {data.map((item) => (
+              <InstagramCard image={item.media_url} link={item.permalink} />
+            ))}
           </Carousel>
         )}
         <div className="flex items-center justify-center mt-8">

@@ -11,6 +11,7 @@ function HumanAssets() {
   return (
     <div>
       <HeaderMain
+      pageName={"Human Assets"}
         title={
           "ND Western is being steered in an upward direction by a group of highly professional and competent individuals."
         }

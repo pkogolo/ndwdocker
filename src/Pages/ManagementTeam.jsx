@@ -17,7 +17,8 @@ import temitope from "../images/temitope.png";
 import ceoSmall from "../images/ceo-small.jpg";
 import azfar from "../images/afzar2.jpg";
 import james from "../images/james.png";
-import basil from "../images/basil.png";
+import basil from "../images/basil.jpg";
+import HumanAssetsLinks from "../Components/HumanAssetsLinks";
 
 function ManagementTeam() {
   const profileData = [
@@ -88,33 +89,7 @@ function ManagementTeam() {
       <div className="flex items-center justify-center w-full">
         <div className="">{generateCards()}</div>
       </div>
-      <div className="w-full flex items-center justify-center mt-24 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
-      </div>
-      <div className="flex justify-center my-24">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 place-items-center px-40 ">
-          <LargePageButtons
-            text={"Board of Directors"}
-            image={chairman}
-            link={"/about/human_assets/board_of_directors"}
-          />
-          <LargePageButtons
-            text={"Management Team"}
-            image={ebereoji}
-            link={"/about/human_assets/management_team"}
-          />
-          <LargePageButtons
-            text={"Our People"}
-            image={temitope}
-            link={"/about/human_assets/our_people"}
-          />
-          <LargePageButtons
-            text={"Life at NDW"}
-            image={people1}
-            link={"/about/human_assets/life_at_ndw"}
-          />
-        </div>
-      </div>
+      <HumanAssetsLinks />
     </div>
   );
 }

@@ -7,7 +7,7 @@ function CSRGrid() {
   return (
     <div>
       <div className="flex items-center justify-center mt-24">
-        <div className="grid sm:grid-cols-6 bg-white sm:p-12 p-4 sm:gap-6 gap-2 sm:w-3/4 grid-cols-1">
+        <div className="grid lg:grid-cols-6 md:grid-cols-2 bg-white lg:p-12 md:p-12 p-4 lg:gap-6 gap-2 lg:w-3/4 md:w-3/4 grid-cols-1">
           <div className="w-full flex flex-col sm:col-span-1">
             <div
               style={{ backgroundImage: `url(${ogunu})` }}
@@ -30,13 +30,8 @@ function CSRGrid() {
             <p className=" w-full p-2 text-sm">Governance</p>
           </div>
 
-          <div className="col-span-3">
-            <p className="mt-2">
-              As a modern, dynamic company operating in a rapidly evolving
-              energy sector NDW recognizes the requirement to operate in a
-              responsible way and to ensure that all our stakeholders are
-              empowered to address environmental and social challenges.
-            </p>
+          <div className="lg:col-span-3 md:col-span">
+            
             <p className="mt-2">
               Emphasise ND Western's commitment to ethics and compliance with
               the law;

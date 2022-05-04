@@ -25,10 +25,10 @@ function SDGgrid() {
   ];
   return (
     <div className="sm:py-24 p-4 bg-white flex items-center justify-center">
-      <div className="grid sm:grid-cols-5 grid-cols-2 sm:gap-6 gap-3 sm:w-3/4 w-full">
+      <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-2 sm:gap-6 gap-3 sm:w-3/4 w-full">
         {sdgArray.map((item) => (
           <div
-            className="bg-cover sm:py-28 py-24 bg-no-repeat bg-center"
+            className="bg-cover lg:py-28 md:py-32 py-24 bg-no-repeat bg-center"
             style={{ backgroundImage: `url(${item})` }}
           ></div>
         ))}

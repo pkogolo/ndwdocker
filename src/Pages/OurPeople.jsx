@@ -2,18 +2,11 @@ import React from "react";
 import ProfileComponent from "../Components/ProfileComponent";
 import SecondaryHeader from "../Components/SecondaryHeader";
 import chairman from "../images/chairman2.png";
-import hasset1 from "../images/hassests1.png";
-import femiBalogun from "../images/femibalogun.png";
-import michel from "../images/michel.png";
-import abdul from "../images/abdul.png";
-import ademola from "../images/ademola.png";
-import coo from "../images/coo.png";
-import cooPose from "../images/coo.jpg";
-import timi from "../images/timi.png";
+import people from "../images/people.png";
 import LargePageButtons from "../Components/LargePageButtons";
 import ebereoji from "../images/ebereoji.jpg";
 import people1 from "../images/people1.jpg";
-import temitope from "../images/temitope.png";
+import temitope from "../images/Temitope.jpg";
 import ceoSmall from "../images/ceo-small.jpg";
 import azfar from "../images/azfar.png";
 import james from "../images/james.png";
@@ -24,6 +17,7 @@ import ilesanmi from "../images/ilesanmi.png";
 import lawrence from "../images/lawrence.png";
 import omo from "../images/omo.png";
 import sunday from "../images/sunday.png";
+import HumanAssetsLinks from "../Components/HumanAssetsLinks";
 
 function OurPeople() {
   const profileData = [
@@ -102,7 +96,7 @@ function OurPeople() {
   return (
     <div>
       <SecondaryHeader
-        image={TemitopeRectangle}
+        image={people}
         heading={"Our People"}
         greenHeader={true}
       />
@@ -110,17 +104,7 @@ function OurPeople() {
       <div className="flex items-center justify-center w-full">
         <div className="">{generateCards()}</div>
       </div>
-      <div className="w-full flex items-center justify-center mt-24 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
-      </div>
-      <div className="flex justify-center my-24">
-        <div className="grid grid-cols-2 gap-6 place-items-center px-40">
-          <LargePageButtons text={"Board of Directors"} image={chairman} />
-          <LargePageButtons text={"Management Team"} image={ebereoji} />
-          <LargePageButtons text={"Our People"} image={temitope} />
-          <LargePageButtons text={"Life at NDW"} image={people1} />
-        </div>
-      </div>
+      <HumanAssetsLinks />
     </div>
   );
 }

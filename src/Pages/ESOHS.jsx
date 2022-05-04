@@ -7,7 +7,7 @@ import environmenttowers from "../images/environmenttowers.png";
 import hse2 from "../images/hse2.png";
 import SecondaryHeader from "../Components/SecondaryHeader";
 import LargePageButtons from "../Components/LargePageButtons";
-import pipes from "../images/pipes.jpg";
+import afzarsaipec from "../images/afzarsaipec.jpg";
 import house from "../images/house.jpg";
 import nigerDelta from "../images/nigerDelta.png";
 import maninsuit from "../images/maninsuit.jpg";
@@ -17,6 +17,7 @@ import towers from "../images/towers.jpg"
 import isaandothers from "../images/isaandothers.jpg"
 import champion from "../images/champion.jpg"
 import ugheliEast from "../images/ughelieast.png"
+import ESGBottomLinks from "../Components/ESGBottomLinks";
 
 function ESOHS() {
   return (
@@ -86,26 +87,13 @@ function ESOHS() {
         />
       </div>
 
-      <div className="w-full flex items-center justify-center mt-40 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
-      </div>
-      <div className="flex justify-center my-24">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 place-items-center px-40">
-          <LargePageButtons text={"ESG Overview"} image={pipes} />
-          <LargePageButtons text={"ESOHS MS Framework"} image={house} />
-          <LargePageButtons
-            text={"Reducing Scope 1 and 2 Emmissions"}
-            image={towers}
-          />
-          <LargePageButtons text={""} image={nigerDelta} arrow={true} />
-        </div>
-      </div>
+      <ESGBottomLinks />
       <div className="">
         <LowerBanner
           text={
             "We pride ourselves in our sustainable practices geared at protecting the environment "
           }
-          image={sunday}
+          image={afzarsaipec}
         />
       </div>
     </div>

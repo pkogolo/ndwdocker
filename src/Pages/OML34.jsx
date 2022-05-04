@@ -14,11 +14,16 @@ import towers from "../images/towers.jpg";
 import house from "../images/House.jpg";
 import pipeAsset from "../images/pipe-asset.jpg";
 import edjeba from "../images/edjeba.jpg";
+import OperationsBottomLinks from "../Components/OperationsBottomLinks";
 
 function OML34() {
   return (
     <div>
-      <SecondaryHeader image={towers} heading={"OML 34"} greenHeader={true} />
+      <SecondaryHeader
+        image={pipeAsset}
+        heading={"OML 34"}
+        greenHeader={true}
+      />
 
       <div className="flex items-center justify-center w-full">
         <MainCard
@@ -31,33 +36,7 @@ function OML34() {
           reversed={false}
         />
       </div>
-      <div className="w-full flex items-center justify-center mt-24 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
-      </div>
-      <div className="flex justify-center my-24">
-        <div className="grid grid-cols-2 gap-6 place-items-center px-40">
-          <LargePageButtons
-            text={"Oil & Gas Assets"}
-            image={pipes}
-            link={"/operations/our_assets"}
-          />
-          <LargePageButtons
-            text={"Non Oil & Gas Assets"}
-            image={house}
-            link={"/operations/non_oil_and_gas_assets"}
-          />
-          <LargePageButtons
-            text={"Production"}
-            image={towers}
-            link={"/operations/production"}
-          />
-          <LargePageButtons
-            text={"Exploration"}
-            image={nigerDelta}
-            link={"/operations/exploration"}
-          />
-        </div>
-      </div>
+      <OperationsBottomLinks />
     </div>
   );
 }

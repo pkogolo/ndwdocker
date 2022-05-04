@@ -24,6 +24,7 @@ import coo from "../images/coo.png";
 import cooPose from "../images/coo.jpg";
 import timi from "../images/timi.png";
 import Map from "./Map";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -37,10 +38,11 @@ function Navbar() {
 
   return (
     <div className="bg-white p-4 px-8 flex justify-between fixed z-40 w-full drop-shadow-xl">
-      <div
+      <Link
+        to={"/"}
         style={{ backgroundImage: `url(${Logo})` }}
         className="logo w-[194px] h-[64px]"
-      ></div>
+      ></Link>
 
       <div
         onClick={() => {
@@ -53,7 +55,7 @@ function Navbar() {
       </div>
 
       {open && (
-        <div className="bg-[#0A4D2A] w-full h-screen sm:flex hidden fixed top-0 left-0">
+        <div className="bg-[#0A4D2A] w-full h-screen lg:flex md:hidden hidden fixed top-0 left-0">
           <div
             onClick={() => {
               setOpen(false);
@@ -268,7 +270,11 @@ function Navbar() {
       )}
 
       {open && (
-        <div className={"w-full h-screen sm:hidden fixed top-0 right-0 bg-[#0A4D2A]"}>
+        <div
+          className={
+            "w-full h-screen lg:hidden fixed top-0 right-0 bg-[#0A4D2A]"
+          }
+        >
           <div
             onClick={() => {
               setOpen(false);

@@ -18,6 +18,7 @@ import drilling from "../images/drilling.png";
 import ugheliEast from "../images/ughelieast.png";
 import ugheliWest from "../images/ugheliWest.png";
 import warriRiver from "../images/warririver.png";
+import OperationsBottomLinks from "../Components/OperationsBottomLinks";
 
 function OilAndGasAssets() {
   return (
@@ -66,33 +67,7 @@ function OilAndGasAssets() {
           reversed={true}
         />
       </div>
-      <div className="w-full flex items-center justify-center mt-24 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
-      </div>
-      <div className="flex justify-center my-24">
-        <div className="grid grid-cols-2 gap-6 place-items-center px-40">
-          <LargePageButtons
-            text={"Oil & Gas Assets"}
-            image={pipes}
-            link={"/operations/our_assets"}
-          />
-          <LargePageButtons
-            text={"Non Oil & Gas Assets"}
-            image={house}
-            link={"/operations/non_oil_and_gas_assets"}
-          />
-          <LargePageButtons
-            text={"Production"}
-            image={towers}
-            link={"/operations/production"}
-          />
-          <LargePageButtons
-            text={"Exploration"}
-            image={nigerDelta}
-            link={"/operations/exploration"}
-          />
-        </div>
-      </div>
+      <OperationsBottomLinks />
     </div>
   );
 }

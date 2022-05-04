@@ -12,7 +12,7 @@ function ESGBottomLinks() {
         <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
       </div>
       <div className="flex justify-center my-24">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 place-items-center px-40">
+        <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 place-items-center lg:px-40">
           <LargePageButtons
             text={"ESG Overview"}
             image={edjeba}
@@ -28,7 +28,7 @@ function ESGBottomLinks() {
             image={towers}
             link={"/about/ESG/approach_to_reducing_emmissions"}
           />
-          <LargePageButtons text={""} image={nigerDelta} arrow={true} />
+          <LargePageButtons text={""} image={nigerDelta} arrow={"none"} />
         </div>
       </div>
     </div>

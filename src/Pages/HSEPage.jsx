@@ -6,20 +6,20 @@ import pipes from "../images/pipes.jpg";
 import house from "../images/house.jpg";
 import covidRelief from "../images/covid-relief.png";
 import walk4Alimb from "../images/walk4alimb.png";
-import drilling from "../images/drilling.png";
-import medal from "../images/medal.jpg";
+import saipec from "../images/saipec.jpg";
+import lieAtNDW from "../images/life_at_ndw.jpg";
 import hse2 from "../images/hse2.png";
 import LowerBanner from "../Components/LowerBanner";
-
 
 function HSEPage() {
   return (
     <div className="">
       <HeaderMain
+        pageName={"HSE"}
         title={
           "We are committed to the highest health, safety, security and environmental standards."
         }
-        image={oilMan}
+        image={saipec}
       />
 
       <MainCard
@@ -39,14 +39,12 @@ function HSEPage() {
         reversed={true}
       />
 
-    
-
       <div className="">
         <LowerBanner
           text={
             "We pride ourselves in our sustainable practices geared at protecting the environment "
           }
-          image={house}
+          image={lieAtNDW}
         />
       </div>
     </div>

@@ -2,13 +2,39 @@
   font-family: "Exo", sans-serif;
 }
 
-
-h1{
+h1 {
   font-weight: 500;
-  color: white;
-
 }
 
-.text-green{
-  color:#1E7F3C
+.text-green {
+  color: #1e7f3c;
 }
+
+.main-card {
+  transition: all 0.5s ease-in-out;
+}
+
+.cursor {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #0eed55;
+  border-radius: 50%;
+  z-index: 99999;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover .cursor {
+  transform: scale(20);
+}
+.card:hover .cursor {
+  transform: scale(20);
+}
+/* .card:hover .cursor::before {
+  content: "Joe's Task: ";
+}
+.button .cursor::before {
+  content: "Joe's Task: ";
+} */

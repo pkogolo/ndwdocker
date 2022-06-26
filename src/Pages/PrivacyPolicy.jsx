@@ -1,26 +1,11 @@
 import React from "react";
-import ProfileComponent from "../Components/ProfileComponent";
 import SecondaryHeader from "../Components/SecondaryHeader";
-import chairman from "../images/chairman2.png";
-import pipes from "../images/pipes.jpg";
-import LargePageButtons from "../Components/LargePageButtons";
-import ebereoji from "../images/ebereoji.jpg";
-import people1 from "../images/people1.jpg";
-import temitope from "../images/temitope.png";
-import oml34 from "../images/oml-34.png";
-import MainCard from "../Components/MainCard";
-import nigerDelta from "../images/nigerDelta.png";
-import towers from "../images/towers.jpg";
-import house from "../images/House.jpg";
-import pipeAsset from "../images/pipe-asset.jpg";
-import drilling from "../images/drilling.png";
-import ugheliEast from "../images/ughelieast.png";
-import ugheliWest from "../images/ugheliWest.png";
-import warriRiver from "../images/warririver.png";
-import lab from "../images/lab.jpg";
-import ogunu from "../images/ogunu.png";
-import edjeba from "../images/edjeba.png";
-import gasplant from "../images/gasplant.png";
+import image1 from "../images/ASSETS/asset19.jpg";
+import image2 from "../images/ASSETS/asset13.jpg";
+import image3 from "../images/ASSETS/asset16.jpg";
+import image5 from "../images/ASSETS/asset15.jpg";
+import image4 from "../images/ASSETS/asset14.jpg";
+import image6 from "../images/ASSETS/asset3.jpg";
 import LegalParagraph from "../Components/LegalParagraph";
 import Button from "../Components/Button";
 
@@ -28,7 +13,7 @@ function PrivacyPolicy() {
   return (
     <div>
       <SecondaryHeader
-        image={gasplant}
+        imageArray={[image1, image2,]}
         heading={"Privacy Policy"}
         greenHeader={true}
       />

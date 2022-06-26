@@ -1,19 +1,11 @@
 import React from "react";
 import ProfileComponent from "../Components/ProfileComponent";
 import SecondaryHeader from "../Components/SecondaryHeader";
-import chairman from "../images/chairman2.png";
 import people from "../images/people.png";
-import LargePageButtons from "../Components/LargePageButtons";
-import ebereoji from "../images/ebereoji.jpg";
-import people1 from "../images/people1.jpg";
-import temitope from "../images/Temitope.jpg";
-import ceoSmall from "../images/ceo-small.jpg";
-import azfar from "../images/azfar.png";
-import james from "../images/james.png";
-import TemitopeRectangle from "../images/temitope-rectangle.png";
+   
 import oladele from "../images/oladele.png";
 import adeyemi from "../images/adeyemi.png";
-import ilesanmi from "../images/ilesanmi.png";
+   
 import lawrence from "../images/lawrence.png";
 import omo from "../images/omo.png";
 import sunday from "../images/sunday.png";
@@ -97,7 +89,7 @@ function OurPeople() {
     <div>
       <SecondaryHeader
         image={people}
-        heading={"Our People"}
+        heading={"O"}
         greenHeader={true}
       />
 

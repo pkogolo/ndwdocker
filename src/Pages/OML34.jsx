@@ -1,32 +1,47 @@
 import React from "react";
 import ProfileComponent from "../Components/ProfileComponent";
 import SecondaryHeader from "../Components/SecondaryHeader";
-import chairman from "../images/chairman2.png";
-import pipes from "../images/pipes.jpg";
-import LargePageButtons from "../Components/LargePageButtons";
-import ebereoji from "../images/ebereoji.jpg";
-import people1 from "../images/people1.jpg";
-import temitope from "../images/temitope.png";
+
 import oml34 from "../images/oml-34.png";
-import MainCard from "../Components/MainCard";
-import nigerDelta from "../images/nigerDelta.png";
-import towers from "../images/towers.jpg";
-import house from "../images/House.jpg";
-import pipeAsset from "../images/pipe-asset.jpg";
-import edjeba from "../images/edjeba.jpg";
-import OperationsBottomLinks from "../Components/OperationsBottomLinks";
+import operations1 from "../images/OPERATIONS/operations1.jpg";
+import operations2 from "../images/OPERATIONS/operations2.jpg";
+import operations6 from "../images/OPERATIONS/operations6.jpg";
+
+import TwoColGrid from "../Components/TwoColGrid";
+import LowerBanner from "../Components/LowerBanner";
 
 function OML34() {
+  const array = [
+    {
+      page: "Oil and Gas Assets",
+      link: "/operations/oil_and_gas_assets",
+    },
+    {
+      page: "Non Oil and Gas Assets",
+      link: "/operations/non_oil_and_gas_assets",
+    },
+    {
+      page: "Production",
+      link: "/operations/production",
+    },
+    { page: "Exploration", link: "/operations/exploration" },
+    {
+      page: "OML 34",
+      link: "/operations/our_assets",
+    },
+    { page: "Careers", link: "/careers" },
+  ];
   return (
     <div>
       <SecondaryHeader
-        image={pipeAsset}
+        imageArray={[operations1, operations2]}
         heading={"OML 34"}
         greenHeader={true}
       />
 
       <div className="flex items-center justify-center w-full">
-        <MainCard
+        <TwoColGrid
+          oml34={true}
           showCircles={false}
           title={"OML 34"}
           mainImage={oml34}
@@ -36,7 +51,9 @@ function OML34() {
           reversed={false}
         />
       </div>
-      <OperationsBottomLinks />
+      <div className="">
+        <LowerBanner linkArray={array} image={operations6} />
+      </div>
     </div>
   );
 }

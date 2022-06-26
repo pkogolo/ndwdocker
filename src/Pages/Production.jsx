@@ -1,34 +1,40 @@
 import React from "react";
 import ProfileComponent from "../Components/ProfileComponent";
 import SecondaryHeader from "../Components/SecondaryHeader";
-import chairman from "../images/chairman2.png";
-import pipes from "../images/pipes.jpg";
-import LargePageButtons from "../Components/LargePageButtons";
-import ebereoji from "../images/ebereoji.jpg";
-import people1 from "../images/people1.jpg";
-import temitope from "../images/temitope.png";
-import oml34 from "../images/oml-34.png";
-import MainCard from "../Components/MainCard";
-import nigerDelta from "../images/nigerDelta.png";
-import towers from "../images/towers.jpg";
-import house from "../images/House.jpg";
-import pipeAsset from "../images/pipe-asset.jpg";
-import drilling from "../images/drilling.png";
-import ugheliEast from "../images/ughelieast.png";
-import ugheliWest from "../images/ugheliWest.png";
-import warriRiver from "../images/warririver.png";
-import lab from "../images/lab.jpg";
-import ogunu from "../images/ogunu.png";
-import edjeba from "../images/edjeba.png";
-import gasplant from "../images/gasplant.png";
+import operations1 from "../images/OPERATIONS/operations1.jpg";
+import operations2 from "../images/OPERATIONS/operations2.jpg";
+import operations6 from "../images/OPERATIONS/operations6.jpg";
+import operations7 from "../images/OPERATIONS/operations7.jpg";
+import operations8 from "../images/OPERATIONS/operations8.jpg";
 import LegalParagraph from "../Components/LegalParagraph";
-import OperationsBottomLinks from "../Components/OperationsBottomLinks";
+
+import LowerBanner from "../Components/LowerBanner";
 
 function Production() {
+  const array = [
+    {
+      page: "Oil and Gas Assets",
+      link: "/operations/oil_and_gas_assets",
+    },
+    {
+      page: "Non Oil and Gas Assets",
+      link: "/operations/non_oil_and_gas_assets",
+    },
+    {
+      page: "Production",
+      link: "/operations/production",
+    },
+    { page: "Exploration", link: "/operations/exploration" },
+    {
+      page: "OML 34",
+      link: "/operations/our_assets",
+    },
+    { page: "Careers", link: "/careers" },
+  ];
   return (
     <div>
       <SecondaryHeader
-        image={gasplant}
+        imageArray={[operations8, operations7]}
         heading={"Production"}
         greenHeader={true}
       />
@@ -37,7 +43,7 @@ function Production() {
         <LegalParagraph
           title={"Current Production"}
           paragraph={
-            "• Oil: +/- 17,000 b/d (including condensate)/n • Gas: +/- 390 MMscf/d"
+            "• Oil: +/- 17,000 b/d (including condensate)/n • Gas: +/- 350 MMscf/d."
           }
         />
         <LegalParagraph
@@ -53,7 +59,9 @@ function Production() {
           }
         />
       </div>
-   <OperationsBottomLinks/>
+      <div className="">
+        <LowerBanner linkArray={array} image={operations8} />
+      </div>
     </div>
   );
 }

@@ -7,12 +7,13 @@ import femiBalogun from "../images/femibalogun.png";
 import michel from "../images/michel.png";
 import abdul from "../images/abdul.png";
 import ademola from "../images/ademola.png";
+
 import coo from "../images/coo.png";
-import timi from "../images/timi.png";
+    
 import LargePageButtons from "../Components/LargePageButtons";
 import ebereoji from "../images/ebereoji.jpg";
 import people1 from "../images/people.png";
-import temitope from "../images/Temitope.jpg";
+   
 import HumanAssetsLinks from "../Components/HumanAssetsLinks";
 
 function BoardOfDirectors() {

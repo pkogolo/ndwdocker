@@ -1,22 +1,12 @@
 import React from "react";
 import ProfileComponent from "../Components/ProfileComponent";
 import SecondaryHeader from "../Components/SecondaryHeader";
-import chairman from "../images/chairman2.png";
-import hasset1 from "../images/hassests1.png";
-import femiBalogun from "../images/femibalogun.png";
-import michel from "../images/michel.png";
-import abdul from "../images/abdul.png";
-import ademola from "../images/ademola.png";
-import coo from "../images/coo.png";
 import cooPose from "../images/coo.jpg";
-import timi from "../images/timi.png";
 import LargePageButtons from "../Components/LargePageButtons";
 import ebereoji from "../images/ebereoji.jpg";
-import people1 from "../images/people1.jpg";
-import temitope from "../images/temitope.png";
 import ceoSmall from "../images/ceo-small.jpg";
 import azfar from "../images/afzar2.jpg";
-import james from "../images/james.png";
+    
 import basil from "../images/basil.jpg";
 import HumanAssetsLinks from "../Components/HumanAssetsLinks";
 

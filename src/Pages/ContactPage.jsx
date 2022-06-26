@@ -3,12 +3,13 @@ import HeaderMain from "../Components/HeaderMain";
 import headerImage from "../images/nog.jpg";
 import FormattedParagraph from "../Components/FormattedParagraph";
 import Map from "../Components/Map";
+import HeaderTwo from "../Components/HeaderTwo";
 
 function ContactPage() {
   return (
     <div>
-      <HeaderMain
-        title={"Reach out to us"}
+      <HeaderTwo
+        pageText={"Reach out to us"}
         image={headerImage}
         pageName={"Contact"}
       />

@@ -3,7 +3,7 @@ import LargePageButtons from "./LargePageButtons";
 import edjeba from "../images/edjeba.png";
 import house from "../images/house.jpg";
 import towers from "../images/towers.jpg";
-import nigerDelta from "../images/nigerDelta.png"
+   
 
 function ESGBottomLinks() {
   return (

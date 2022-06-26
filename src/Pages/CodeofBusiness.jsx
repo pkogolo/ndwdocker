@@ -7,22 +7,50 @@ import FormattedParagraph from "../Components/FormattedParagraph";
 import LargePageButtons from "../Components/LargePageButtons";
 import groupengineers from "../images/groupengineers.jpg";
 import nog from "../images/nog.jpg";
+import LowerBanner from "../Components/LowerBanner";
+import image1 from "../images/management/mrFalade.jpg";
+import image2 from "../images/management/davidHarris.jpg";
+import image3 from "../images/management/jamesOkoro2.jpg";
+import TwoColGrid from "../Components/TwoColGrid";
+import HeaderTwo from "../Components/HeaderTwo";
+
 
 function CodeofBusiness() {
+  const array = [
+    {
+      page: "About ND Western",
+      link: "/about/",
+    },
+    { page: "Operations", link: "/operations" },
+    {
+      page: "Ethical Standards",
+      link: "/about/code_of_business_conduct/ethical_standards",
+    },
+    {
+      page: "Violation of Ethical Standards",
+      link: "/about/code_of_business_conduct/violations_of_ethical_standards",
+    },
+    {
+      page: "Our Code of Business Conduct",
+      link: "/about/code_of_business_conduct",
+    },
+    { page: "CSR", link: "/about/csr" },
+  ];
   return (
     <div>
-      <HeaderMain
-        title={
+      <HeaderTwo
+        pageText={
           "We are committed to the utmost integrity in all dealings with our stakeholders"
         }
-        image={coo}
+        pageName={"Our Code of Business Conduct"}
+        image={image1}
       />
 
-      <MainCard
-        title={"Code of Business Conduct"}
-        mainImage={sunday}
+      <TwoColGrid
+        title={"Overview"}
+        mainImage={image2}
         paragraph={
-          "At ND Western Limited ('ND Western' or the 'Company') we are committed to the utmost integrity in all dealings with our external and internal stakeholders. The Company will strive to uphold the highest levels of business ethics and personal integrity in all types of transactions and interactions. This Code of Business Conduct and Ethics covers a wide range of business practices and applies to all directors, officers and employees of the Company, collectively referred to herein as the 'Obliged Persons.' It is also expected that all suppliers, contractors, agents and consultants of ND Western will abide by the principles of this Code, and the Company will not hesitate to sever ties with any of such persons that is found to have violated the tenets of the Code."
+          "At ND Western Limited ('ND Western' or the 'Company') we are committed to the utmost integrity in all dealings with our external and internal stakeholders. The Company will strive to uphold the highest levels of business ethics and personal integrity in all types of transactions and interactions./n This Code of Business Conduct and Ethics covers a wide range of business practices and applies to all directors, officers and employees of the Company, collectively referred to herein as the 'Obliged Persons.' It is also expected that all suppliers, contractors, agents and consultants of ND Western will abide by the principles of this Code, and the Company will not hesitate to sever ties with any of such persons that is found to have violated the tenets of the Code."
         }
         reversed={false}
       />
@@ -33,7 +61,7 @@ function CodeofBusiness() {
         </h2>
       </div>
 
-      <div className="flex flex-col items-center mt-12">
+      <div className="flex flex-col items-center my-24">
         <div className="w-full flex items-center justify-center">
           <p className="sm:w-3/4 w-5/6">
             The purpose of this Code is to guide the Obliged Persons in conduct
@@ -87,22 +115,8 @@ function CodeofBusiness() {
           </p>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center mt-24 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
-      </div>
-      <div className="flex justify-center my-24">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-10 place-items-center sm:px-40 px-2 w-3/4">
-          <LargePageButtons
-            text={"Ethical Standards"}
-            image={nog}
-            link={"/about/code_of_business_conduct"}
-          />
-          <LargePageButtons
-            text={"Violations of Ethical Standards"}
-            image={groupengineers}
-            link={"/about/code_of_business_conduct/ethical_standards"}
-          />
-        </div>
+      <div className="">
+        <LowerBanner linkArray={array} image={image3} />
       </div>
     </div>
   );

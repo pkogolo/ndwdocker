@@ -1,8 +1,18 @@
 import React from "react";
 import MainCard from "../Components/MainCard";
-import temitopeLong from "../images/temitope-rectangle.png";
+
 import LowerBanner from "../Components/LowerBanner";
 import sunday from "../images/sunday.jpg";
+import saipecceo from "../images/saipecceo.jpg";
+import image1 from "../images/ASSETS/asset19.jpg";
+import image2 from "../images/ASSETS/asset33.jpg";
+import image3 from "../images/ASSETS/asset16.jpg";
+import image5 from "../images/ASSETS/asset15.jpg";
+import image4 from "../images/ASSETS/asset14.jpg";
+import image6 from "../images/ASSETS/asset24.jpg";
+import image7 from "../images/ASSETS/asset27.jpg";
+import image8 from "../images/ASSETS/asset9.jpg";
+import image9 from "../images/ASSETS/asset12.jpg";
 import environmenttowers from "../images/environmenttowers.png";
 import hse2 from "../images/hse2.png";
 import SecondaryHeader from "../Components/SecondaryHeader";
@@ -10,37 +20,56 @@ import LargePageButtons from "../Components/LargePageButtons";
 import pipes from "../images/pipes.jpg";
 import house from "../images/house.jpg";
 import towers from "../images/towers.jpg";
-import nigerDelta from "../images/nigerDelta.png";
-import approach from "../images/approach.png";
 import GreenCard from "../Components/GreenCard";
 import FormattedParagraph from "../Components/FormattedParagraph";
 import ESGBottomLinks from "../Components/ESGBottomLinks";
+import TwoColGrid from "../Components/TwoColGrid";
 
 function TrackingEmmissions() {
+  const array = [
+    {
+      page: "Oil and Gas Assets",
+      link: "/operations/oil_and_gas_assets",
+    },
+    {
+      page: "Non Oil and Gas Assets",
+      link: "/operations/non_oil_and_gas_assets",
+    },
+    {
+      page: "Production",
+      link: "/operations/production",
+    },
+    { page: "Exploration", link: "/operations/exploration" },
+    {
+      page: "OML 34",
+      link: "/operations/our_assets",
+    },
+    { page: "Careers", link: "/careers" },
+  ];
   return (
     <div>
       <SecondaryHeader
-        image={approach}
+        imageArray={[image1, image2, image3, image4]}
         heading={
           "Approach to tracking and reducing scope 1 and scope 2 emissions"
         }
         greenHeader={true}
       />
 
-      <div className="flex items-center flex-col justify-center">
-        <MainCard
+      <div className="flex items-center flex-col justify-center mb-24">
+        <TwoColGrid
           showCircles={false}
           title={"Our Commitment to Reducing Emmissions"}
-          mainImage={environmenttowers}
+          mainImage={image5}
           paragraph={
             "NDW is committed to playing a central part in the Energy Transition and we see ourselves playing a leading role in reducing scope 1 and scope 2 emissions in the Nigerian oil and gas industry. Our gas focus is one way that we plan to achieve emissions reductions targets that align with reaching net zero by the middle of the century (year 2050). To monitor our progress towards Net Zero, it is essential that we can effectively track and reduce our Scope 1 and 2 emissions. "
           }
           reversed={false}
         />
-        <MainCard
+        <TwoColGrid
           showCircles={false}
           title={"The GHG Protocol"}
-          mainImage={hse2}
+          mainImage={saipecceo}
           paragraph={
             "The GHG Protocol published a widely accepted international “Corporate Accounting and Reporting Standard” in 2004. The Scope definition was developed to define direct and indirect emissions, to improve reporting transparency and to ensure consistency across industries when reporting. Scope 1 and Scope 2 emissions are most relevant to the hydrocarbon exploration and production industry."
           }
@@ -50,8 +79,8 @@ function TrackingEmmissions() {
         <h1 className="text-green text-3xl mt-24 ">
           The definitions are summarised below
         </h1>
-        <GreenCard
-          mainImage={sunday}
+        <TwoColGrid
+          mainImage={image6}
           reverse={true}
           title={"Scope 1 Direct Emissions "}
           paragraph={
@@ -59,16 +88,16 @@ function TrackingEmmissions() {
           }
         />
 
-        <GreenCard
-          mainImage={sunday}
+        <TwoColGrid
+          mainImage={image8}
           reverse={true}
           title={"Scope 2:  Indirect emissions"}
           paragraph={
             "those GHG emissions which are generated from the purchase or importation of energy to the site or company. For example:/n Defined as energy related indirect emissions, namely those from purchased electricity, steam, heating (hot water) and cooling. Often these emissions may be more difficult tocalculate as emissions factors for imported energy (e.g., mass of emissions per quantity of electricity consumed) may be unavailable or have a high degree of uncertainty."
           }
         />
-        <GreenCard
-          mainImage={sunday}
+        <TwoColGrid
+          mainImage={image7}
           reverse={true}
           title={"Scope 3 All other indirect emissions"}
           paragraph={
@@ -98,16 +127,9 @@ function TrackingEmmissions() {
           }
         />
       </div>
-      <ESGBottomLinks />
+
       <div className="">
-        <LowerBanner
-          text={
-            "We pride ourselves in our sustainable practices geared at protecting the environment "
-          }
-          image={
-            "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-          }
-        />
+        <LowerBanner linkArray={array} image={image5} />
       </div>
     </div>
   );

@@ -2,8 +2,8 @@ import React from "react";
 import chairman from "../images/chairman2.png";
 import LargePageButtons from "../Components/LargePageButtons";
 import ebereoji from "../images/ebereoji.jpg";
-import people1 from "../images/people1.jpg";
-import temitope from "../images/temitope.png";
+import people1 from "../images/our_people.jpg";
+    ;
 
 function HumanAssetsLinks() {
   return (
@@ -32,7 +32,7 @@ function HumanAssetsLinks() {
           <LargePageButtons
             text={"Life at NDW"}
             image={people1}
-            link={"/about/human_assets/life_at_ndw"}
+            link={"/about/life_at_NDWestern"}
           />
         </div>
       </div>

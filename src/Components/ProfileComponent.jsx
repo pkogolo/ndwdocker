@@ -11,7 +11,7 @@ function ProfileComponent({ image, name, position, text, fullText }) {
   return (
     <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 mt-24 lg:px-24 md:px-6 px-4 bg-[]">
       <div className="flex items-start justify-center">
-        <div className="p-4 border border-2 border-[#41D958]">
+        <div className="p-4 border border-2 border-[#65B32E]">
           <div
             style={{ backgroundImage: `url(${image})` }}
             className="h-[360px] w-[360px] bg-cover bg-no-repeat bg-center"

@@ -1,7 +1,7 @@
 import React from "react";
 import pipes from "../images/pipes.jpg";
 import LargePageButtons from "../Components/LargePageButtons";
-import nigerDelta from "../images/nigerDelta.png";
+  
 import towers from "../images/towers.jpg";
 import house from "../images/House.jpg";
 

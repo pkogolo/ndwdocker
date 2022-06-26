@@ -1,30 +1,57 @@
 import React from "react";
-import HeaderMain from "../Components/HeaderMain";
-import MainCard from "../Components/MainCard";
 import sportsImage from "../images/sports.jpg";
 import boyRunning from "../images/boy-running.jpg";
-import tripod from "../images/tripod.png";
-import ResponsibilityCard from "../Components/ResponsibilityCard";
-import pipes from "../images/pipes.jpg";
-import outreach from "../images/outreach.png";
-import walk4aLimb from "../images/walk4alimb.png";
-import CSRCards from "../Components/CSRCards";
-import covidRelief from "../images/covid-relief.png";
-import scholarship from "../images/scholarship.png";
-import givingMedal from "../images/givingmedal.jpg";
 import LowerBanner from "../Components/LowerBanner";
+import HeaderTwo from "../Components/HeaderTwo";
+import TwoColGrid from "../Components/TwoColGrid";
+import PhotoGalleryComponent from "../Components/PhotoGalleryComponent";
+import { libraryData } from "../Components/CommunitiesData";
+import { mocData } from "../Components/CommunitiesData";
+import { scholarshipData } from "../Components/CommunitiesData";
+import { skillsAqData } from "../Components/CommunitiesData";
+import { deltaData } from "../Components/CommunitiesData";
+import { outreachData } from "../Components/CommunitiesData";
+import library3 from "../images/communities/library/library3.jpg";
+import skillsAq1 from "../images/communities/Skills/skillsAq1.jpg";
+import skillsAq3 from "../images/communities/Skills/skillsAq3.jpg";
+import hse from "../images/HSE/hse1.jpeg";
+import delta7 from "../images/communities/deltaplus/delta7.jpg";
 
 function CSRPage() {
+  const array = [
+    {
+      page: "Contact us",
+      link: "/contact",
+    },
+    {
+      page: "About Us",
+      link: "/about",
+    },
+    {
+      page: "Our HSE Policy",
+      link: "/about/HSE",
+    },
+    { page: "Human Assets", link: "/about/human_assets" },
+    {
+      page: "NDW in the News",
+      link: "/NDW_in_the_News",
+    },
+    {
+      page: "Code of Business Conduct",
+      link: "/about/code_of_business_conduct",
+    },
+  ];
   return (
     <div>
-      <HeaderMain
-        title={
+      <HeaderTwo
+        pageName={"Our Communities"}
+        pageText={
           "We are committed to the utmost integrity in all dealings with our stakeholders"
         }
         image={sportsImage}
       />
 
-      <MainCard
+      <TwoColGrid
         title={"Our Philosophy"}
         mainImage={boyRunning}
         paragraph={
@@ -32,86 +59,66 @@ function CSRPage() {
         }
         reversed={false}
       />
-      <div className="w-full py-4">
-        <h2 className="text-green text-3xl text-center">The Framework</h2>
-      </div>
-      <p className="px-4 my-4">
-        We have a tripod approach that allows us to diversify how we implement
-        our corporate social responsibilities.
-      </p>
-      <div className="w-full flex items-center justify-center">
-        <div
-          className="sm:w-[721px] sm:h-[545px] bg-center w-[421px] h-[245px] bg-contain bg-no-repeat "
-          style={{ backgroundImage: `url(${tripod})` }}
-        ></div>
-      </div>
-
-      <div className="w-full px-4 flex justify-center my-24">
-        <div className="grid sm:grid-cols-3 grid-cols-1 gap-6 sm:w-3/4 w-full px-4">
-          <ResponsibilityCard
-            image={pipes}
-            title={"Economic Responsibility"}
-            text={
-              "We are fully committed to the local content initiative. We aim to use local contractors and 3rd party vendors in order to promote the growth of small to medium sized companies for economic progress and development."
-            }
-          />
-          <ResponsibilityCard
-            image={walk4aLimb}
-            title={" Social Responsibility"}
-            text={
-              "We support the development of local human capital through internships, scholarships and train-the-trainer schemes needed for the growth and sustainability of the oil and gas industry."
-            }
-          />
-          <ResponsibilityCard
-            image={pipes}
-            title={"Environmental Responsibility"}
-            text={
-              "We implement and adhere to the highest HSSE Standards, and adopt precautionary approaches to prevent adverse impacts on our people and environment in the course of our operations."
-            }
-          />
-        </div>
-      </div>
-      <div className="w-full flex justify-center my-24">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-6 sm:w-3/4 w-full">
-          <CSRCards
-            image={walk4aLimb}
-            title={" Walk for a limb"}
-            text={
-              "We support the development of local human capital through internships, scholarships and train-the-trainer schemes needed for the growth and sustainability of the oil and gas industry."
-            }
-          />
-          <CSRCards
-            image={covidRelief}
-            title={"Covid Relief"}
-            text={
-              "We are fully committed to the local content initiative. We aim to use local contractors and 3rd party vendors in order to promote the growth of small to medium sized companies for economic progress and development."
-            }
-          />
-
-          <CSRCards
-            image={scholarship}
-            title={"ND Western Scholarship Awards"}
-            text={
-              "We implement and adhere to the highest HSSE Standards, and adopt precautionary approaches to prevent adverse impacts on our people and environment in the course of our operations."
-            }
-          />
-
-          <CSRCards
-            image={sportsImage}
-            title={"Making of Champions"}
-            text={
-              "We implement and adhere to the highest HSSE Standards, and adopt precautionary approaches to prevent adverse impacts on our people and environment in the course of our operations."
-            }
-          />
-        </div>
-      </div>
-
-      <LowerBanner
-        text={
-          "We strive to eliminate barriers to Social, Economic and Environmental development"
+      <TwoColGrid
+        title={"Our Economic Responsibility"}
+        mainImage={skillsAq1}
+        paragraph={
+          "We are fully committed to the local content initiative. We aim to use local contractors and 3rd party vendors in order to promote the growth of small to medium sized companies for economic progress and development."
         }
-        image={givingMedal}
+        reversed={true}
       />
+      <TwoColGrid
+        title={"Our Social Responsibility"}
+        mainImage={skillsAq3}
+        paragraph={
+          "We support the development of local human capital through internships, scholarships and train-the-trainer schemes needed for the growth and sustainability of the oil and gas industry."
+        }
+        reversed={false}
+      />
+      <TwoColGrid
+        title={"Our Environmental Responsibility"}
+        mainImage={hse}
+        paragraph={
+          "We implement and adhere to the highest HSSE Standards, and adopt precautionary approaches to prevent adverse impacts on our people and environment in the course of our operations."
+        }
+        reversed={true}
+      />
+      <div className="my-12">
+        <h1 className="text-center text-2xl text-[#65B32E]">
+          Our Community Development Engagements
+        </h1>
+      </div>
+      <PhotoGalleryComponent
+        imageArray={libraryData}
+        header={
+          "Commissioning of the Prof. Mosobalaje Oyawoye E-Library Complex at University of Ibadan"
+        }
+      />
+
+      <PhotoGalleryComponent
+        imageArray={mocData}
+        header={"The Making of Champions Sporting Event"}
+      />
+      <PhotoGalleryComponent
+        imageArray={scholarshipData}
+        header={"NPDC and ND Western Scholarship Awards"}
+      />
+      <PhotoGalleryComponent
+        imageArray={skillsAqData}
+        header={"ND Western Skills Acquisition Programme"}
+      />
+      <PhotoGalleryComponent
+        imageArray={deltaData}
+        header={"The Commissioning of Delta Plus Diagnostics"}
+      />
+      <PhotoGalleryComponent
+        imageArray={outreachData}
+        header={"NPDC and ND Western Medical Outreach Warri"}
+      />
+
+      <div className="">
+        <LowerBanner linkArray={array} image={delta7} />
+      </div>
     </div>
   );
 }

@@ -1,26 +1,58 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import HeaderMain from "../Components/HeaderMain";
 import MainCard from "../Components/MainCard";
 import OurVision from "../Components/OurVision";
-import oilman from "../images/oilasset1.png";
-import people1 from "../images/people1.jpg";
-import manandlady from "../images/manandlady.png";
-import headerImage from "../images/HeaderImage.jpg";
-import circle1 from "../images/circle1.png";
-import circle2 from "../images/circle2.png";
-import afzar from "../images/azfar.png";
-import temitope from "../images/temitope.png";
-import coo from "../images/coo.png";
+import asset1 from "../images/HOME/asset1.jpg";
+import asset10 from "../images/HOME/asset10.jpg";
+import manwithBook from "../images/HOME/ndwasset1.jpg"; 
+import { Link } from "react-router-dom";
 import InstagramFeed from "../Components/InstagramFeed";
 import CSRSection from "../Components/CSRSection";
-import LowerBanner from "../Components/LowerBanner";
-import Popup from "../Components/Popup";
 import CookieConsent from "react-cookie-consent";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import VideoPlayer from "../Components/VideoPlayer";
+gsap.registerPlugin(ScrollTrigger);
+import Button from "../Components/Button";
+import ESGComponent from "../Components/ESGComponent";
+import iwd17 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd17.jpg"
 
 function Home() {
+  let visionBox = useRef(null);
+  let boxTimeline = useRef();
+  useEffect(() => {
+    let el = visionBox.current;
+    boxTimeline.current = gsap.timeline({ paused: true });
+    boxTimeline.current.fromTo(
+      [visionBox],
+      {
+        y: "20%",
+        opacity: 0,
+      },
+      {
+        duration: 0.8,
+        opacity: 1,
+        y: "0%",
+        ease: "power3.inOut",
+        stagger: {
+          amount: 0.2,
+        },
+        scrollTrigger: {
+          trigger: el,
+          start: "20px 80%",
+          end: "bottom 100px ",
+          toggleActions: "restart pause reverse pause",
+        },
+      }
+    );
+  }, []);
+
+  useEffect(() => {
+    boxTimeline.current.play();
+  }, []);
+
   return (
-    <div className="">
+    <div className=" ">
       <CookieConsent
         debug={true}
         location="bottom"
@@ -28,7 +60,7 @@ function Home() {
         cookieName="myAwesomeCookieName2"
         style={{ background: "#FFFFFF" }}
         buttonStyle={{
-          color: "#ffffff",
+          color: "#eeeeff",
           backgroundColor: "#47A942",
           fontSize: "16px",
         }}
@@ -49,17 +81,19 @@ function Home() {
         title={
           "We are leading the way in sustainable oil exploration and production"
         }
-        image={headerImage}
+        topImage={asset1}
+        bottomImage={manwithBook}
       />
-      <OurVision />
+
+      <div ref={(el) => (visionBox = el)} className="p-12">
+        <OurVision />
+      </div>
 
       <div className="">
         <MainCard
-          showCircles={true}
-          circleImages={[circle1, circle2, oilman]}
           title={"Our Operations"}
           buttonLinks={"/operations"}
-          mainImage={oilman}
+          mainImage={asset10}
           paragraph={
             "We are reshaping the Nigerian Energy industry, one step at a time.View our core services and operational areas"
           }
@@ -67,29 +101,38 @@ function Home() {
           reversed={false}
         />
         <MainCard
-          showCircles={true}
-          circleImages={[afzar, coo, temitope]}
           reversed={true}
           title={"Our People"}
           paragraph={
             "We have the right people with the right skills in the right roles, and we employ a variety of strategies to motivate and retain our workforce and our position as an employer of choice."
           }
           buttonText={"Learn our Culture"}
-          buttonLinks={"/about/human_assets"}
-          mainImage={manandlady}
+          buttonLinks={"/about/life_at_NDWestern"}
+          mainImage={iwd17}
         />
       </div>
 
-      <div className="w-full mb-40">
-        <InstagramFeed token="IGQVJXaml3NXpBVlpwTmNvUDM0ZADYwNUloVnNWdjUzM2FZANGxINU9WN2lCcVNxeGFWb2hmSE5xUmtJczBLUHVVN0dzU1VIUVdtSVpqZA3pCZATIzbXA0Uk9DWVg0RWo0ZAHc3UTlRZAm14U2VOLWFDdFVVWAZDZD" />
+      <div className="w-full my-40 flex items-center justify-center flex-col ">
+        <h1 className="text-bold text-[#47A942] text-4xl mb-16 font-bold text-center">
+          Life at ND Western
+        </h1>
+        <VideoPlayer />
 
-        {/* <InstagramFeed
-          token="IGQVJVNk9MVFpITW43ZADBCSnd3bjVUbGhVUUhZAYXRqd0RnSHpYa1pDdURWYlhZAaXU4dkVTNy1nRnhZAc19HVzlTY1RwT3hDRnB1QlUwelYtMUxSV2ZASa3V0a2ZAKaU9ZAZAThQbW1wb0lJcVlzU3JqMHI2WgZDZD"
-          counter="10"
-        /> */}
+        <div className="flex items-center justify-center mt-8">
+          <Button text={"Take a Tour"} itemlink={"/about/life_at_NDWestern"} />
+        </div>
       </div>
 
       <CSRSection />
+      <div>
+        <ESGComponent />
+      </div>
+      <div className="w-full mb-40">
+        <InstagramFeed
+          title={"Keep up with us on Social Media"}
+          token="IGQVJXaml3NXpBVlpwTmNvUDM0ZADYwNUloVnNWdjUzM2FZANGxINU9WN2lCcVNxeGFWb2hmSE5xUmtJczBLUHVVN0dzU1VIUVdtSVpqZA3pCZATIzbXA0Uk9DWVg0RWo0ZAHc3UTlRZAm14U2VOLWFDdFVVWAZDZD"
+        />
+      </div>
     </div>
   );
 }

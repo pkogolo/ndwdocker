@@ -1,19 +1,39 @@
 import React from "react";
-import chairman from "../images/chairman.jpg";
-import chairman2 from "../images/chairman2.png";
 import FormattedParagraph from "../Components/FormattedParagraph";
 import ListArray from "../Components/ListArray";
-import LargePageButtons from "../Components/LargePageButtons";
-import groupengineers from "../images/groupengineers.jpg";
-import nog from "../images/nog.jpg";
 import SecondaryHeader from "../Components/SecondaryHeader";
 import LowerBanner from "../Components/LowerBanner";
+import image1 from "../images/LIFEATNDW/landw9.jpg";
+import image2 from "../images/LIFEATNDW/landw11.jpg";
+import image4 from "../images/LIFEATNDW/landw12.jpg";
+
+import image3 from "../images/LIFEATNDW/landw6.jpg";
 
 function ViolationsOfEthicalStandards() {
+  const array = [
+    {
+      page: "Life at ND Western",
+      link: "/about/life_at_NDWestern",
+    },
+    { page: "Careers", link: "/careers" },
+    {
+      page: "Ethical Standards",
+      link: "/about/code_of_business_conduct/ethical_standards",
+    },
+    {
+      page: "Violation of Ethical Standards",
+      link: "/about/code_of_business_conduct/violations_of_ethical_standards",
+    },
+    {
+      page: "Our Code of Business Conduct",
+      link: "/about/code_of_business_conduct",
+    },
+    { page: "CSR", link: "/about/csr" },
+  ];
   return (
     <div>
       <SecondaryHeader
-        image={chairman}
+        imageArray={[image1, image4, image2]}
         heading={"Violations of Ethical Standards"}
       />
 
@@ -43,7 +63,7 @@ function ViolationsOfEthicalStandards() {
               "If the Company's investigations determine that this Code has been violated, either directly, by failure to report a violation, or by withholding information related to a violation, the offending Obliged Person may be disciplined for non-compliance with penalties up to and including removal from office or dismissal. Such penalties may include written notices to the individual involved that a violation has been determined, censure by the Human Resources Department, demotion or re-assignment of the individual involved and suspension with or without pay or benefits. /n Violations of this Code may also constitute violations of law and may result in criminal penalties and civil liabilities for the offending Obliged Person and the Company./n All Obliged Persons are expected to cooperate in internal investigations of misconduct. /n Because we cannot anticipate every situation that will arise, it is important that we have a way to approach a new question or problem. These are the steps to keep in mind:"
             }
           />
-          <div className="flex justify-start sm:w-1/2 w-full">
+          <div className="flex justify-start xl:w-3/4 lg:w-3/4 md:w-full w-full">
             <ListArray
               listArray={[
                 "Make sure you have all the facts. In order to reach the right solutions, we must be as informed as possible.",
@@ -58,30 +78,10 @@ function ViolationsOfEthicalStandards() {
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center mt-24 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
-      </div>
-      <div className="flex justify-center my-24">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-10 place-items-center px-40 ">
-          <LargePageButtons
-            text={"Ethical Standards"}
-            image={nog}
-            link={"/about/code_of_business_conduct/ethical_standards"}
-          />
-          <LargePageButtons
-            text={"Violations of Ethical Standards"}
-            image={groupengineers}
-            link={"/about/code_of_business_conduct/violations_of_ethical_standards"}
-          />
-        </div>
-      </div>
 
-      <LowerBanner
-        text={
-          "Our Ethical Standards form the Bedrock on Which we Conduct our Business"
-        }
-        image={chairman2}
-      />
+      <div className="">
+        <LowerBanner linkArray={array} image={image4} />
+      </div>
     </div>
   );
 }

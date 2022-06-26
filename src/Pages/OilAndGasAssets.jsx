@@ -1,36 +1,49 @@
 import React from "react";
-import ProfileComponent from "../Components/ProfileComponent";
 import SecondaryHeader from "../Components/SecondaryHeader";
-import chairman from "../images/chairman2.png";
-import pipes from "../images/pipes.jpg";
-import LargePageButtons from "../Components/LargePageButtons";
-import ebereoji from "../images/ebereoji.jpg";
-import people1 from "../images/people1.jpg";
-import temitope from "../images/temitope.png";
-import oml34 from "../images/oml-34.png";
 import MainCard from "../Components/MainCard";
-import nigerDelta from "../images/nigerDelta.png";
-import towers from "../images/towers.jpg";
-import house from "../images/House.jpg";
 import pipeAsset from "../images/pipe-asset.jpg";
-import edjeba from "../images/edjeba.jpg";
-import drilling from "../images/drilling.png";
 import ugheliEast from "../images/ughelieast.png";
 import ugheliWest from "../images/ugheliWest.png";
-import warriRiver from "../images/warririver.png";
+import operations1 from "../images/OPERATIONS/operations1.jpg";
+import operations2 from "../images/OPERATIONS/operations2.jpg";
+import operations6 from "../images/OPERATIONS/operations6.jpg";
+import operations7 from "../images/OPERATIONS/operations7.jpg";
+
 import OperationsBottomLinks from "../Components/OperationsBottomLinks";
+import LowerBanner from "../Components/LowerBanner";
+import TwoColGrid from "../Components/TwoColGrid";
 
 function OilAndGasAssets() {
+  const array = [
+    {
+      page: "Oil and Gas Assets",
+      link: "/operations/oil_and_gas_assets",
+    },
+    {
+      page: "Non Oil and Gas Assets",
+      link: "/operations/non_oil_and_gas_assets",
+    },
+    {
+      page: "Production",
+      link: "/operations/production",
+    },
+    { page: "Exploration", link: "/operations/exploration" },
+    {
+      page: "OML 34",
+      link: "/operations/our_assets",
+    },
+    { page: "Careers", link: "/careers" },
+  ];
   return (
     <div>
       <SecondaryHeader
-        image={warriRiver}
+        imageArray={[operations7, operations2]}
         heading={"Oil & Gas Assets"}
         greenHeader={true}
       />
 
       <div className="flex items-center flex-col justify-center w-full">
-        <MainCard
+        <TwoColGrid
           showCircles={false}
           title={"Utorogu"}
           mainImage={pipeAsset}
@@ -39,7 +52,7 @@ function OilAndGasAssets() {
           }
           reversed={false}
         />
-        <MainCard
+        <TwoColGrid
           showCircles={false}
           title={"Ughelli East"}
           mainImage={ugheliEast}
@@ -48,7 +61,7 @@ function OilAndGasAssets() {
           }
           reversed={true}
         />
-        <MainCard
+        <TwoColGrid
           showCircles={false}
           title={"Ugheli West"}
           mainImage={ugheliWest}
@@ -57,7 +70,7 @@ function OilAndGasAssets() {
           }
           reversed={false}
         />
-        <MainCard
+        <TwoColGrid
           showCircles={false}
           title={"Warri River"}
           mainImage={ugheliEast}
@@ -67,7 +80,9 @@ function OilAndGasAssets() {
           reversed={true}
         />
       </div>
-      <OperationsBottomLinks />
+      <div className="">
+        <LowerBanner linkArray={array} image={operations6} />
+      </div>
     </div>
   );
 }

@@ -1,7 +1,4 @@
 import React from "react";
-import swirl from "../images/swirls.png";
-import chairman from "../images/chairman.jpg";
-import chairman2 from "../images/chairman2.png";
 import FormattedParagraph from "../Components/FormattedParagraph";
 import ListArray from "../Components/ListArray";
 import LargePageButtons from "../Components/LargePageButtons";
@@ -9,13 +6,39 @@ import groupengineers from "../images/groupengineers.jpg";
 import nog from "../images/nog.jpg";
 import SecondaryHeader from "../Components/SecondaryHeader";
 import LowerBanner from "../Components/LowerBanner";
+import image1 from "../images/ABOUT/about1.jpg";
+import image2 from "../images/ABOUT/about2.jpg";
+import image3 from "../images/ABOUT/about3.jpg";
 
 function EthicalStandards() {
+  const array = [
+    {
+      page: "Life at ND Western",
+      link: "/about/life_at_NDWestern",
+    },
+    { page: "Careers", link: "/careers" },
+    {
+      page: "Ethical Standards",
+      link: "/about/code_of_business_conduct/ethical_standards",
+    },
+    {
+      page: "Violation of Ethical Standards",
+      link: "/about/code_of_business_conduct/violations_of_ethical_standards",
+    },
+    {
+      page: "Our Code of Business Conduct",
+      link: "/about/code_of_business_conduct",
+    },
+    { page: "CSR", link: "/about/csr" },
+  ];
   return (
     <div>
-      <SecondaryHeader image={chairman} heading={"Ethical Standards"} />
+      <SecondaryHeader
+        imageArray={[image1, image2, image3]}
+        heading={"Ethical Standards"}
+      />
 
-      <div className="mt-24 flex items-center flex-col justify-center w-full ">
+      <div className="my-24 flex items-center flex-col justify-center w-full ">
         <div className="sm:w-3/4 w-full flex flex-col items-center">
           {" "}
           <FormattedParagraph
@@ -91,30 +114,10 @@ function EthicalStandards() {
           />
         </div>
       </div>
-      <div className="w-full flex items-center justify-center mt-24 ">
-        <h2 className="w-3/4 text-green text-3xl">Other Links</h2>
+     
+      <div className="">
+        <LowerBanner linkArray={array} image={image2} />
       </div>
-      <div className="flex justify-center my-24">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-10 place-items-center px-40">
-          <LargePageButtons
-            text={"Ethical Standards"}
-            image={nog}
-            link={"/about/code_of_business_conduct/ethical_standards"}
-          />
-          <LargePageButtons
-            text={"Violations of Ethical Standards"}
-            image={groupengineers}
-            link={"/about/code_of_business_conduct/violations_of_ethical_standards"}
-          />
-        </div>
-      </div>
-
-      <LowerBanner
-        text={
-          "Our Ethical Standards form the Bedrock on Which we Conduct our Business"
-        }
-        image={chairman2}
-      />
     </div>
   );
 }

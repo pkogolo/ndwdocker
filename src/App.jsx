@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar";
@@ -10,7 +10,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
 import ScrollToTop from "./Components/ScrollToTop";
 import AboutUs from "./Pages/AboutUs";
-import HSEPage from "./Pages/hsePage";
+import HSEPage from "./Pages/HSEPage";
 import CodeofBusiness from "./Pages/CodeofBusiness";
 import EthicalStandards from "./Pages/EthicalStandards";
 import ViolationsOfEthicalStandards from "./Pages/ViolationsOfEthicalStandards";
@@ -31,9 +31,19 @@ import ESGPage from "./Pages/ESGPage";
 import ESOHS from "./Pages/ESOHS";
 import TrackingEmmissions from "./Pages/TrackingEmmissions";
 import Exploration from "./Pages/Exploration";
+import NewsAndLifeStyle from "./Pages/NewsAndLifeStyle";
+import LifeAtNDW from "./Pages/LifeAtNDW";
+
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 2000);
+  }
 
   return (
     <BrowserRouter>
@@ -83,15 +93,6 @@ function App() {
             <Route path={"/about/human_assets"} exact>
               <HumanAssets />
             </Route>
-            <Route path={"/about/human_assets/board_of_directors"} exact>
-              <BoardOfDirectors />
-            </Route>
-            <Route path={"/about/human_assets/management_team"} exact>
-              <ManagementTeam />
-            </Route>
-            <Route path={"/about/human_assets/our_people"} exact>
-              <OurPeople />
-            </Route>
             <Route path={"/operations"} exact>
               <OperationsPage />
             </Route>
@@ -115,6 +116,12 @@ function App() {
             </Route>
             <Route path={"/contact"} exact>
               <ContactPage />
+            </Route>
+            <Route path={"/NDW_in_the_News"} exact>
+              <NewsAndLifeStyle />
+            </Route>
+            <Route path={"/about/life_at_NDWestern"} exact>
+              <LifeAtNDW />
             </Route>
             <Route path={"/privacy_policy"} exact>
               <PrivacyPolicy />

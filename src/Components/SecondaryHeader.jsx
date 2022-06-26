@@ -1,7 +1,8 @@
 import React from "react";
 import swirl from "../images/swirls.png";
+import Slideshow from "./Slideshow";
 
-function SecondaryHeader({ image, heading, greenHeader }) {
+function SecondaryHeader({ image, imageArray, heading, greenHeader }) {
   return (
     <div>
       <div
@@ -14,7 +15,9 @@ function SecondaryHeader({ image, heading, greenHeader }) {
         <div>
           <h2
             className={
-              !greenHeader ? "lg:text-5xl md:text-4xl text-3xl lg:text-left md:text-center md:leading-loose text-green" : "lg:text-5xl md:text-4xl text-3xl lg:text-left md:text-center md:leading-loose text-white"
+              !greenHeader
+                ? "lg:text-5xl md:text-4xl text-3xl lg:text-left md:text-center md:leading-loose text-green"
+                : "lg:text-5xl md:text-4xl text-3xl lg:text-left md:text-center md:leading-loose text-white"
             }
           >
             {heading}
@@ -26,10 +29,7 @@ function SecondaryHeader({ image, heading, greenHeader }) {
         ></div>
       </div>
 
-      <div
-        style={{ backgroundImage: `url(${image})` }}
-        className="py-60 bg-cover bg-top "
-      ></div>
+      <Slideshow data={imageArray} />
     </div>
   );
 }

@@ -7,7 +7,7 @@ function Popup() {
   return (
     <div className="fixed bottom-0 w-full flex items-center justify-center">
       {open == true && count < 1 ? (
-        <div className=" bg-white w-3/4 p-4">
+        <div className=" bg-[#eeeeee] w-3/4 p-4">
           <p>
             By clicking “Accept all cookies”, you agree to the storing of
             optional cookies on your device to enhance site navigation, analyze

@@ -1,33 +1,54 @@
 import React from "react";
 import HeaderMain from "../Components/HeaderMain";
 import MainCard from "../Components/MainCard";
-import ebereOji from "../images/ebereoji.jpg";
-import ha1 from "../images/hassests1.png";
-import people1 from "../images/people1.jpg";
-import hse from "../images/HSE.png";
+import operations1 from "../images/OPERATIONS/operations1.jpg";
+import operations2 from "../images/OPERATIONS/operations2.jpg";
+import operations3 from "../images/OPERATIONS/operations3.jpg";
+import operations4 from "../images/OPERATIONS/operations4.jpg";
 import pipes from "../images/pipes.jpg";
-import oml34 from "../images/oml-34.png";
+import operations5 from "../images/OPERATIONS/operations5.jpg";
 import towers from "../images/towers.jpg";
-import house from "../images/House.jpg";
-import pipeAsset from "../images/pipe-asset.jpg";
-import edjeba from "../images/edjeba.jpg";
+
+import HeaderTwo from "../Components/HeaderTwo";
+import LowerBanner from "../Components/LowerBanner";
 
 function OperationsPage() {
+  const array = [
+    {
+      page: "Oil and Gas Assets",
+      link: "/operations/oil_and_gas_assets",
+    },
+    {
+      page: "Non Oil and Gas Assets",
+      link: "/operations/non_oil_and_gas_assets",
+    },
+    {
+      page: "production",
+      link: "/operations/production",
+    },
+    { page: "Exploration", link: "/operations/exploration" },
+    {
+      page: "OML 34",
+      link: "/operations/our_assets",
+    },
+    { page: "Careers", link: "/careers" },
+  ];
+
   return (
     <div>
-      <HeaderMain
+      <HeaderTwo
         pageName={"Operations"}
-        title={
+        pageText={
           "Our production facilities contribute immensely to the supply of gas for electricity generation in Nigeria"
         }
-        image={hse}
+        image={operations1}
       />
 
       <div className="mb-40">
         <MainCard
           showCircles={false}
           title={"OML 34"}
-          mainImage={oml34}
+          mainImage={operations2}
           paragraph={
             "OML 34 is located in the Western Niger Delta and covers an area of some 950 square kilometers. The producing fields are Utorogu, Ughelli East, and Ughelli West, with total flowstation capacity of 90 Mbpd. Warri River field was previously a producing field until an imposed shut-in in 1997. The field is expected to return to production."
           }
@@ -42,12 +63,12 @@ function OperationsPage() {
           paragraph={"Our Oil and Gas Assets"}
           buttonText={"Read More"}
           buttonLinks={"/operations/oil_and_gas_assets"}
-          mainImage={pipeAsset}
+          mainImage={operations4}
         />
         <MainCard
           showCircles={false}
           title={"Non Oil & Gas Assets"}
-          mainImage={edjeba}
+          mainImage={operations3}
           paragraph={
             "	The non-oil and gas assets are the Ogunu and Edjeba Estates. They consist of 260 buildings in Edjeba and 142 buildings in Ogunu."
           }
@@ -60,7 +81,7 @@ function OperationsPage() {
           reversed={true}
           title={"Production"}
           paragraph={
-            "Current Production /n • Oil: +/- 17,000 b/d (including condensate) /n • Gas: +/- 390 MMscf/d /n  Aspiration /n Grow Production to: /n • Oil: > 60,000 b/d (including condensate) /n • Gas > 510 MMscf/d."
+            "Current Production /n • Oil: +/- 17,000 b/d (including condensate) /n • Gas: +/- 390 MMscf/d /n "
           }
           buttonText={"Read More"}
           buttonLinks={"/operations/production"}
@@ -72,12 +93,15 @@ function OperationsPage() {
           title={"Exploration"}
           mainImage={pipes}
           paragraph={
-            "ND Western in partnership with NPDC as operator, carry out exploration and exploitation activities in OML 34. /n In meeting today's energy supply challenges, our Asset Team comprises well experienced multi-disciplinary professionals from Geology & Geophysics, Production Technology, Reservoir Engineering, Well Engineering and Facilities Operations & Management for optimized production. This diverse team of Professionals are strategically anchored to provide sound technical expertise to our partners for the growth of the venture."
+            "ND Western in partnership with NPDC as operator, carry out exploration and exploitation activities in OML 34. "
           }
           buttonText={"Read More"}
           buttonLinks={"/operations/exploration"}
           reversed={false}
         />
+      </div>
+      <div className="">
+        <LowerBanner linkArray={array} image={operations5} />
       </div>
     </div>
   );

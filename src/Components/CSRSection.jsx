@@ -39,9 +39,9 @@ function CSRSection() {
   ];
   const breakPoints = [
     { width: 100, itemsToShow: 1.1, itemsToScroll: 1 },
-    { width: 200, itemsToShow: 1.1, itemsToScroll: 2, pagination: false },
+    { width: 200, itemsToShow: 1.1, itemsToScroll: 1, pagination: false },
     { width: 300, itemsToShow: 1.05 },
-    { width: 400, itemsToShow: 1.2, itemsToScroll: 2 },
+    { width: 400, itemsToShow: 1.2, itemsToScroll: 1 },
     { width: 500, itemsToShow: 2.2 },
     { width: 600, itemsToShow: 2.8 },
     { width: 700, itemsToShow: 3.2 },
@@ -70,7 +70,7 @@ function CSRSection() {
         <CustomCursor />
         <Carousel
           itemsToShow={3.5}
-          itemsToScroll={3}
+          itemsToScroll={1}
           showArrows={false}
           showEmptySlots={false}
           easing="ease"

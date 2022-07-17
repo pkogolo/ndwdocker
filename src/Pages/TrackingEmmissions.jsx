@@ -84,9 +84,11 @@ function TrackingEmmissions() {
           reverse={true}
           title={"Scope 1 Direct Emissions "}
           paragraph={
-            "the direct GHG emissions that occur from sources that are owned or controlled by the company, for example, emissions from combustion in owned or controlled boilers, furnaces, vehicles, emissions from chemical production in owned or controlled process equipment. Examples may be:/n combustion in stationary sources (e.g., fuel use in engines or turbines used to compress gases, pump liquids and generate electricity, and fuel use in heaters and boilers)/n– combustion in flares and incinerators./n– combustion in mobile sources (e.g., transportation in motor vehicles and vessels, such as tank trucks and oil tankers)/n – process emissions (e.g., glycol dehydration, acid gas removal/sulphur recovery,hydrogen production, fluid catalytic cracker (FCC) catalyst regeneration)/n– venting emissions (e.g., vessel loading, tank storage and flashing, and venting ofassociated gas)/n– fugitive emissions (e.g., leaks from equipment and piping components); and non-routine events (e.g., gas releases during planned pipeline and equipment maintenance, releases from unplanned events)"
+            "the direct GHG emissions that occur from sources that are owned or controlled by the company, for example, emissions from combustion in owned or controlled boilers, furnaces, vehicles, emissions from chemical production in owned or controlled process equipment. Examples may be:/n combustion in stationary sources (e.g., fuel use in engines or turbines used to compress gases, pump liquids and generate electricity, and fuel use in heaters and boilers)/n– combustion in flares and incinerators./n– combustion in mobile sources (e.g., transportation in motor vehicles and vessels, such as tank trucks and oil tankers)/n"
           }
         />
+
+{/* – process emissions (e.g., glycol dehydration, acid gas removal/sulphur recovery,hydrogen production, fluid catalytic cracker (FCC) catalyst regeneration)/n– venting emissions (e.g., vessel loading, tank storage and flashing, and venting ofassociated gas)/n– fugitive emissions (e.g., leaks from equipment and piping components); and non-routine events (e.g., gas releases during planned pipeline and equipment maintenance, releases from unplanned events)" */}
 
         <TwoColGrid
           mainImage={image8}

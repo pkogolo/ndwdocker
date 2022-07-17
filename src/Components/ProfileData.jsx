@@ -41,6 +41,15 @@ export let BODdata = [
   },
 
   {
+    image: ademola,
+    name: "Ademola Adeyemi-Bero",
+    position: "Director",
+    text: "Ademola is a seasoned E&P professional spanning over 25 years of experience in the petroleum industry working in Shell International and BG Group and has just recently taken up the role of Managing Director and CEO of FIRST Exploration & Petroleum Development Company Limited.",
+    fullText:
+      "Ademola is a seasoned E&P professional spanning over 25 years of experience in the petroleum industry working in Shell International and BG Group and has just recently taken up the role of Managing Director and CEO of FIRST Exploration & Petroleum Development Company Limited./n  Over the years, Ademola has acquired deep knowledge and excellent understanding of various aspects of the oil and gas business in a variety of roles, culminating as Business Director of Shell's Nigeria Joint Venture (SPDC JV) where he was responsible for the business growth and joint venture management functions of the company, VP New Business, Africa within Shell International E&P, responsible for portfolio growth in Africa as well as General & Asset Management and Chief Technical roles across a number of countries./n He is widely travelled and has a sound understanding of the Nigerian oil and gas business environment.",
+  },
+
+  {
     image: abdul,
     name: "Abdulrazaq Isa",
     position: "Director",
@@ -48,13 +57,31 @@ export let BODdata = [
     fullText:
       "Abdulrazaq Isa is a Co-Founder and Chairman/CEO of Waltersmith Petroman Oil Limited an Indigenous Nigerian Independent oil and gas producing company which operates the Ibigwe field in Oil Mining Lease 16 located in Imo State Nigeria./nUnder Abdulrazaq's leadership, WALTERSMITH commenced commercial export from the field in 2008 and in 2011 participated in the consortium that acquired Shell/Total/Agip 45% interest in OML 34./n With over 30 years professional experience as a Banker and Entrepreneur, Abdulrazaq has interests in financial services and the oil and gas industry in Nigeria. He is an Alumnus of Ahmadu Bello University Zaria, Nigeria and The Lee Kuan Yew School of Public Policy at the National University of Singapore.",
   },
+
   {
-    image: ademola,
-    name: "Ademola Adeyemi-Bero",
+    image: thiery,
+    name: "Mr. Thierry Georger",
     position: "Director",
-    text: "Ademola is a seasoned E&P professional spanning over 25 years of experience in the petroleum industry working in Shell International and BG Group and has just recently taken up the role of Managing Director and CEO of FIRST Exploration & Petroleum Development Company Limited.",
+    text: "Mr. Georger joined the Petrolin Group (Switzerland) in 1995 and is responsible for all crude oil trading activities, including the sale of crude oil cargoes (approx. 60,000 barrels per day) from West Africa and the Far East.",
     fullText:
-      "Ademola is a seasoned E&P professional spanning over 25 years of experience in the petroleum industry working in Shell International and BG Group and has just recently taken up the role of Managing Director and CEO of FIRST Exploration & Petroleum Development Company Limited./n  Over the years, Ademola has acquired deep knowledge and excellent understanding of various aspects of the oil and gas business in a variety of roles, culminating as Business Director of Shell's Nigeria Joint Venture (SPDC JV) where he was responsible for the business growth and joint venture management functions of the company, VP New Business, Africa within Shell International E&P, responsible for portfolio growth in Africa as well as General & Asset Management and Chief Technical roles across a number of countries./n He is widely travelled and has a sound understanding of the Nigerian oil and gas business environment.",
+      "Mr. Georger joined the Petrolin Group (Switzerland) in 1995 and is responsible for all crude oil trading activities, including the sale of crude oil cargoes (approx. 60,000 barrels per day) from West Africa and the Far East./n He is also responsible for operations on spot and short-term contracts, in varied regions, including West Africa, Russia, the Middle East, Asia, South America and Egypt. Reporting directly to the Chief Executive Officer, he is responsible for all aspects of contracts including negotiation, credit exposure, legal requirements, logistics and freight, sale and pricing mechanics./n Mr Georger has a Masters Degree in Commercial and Industrial Sciences from the University of Geneva, Switzerland.",
+  },
+
+  {
+    image: davidHarris,
+    name: "David Harris",
+    position: "Director",
+    text: "David Harris is a British citizen and currently resides in Cornwall, England. He is one of Petrolin's nominated directors to the board of ND Western Ltd.",
+    fullText:
+      "David Harris is a British citizen and currently resides in Cornwall, England. He is one of Petrolin's nominated directors to the board of ND Western Ltd./n Previously, David was Director of Corporate Affairs at Petrolin. He joined Petrolin on a permanent basis in November 2012 having previously provided advice to Petrolin since 1997 on an external basis./n Prior to joining Petrolin, David was a director of a large financial advisory firm for 19 years and before that a director of Coopers & Lybrand (now PWC)./n  His areas of expertise are a broad knowledge of commercial, legal, and accounting matters and a deep understanding of multi-jurisdictional transactions./n  He is Deputy Leader of Cornwall Council (effectively the Governing Body of a State) and is Cabinet Member for Resources with overall responsibility for an annual revenue budget of £1.2billion and a Capital Programme in excess of £1.5 billion./n He is a non-executive director of Monocon International Refractories in England which is primarily dedicated to the development and manufacturing of innovative products for steel makers around the world. ",
+  },
+  {
+    image: falade,
+    name: "Mr 'Gbite Falade",
+    position: "CEO/MD NDEP",
+    text: "Eberechukwu Oji joined ND Western as Managing Director/Chief Executive Offier (MD/CEO) in March 2020. He has over 25 years’ experience in the Oil and Gas sector. /n A Fellow of the Nigerian Society of Engineers and a Chattered Engineer with The Council for the Regulation of Engineering in Nigeria, COREN armed with a Master’s in Business Administration (MBA) Warwick University, UK, a Masters in Technology (MTech) Petroleum Engineering, Curtin University, Australia, a Masters in Engineering (MEng) Electrical & Electronics Engineering and a Bachelors in Engineering (BEng) Electrical & Electronics Engineering from Universities of Benin and Federal University of Technology Owerri respectively.",
+    fullText:
+      "Mr. ‘Gbite Falade is a First Class (B.S.c) graduate (1995) of Electrical & Electronics Engineering from the University of Ibadan, he also holds an MBA from Warwick Business School, Coventry, in the United Kingdom. Mr. Falade has in the past 14 years served in various Senior Executive positions in the Oil & Gas, Power and Services sectors, with responsibilities for Engineering, Operations, Project Execution, Commercial, Client & Stakeholder Management, Strategy and Enterprise Development. /nHe was previously the Managing Director and Group Chief Operating Officer at Oilserv Group of Companies, based in Port Harcourt. Prior to that, he had served variously as General Manager, Portfolio Development and Chief Operating Officer (COO) at Oando Energy Resources as well as Executive Director, Oando Gas & Power. He was also the Petroleum Economics Discipline & Portfolio Lead for Shell EP, Africa.",
   },
 
   {
@@ -65,21 +92,14 @@ export let BODdata = [
     fullText:
       "Titi Omisore graduated with a BA (Political Science), and an LLB from the University of Illinois, Champaign Urbana, and the University of Buckingham respectively. She thereafter, obtained her BL from the Nigerian Law School./n She started her working career with Strachan Partners in 1993. In 1999 she attended Kings College, University of London where she obtained a Master's degree in Tax Law. Ms. Omisore returned to Strachan Partners where she was made a Partner, before joining Niger Delta Exploration and Production Plc in 2001. She is currently the company secretary and Group Legal Adviser for Niger Delta Exploration & Production Plc.",
   },
+
   {
-    image: thiery,
-    name: "Mr. Thierry Georger",
-    position: "Director",
-    text: "Mr. Georger joined the Petrolin Group (Switzerland) in 1995 and is responsible for all crude oil trading activities, including the sale of crude oil cargoes (approx. 60,000 barrels per day) from West Africa and the Far East.",
+    image: ebenezerAgeh,
+    name: "Mr. Ebenezer Ageh",
+    position: "Chief Technical Officer (CTO)",
+    text: "Mr. Ageh has over 25 years of experience with a proven record of accomplishments in deep water production operations in the U.S. Gulf of Mexico (Mars Basin), Offshore West Africa (Bonga Main Development, Bonga North Project &amp; EA), and Onshore Assets in Nigeria. During this time, he managed various production engineering projects for Shell across the globe and championed LEAN initiatives in Shell Operations in Sub Saharan Africa.",
     fullText:
-      "Mr. Georger joined the Petrolin Group (Switzerland) in 1995 and is responsible for all crude oil trading activities, including the sale of crude oil cargoes (approx. 60,000 barrels per day) from West Africa and the Far East./n He is also responsible for operations on spot and short-term contracts, in varied regions, including West Africa, Russia, the Middle East, Asia, South America and Egypt. Reporting directly to the Chief Executive Officer, he is responsible for all aspects of contracts including negotiation, credit exposure, legal requirements, logistics and freight, sale and pricing mechanics./n Mr Georger has a Masters Degree in Commercial and Industrial Sciences from the University of Geneva, Switzerland.",
-  },
-  {
-    image: davidHarris,
-    name: "David Harris",
-    position: "Director",
-    text: "David Harris is a British citizen and currently resides in Cornwall, England. He is one of Petrolin's nominated directors to the board of ND Western Ltd.",
-    fullText:
-      "David Harris is a British citizen and currently resides in Cornwall, England. He is one of Petrolin's nominated directors to the board of ND Western Ltd./n Previously, David was Director of Corporate Affairs at Petrolin. He joined Petrolin on a permanent basis in November 2012 having previously provided advice to Petrolin since 1997 on an external basis./n Prior to joining Petrolin, David was a director of a large financial advisory firm for 19 years and before that a director of Coopers & Lybrand (now PWC)./n  His areas of expertise are a broad knowledge of commercial, legal, and accounting matters and a deep understanding of multi-jurisdictional transactions./n  He is Deputy Leader of Cornwall Council (effectively the Governing Body of a State) and is Cabinet Member for Resources with overall responsibility for an annual revenue budget of £1.2billion and a Capital Programme in excess of £1.5 billion./n He is a non-executive director of Monocon International Refractories in England which is primarily dedicated to the development and manufacturing of innovative products for steel makers around the world. ",
+      "Mr. Ageh has over 25 years of experience with a proven record of accomplishments in deep water production operations in the U.S. Gulf of Mexico (Mars Basin), Offshore West Africa (Bonga Main Development, Bonga North Project & EA), and Onshore Assets in Nigeria. During this time, he managed various production engineering projects for Shell across the globe and championed LEAN initiatives in Shell Operations in Sub Saharan Africa./n He is a PhD holder in Leadership from the Dallas Baptist University, Texas, USA. He also holds Bachelors (B.Eng.) and a Master of Science (M.sc) in Chemical Engineering from Ahmadu Bello University, Zaria, Nigeria and has attended various executive management programs at Harvard Business School, IMD Business School, and the London Management Centre.",
   },
 ];
 
@@ -92,14 +112,7 @@ export const ExecManData = [
     fullText:
       "Eberechukwu Oji joined ND Western as Managing Director/Chief Executive Offier (MD/CEO) in March 2020. He has over 25 years’ experience in the Oil and Gas sector. A Fellow of the Nigerian Society of Engineers and a Chattered Engineer with The Council for the Regulation of Engineering in Nigeria, COREN armed with a Master’s in Business Administration (MBA) Warwick University, UK, a Masters in Technology (MTech) Petroleum Engineering, Curtin University, Australia, a Masters in Engineering (MEng) Electrical & Electronics Engineering and a Bachelors in Engineering (BEng) Electrical & Electronics Engineering from Universities of Benin and Federal University of Technology Owerri respectively. /nPrior to joining ND Western, his Fields of experience included: /n  • Exploration and Production Oil and Gas accountability from Reservoir to Export Point operations as Chief Operating Officer (COO), Neconde Energy Limited./n • Upstream and Midstream Oil & Gas Senior executive leadership, Operations Management of Nigerian Liquefied Natural Gas (NLNG) plant accountable for the 6 Train Operations./n  • Regional Discipline Manager for Maintenance for Shell Companies in Nigeria and Gabon./n • Asset Manager for SPDC Central Hub Asset with over 1.2bscf/d of gas production and 50kbopd oil producing facilities. /n • Major Project Management as Operations Readiness Lead for Offshore, Maintenance, HSE and Logistics in Kashagan Project, Kazakhstan. /n• Global Field Development Consultant with significant front-end field development experience with projects in the Netherlands, UK, Norway, Singapore, Australia, United States, Bangalore etc./n His fields of experience cover: Major Projects delivery, Front-end Field Development, Field Operations, Facility Maintenance, Well Intervention, Gas plant operations, Compressor station operations, Asset Management, New Business Development, Country Entry, Commercial Deal negotiation, Community Relations management, Government Relations management amongst others.",
   },
-  // {
-  //   image: falade,
-  //   name: "Mr 'Gbite Falade",
-  //   position: "CEO/MD NDEP",
-  //   text: "Eberechukwu Oji joined ND Western as Managing Director/Chief Executive Offier (MD/CEO) in March 2020. He has over 25 years’ experience in the Oil and Gas sector. /n A Fellow of the Nigerian Society of Engineers and a Chattered Engineer with The Council for the Regulation of Engineering in Nigeria, COREN armed with a Master’s in Business Administration (MBA) Warwick University, UK, a Masters in Technology (MTech) Petroleum Engineering, Curtin University, Australia, a Masters in Engineering (MEng) Electrical & Electronics Engineering and a Bachelors in Engineering (BEng) Electrical & Electronics Engineering from Universities of Benin and Federal University of Technology Owerri respectively.",
-  //   fullText:
-  //     "Mr. ‘Gbite Falade is a First Class (B.S.c) graduate (1995) of Electrical & Electronics Engineering from the University of Ibadan, he also holds an MBA from Warwick Business School, Coventry, in the United Kingdom. Mr. Falade has in the past 14 years served in various Senior Executive positions in the Oil & Gas, Power and Services sectors, with responsibilities for Engineering, Operations, Project Execution, Commercial, Client & Stakeholder Management, Strategy and Enterprise Development. /nHe was previously the Managing Director and Group Chief Operating Officer at Oilserv Group of Companies, based in Port Harcourt. Prior to that, he had served variously as General Manager, Portfolio Development and Chief Operating Officer (COO) at Oando Energy Resources as well as Executive Director, Oando Gas & Power. He was also the Petroleum Economics Discipline & Portfolio Lead for Shell EP, Africa.",
-  // },
+
   {
     image: cooPose,
     name: "Edirin James Abamwa",
@@ -108,6 +121,7 @@ export const ExecManData = [
     fullText:
       "Edirin is a Reservoir and Software Engineer with some 32 years of practical experience. He graduated with a B.Sc. in Electrical Engineering (1977) from the University of Lagos and began his oil field career with Schlumberger in 1978 as a Wireline Logging Engineer./n  He joined Shell (Nigeria) in 1980 where over 20 years he acquired rich, practical oil field experiences spanning reserves estimation and administration; field development design, planning and execution; petroleum economics; field operations optimization and production analytics as well as data management and corporate information planning./n  He was pioneer Head of Field Development (2000) of Niger Delta Petroleum Resources Limited responsible for early development of the Ogbele Field, overseeing it through to first oil production in November 2005./n Edirin taught petrophysics and computing at the Shell Intensive Training Program (SITP) for graduate engineers and geoscientists (2000 – 2003) and also taught the reservoir engineering module of Shell's EP00 training program for staff./n He is a member of the Nigeria Society of Engineers, the Society of Petroleum Engineers International as well as ACM – American Computing Machinery; a US based professional society for computer scientists and engineers.",
   },
+
   {
     image: azfar,
     name: "Azfar Hussain",
@@ -116,7 +130,7 @@ export const ExecManData = [
     fullText:
       "Azfar Hussain joined ND Western in January 2020./n  As Chief Financial Officer (CFO) he is responsible for Finance and Commercial strategy of the company. With over 20 years’ experience in leadership roles successfully leading capital raising at various life-cycle stages, investments and joint venture transactions. His career has spanned across multiple sectors including Energy, Infrastructure and Technology.",
   },
-  
+
   {
     image: james,
     name: "James Okoro",
@@ -142,7 +156,7 @@ export const mgmtTeamData = [
     position: "Head, Geology and Geophysics",
     text: "Adeyemi graduated from the University of Ife (now Obafemi Awolowo University) Ile-Ife with a B.Sc (geology) in 1980. He started his professional career with Shell Petroleum Development Company of Nigeria (SPDC) as a geologist.",
     fullText:
-      "Eberechukwu Oji joined ND Western as Managing Director/Chief Executive Offier (MD/CEO) in March 2020. He has over 25 years’ experience in the Oil and Gas sector. A Fellow of the Nigerian Society of Engineers and a Chattered Engineer with The Council for the Regulation of Engineering in Nigeria, COREN armed with a Master’s in Business Administration (MBA) Warwick University, UK, a Masters in Technology (MTech) Petroleum Engineering, Curtin University, Australia, a Masters in Engineering (MEng) Electrical & Electronics Engineering and a Bachelors in Engineering (BEng) Electrical & Electronics Engineering from Universities of Benin and Federal University of Technology Owerri respectively. /nPrior to joining ND Western, his Fields of experience included: /n  • Exploration and Production Oil and Gas accountability from Reservoir to Export Point operations as Chief Operating Officer (COO), Neconde Energy Limited./n • Upstream and Midstream Oil & Gas Senior executive leadership, Operations Management of Nigerian Liquefied Natural Gas (NLNG) plant accountable for the 6 Train Operations./n  • Regional Discipline Manager for Maintenance for Shell Companies in Nigeria and Gabon./n • Asset Manager for SPDC Central Hub Asset with over 1.2bscf/d of gas production and 50kbopd oil producing facilities. /n • Major Project Management as Operations Readiness Lead for Offshore, Maintenance, HSE and Logistics in Kashagan Project, Kazakhstan. /n• Global Field Development Consultant with significant front-end field development experience with projects in the Netherlands, UK, Norway, Singapore, Australia, United States, Bangalore etc./n His fields of experience cover: Major Projects delivery, Front-end Field Development, Field Operations, Facility Maintenance, Well Intervention, Gas plant operations, Compressor station operations, Asset Management, New Business Development, Country Entry, Commercial Deal negotiation, Community Relations management, Government Relations management amongst others.",
+      "Adeyemi graduated from the University of Ife (now Obafemi Awolowo University) Ile-Ife with a B.Sc (geology) in 1980. He started his professional career with Shell Petroleum Development Company of Nigeria (SPDC) as a geologist./n After a 5 year stint in Shell, he joined Geotrex Systems Ltd, the first petroleum E&P consulting outfit in Nigeria as one of its pioneering staff. He rose to the post of Vice President and a Director before leaving for Mobil Producing Nigeria Unlimited (MPN)./n At MPN, Yemi worked in the Exploration, Production and Venture Relations arms of the company. He was a Lead Geologist and then an Asset Team Coordinator (ATC). As an ATC, he led his team to move the production of their asset from 44Kbopd to 115Kbopd within two years, upturning the established peak production of the asset at 90Kbopd by the application of diverse innovations. During this period, he pioneered the proposal and ultimate drilling of horizontal wells with the longest lateral section of 4000ft, in ExxonMobil organization./n He is a member of NMGS, NAPE, SEG and NIM. He is married with children.",
   },
   {
     image: oladele,

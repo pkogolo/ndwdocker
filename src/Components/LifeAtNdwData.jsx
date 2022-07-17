@@ -10,10 +10,26 @@ import IWD7 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd7.jpg";
 import IWD8 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd8.jpg";
 import IWD9 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd9.jpg";
 import IWD10 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd10.jpg";
+import IWD11 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd11.jpg";
+import IWD14 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd14.jpg";
+import IWD16 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd16.jpg";
 import IWD15 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd15.jpg";
 import IWD12 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd12.jpg";
 import IWD13 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd13.jpg";
 import IWD21 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd21.jpg";
+import IWD43 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd43.jpg";
+import IWD44 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd44.jpg";
+import IWD45 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd45.jpg";
+import IWD46 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd46.jpg";
+import IWD47 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd47.jpg";
+import IWD48 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd48.jpg";
+import IWD49 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd49.jpeg";
+import IWD50 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd50.jpeg";
+import IWD51 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd51.jpeg";
+import IWD52 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd52.jpeg";
+import IWD53 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd53.jpeg";
+import IWD54 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd54.jpeg";
+import IWD55 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd55.jpeg";
 import talent1 from "../images/NEWSANDLIFESTYLE/TALENTS/talent1.jpg";
 import talent2 from "../images/NEWSANDLIFESTYLE/TALENTS/talent2.jpg";
 import talent3 from "../images/NEWSANDLIFESTYLE/TALENTS/talent3.jpg";
@@ -60,7 +76,29 @@ import outing42 from "../images/NEWSANDLIFESTYLE/OUTINGS/outing42.jpg";
 import outing45 from "../images/NEWSANDLIFESTYLE/OUTINGS/outing45.jpeg";
 import outing49 from "../images/NEWSANDLIFESTYLE/OUTINGS/outing49.jpg";
 
-export const IDWArray = [IWD3, IWD4, IWD6, IWD12, IWD13, IWD21, IWD15];
+export const IDWArray = [
+  IWD3,
+  IWD4,
+  IWD12,
+  IWD13,
+  IWD21,
+  IWD5,
+  IWD7,
+  IWD9,
+  IWD10,
+  IWD11,
+  IWD14,
+  IWD43,
+  IWD45,
+  IWD46,
+  IWD47,
+  IWD48,
+  IWD49,
+  IWD50,
+  IWD51,
+  IWD52,
+  IWD53,
+];
 export const talentArray = [
   talent5,
   talent6,

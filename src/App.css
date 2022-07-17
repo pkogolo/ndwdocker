@@ -27,10 +27,10 @@ h1 {
 }
 
 .button:hover .cursor {
-  transform: scale(20);
+  transform: scale(1);
 }
 .card:hover .cursor {
-  transform: scale(20);
+  transform: scale(1);
 }
 /* .card:hover .cursor::before {
   content: "Joe's Task: ";

@@ -26,7 +26,7 @@ function NewsAndLifeStyle() {
   const array = [
     {
       page: "Life at NDWestern",
-      link: "/life_at_NDWestern",
+      link: "/about/life_at_NDWestern",
     },
     {
       page: "Contact us",

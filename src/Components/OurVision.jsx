@@ -34,7 +34,7 @@ function OurVision() {
         <Lottie options={defaultOptions} height={600} width={600} />
       </div>
       <div className="hidden lg:hidden md:grid sm:hidden">
-        <Lottie options={defaultOptions} height={400} width={600} />
+        <Lottie options={defaultOptions} height={400} width={500} />
       </div>
       <div className="grid lg:hidden md:hidden sm:grid">
         <Lottie options={defaultOptions} height={400} width={300} />

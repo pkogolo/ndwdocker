@@ -85,7 +85,7 @@ function Home() {
         bottomImage={manwithBook}
       />
 
-      <div ref={(el) => (visionBox = el)} className="p-12">
+      <div ref={(el) => (visionBox = el)} className="">
         <OurVision />
       </div>
 

@@ -21,7 +21,7 @@ function InstagramFeed({ token, title }) {
 
   useEffect(() => {
     getFeed();
-  }, []);
+  },);
 
   const breakPoints = [
     { width: 100, itemsToShow: 1.1, itemsToScroll: 1 },

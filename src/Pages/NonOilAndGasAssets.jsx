@@ -65,16 +65,17 @@ function NonOilAndGasAssets() {
         <TwoColGrid
           title={"Edjeba Estate"}
           paragraph={
-            "The facilities in Edjeba include the following:/n  333 Service Apartment /n  17 High rises/office complex /n Gym center /n  Football field /n  Children playground /n  Multi-Purpose Hall /n Activity Centre /n Bank /n School /n Squash hall /n  Volley Court"
+            "The facilities in Edjeba include the following:/n A 333 Service Apartment,  17 High rises/office complex, a Gym center,  Football field, Children's playground,  Multi-Purpose Hall, Activity Centre, Bank, School, Squash hall,  and a Volley Court"
           }
           mainImage={ogunu}
         />
         <TwoColGrid
           title={"Ogunu Estate"}
           paragraph={
-            "TThe facilities in Ogunu include the following: /n 142 Service Apartment /n Olympic-size swimming pool /n Management Guest House (Forcados 1 &amp; 2) /n Medical Laboratory Center /n School /n Supermarket /n Gym center /n Children Playground /n Football pitch /n Hockey pitch /n Long tennis Court"
+            "The facilities in Ogunu include the following:/n, A 142 Service Apartment, an olympic-sized swimming pool,  a management guest house (Forcados 1 & 2), a Medical Laboratory Center,  a School, Supermarket, Gym center, Children's Playground, Football pitch, Hockey pitch,  and a Long tennis Court"
           }
           mainImage={edjeba}
+          reversed={true}
         />
       </div>
       <div className="">

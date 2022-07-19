@@ -25,15 +25,15 @@ import sunday from "../images/sunday.png";
 export let BODdata = [
   {
     image: hasset1,
-    name: "Mr. Samuel Dossou-Aworet",
+    name: "Mr Samuel Dossou-Aworet",
     position: "Chairman",
-    text: "Mr. Dossou-Aworet is an Advisor and Strategic Partner to several oil companies (Tullow Oil, Afren, Surestream in England, Hess in the US, Engen in South Africa, NDEP in Nigeria, etc…)./n Mr. Dossou-Aworet has over 40 years experience in the petroleum industry and holds engineering degrees from reputable European universities. He is a highly respected businessman who, since the early 1990s, has played an active role in negotiating numerous oil deals.",
+    text: "Mr Dossou-Aworet is an Advisor and Strategic Partner to several oil companies (Tullow Oil, Afren, Surestream in England, Hess in the US, Engen in South Africa, NDEP in Nigeria, etc…)./n Mr Dossou-Aworet has over 40 years experience in the petroleum industry and holds engineering degrees from reputable European universities. He is a highly respected businessman who, since the early 1990s, has played an active role in negotiating numerous oil deals.",
     fullText:
-      "Mr. Samuel Dossou-Aworet is the Founder of the Petrolin Group of companies and is the Group Chairman and CEO./n Mr. Dossou-Aworet is an Advisor and Strategic Partner to several oil companies (Tullow Oil, Afren, Surestream in England, Hess in the US, Engen in South Africa, NDEP in Nigeria, etc…) /n Mr. Dossou-Aworet has over 40 years experience in the petroleum industry and holds engineering degrees from reputable European universities. He is a highly respected businessman who, since the early 1990s, has played an active role in negotiating numerous oil deals./n Throughout his dynamic career, Mr. Dossou Aworet has been entrusted with high level positions. He has served twice as Chairman of the OPEC Board of Governors./n He is Executive Vice President of African Business Round Table (ABR) and President of ABR International Chapter. He is a Founding member of the Geneva Petroleum Club./n He is Honorary Chairman of several cultural, social and humanitarian associations.",
+      "Mr Samuel Dossou-Aworet is the Founder of the Petrolin Group of companies and is the Group Chairman and CEO./n Mr Dossou-Aworet is an Advisor and Strategic Partner to several oil companies (Tullow Oil, Afren, Surestream in England, Hess in the US, Engen in South Africa, NDEP in Nigeria, etc…) /n Mr Dossou-Aworet has over 40 years experience in the petroleum industry and holds engineering degrees from reputable European universities. He is a highly respected businessman who, since the early 1990s, has played an active role in negotiating numerous oil deals./n Throughout his dynamic career, Mr Dossou Aworet has been entrusted with high level positions. He has served twice as Chairman of the OPEC Board of Governors./n He is Executive Vice President of African Business Round Table (ABR) and President of ABR International Chapter. He is a Founding member of the Geneva Petroleum Club./n He is Honorary Chairman of several cultural, social and humanitarian associations.",
   },
   {
     image: drFatona,
-    name: "Dr. Layi Fatona",
+    name: "Dr Layi Fatona",
     position: "Executive Vice Chairman",
     text: "Layi Fatona is a Petroleum Geologist with more than forty years of oil industry experience. He graduated with a Bachelor of Science Degree in Geology at the University of Ibadan (Nigeria) in 1973 and obtained both the Masters of Science and Doctorate degrees in Petroleum Geology and Sedimentology from the Royal School of Mines, Imperial College of Science, Technology and Medicine, University of London.",
     fullText:
@@ -60,11 +60,11 @@ export let BODdata = [
 
   {
     image: thiery,
-    name: "Mr. Thierry Georger",
+    name: "Mr Thierry Georger",
     position: "Director",
-    text: "Mr. Georger joined the Petrolin Group (Switzerland) in 1995 and is responsible for all crude oil trading activities, including the sale of crude oil cargoes (approx. 60,000 barrels per day) from West Africa and the Far East.",
+    text: "Mr Georger joined the Petrolin Group (Switzerland) in 1995 and is responsible for all crude oil trading activities, including the sale of crude oil cargoes (approx. 60,000 barrels per day) from West Africa and the Far East.",
     fullText:
-      "Mr. Georger joined the Petrolin Group (Switzerland) in 1995 and is responsible for all crude oil trading activities, including the sale of crude oil cargoes (approx. 60,000 barrels per day) from West Africa and the Far East./n He is also responsible for operations on spot and short-term contracts, in varied regions, including West Africa, Russia, the Middle East, Asia, South America and Egypt. Reporting directly to the Chief Executive Officer, he is responsible for all aspects of contracts including negotiation, credit exposure, legal requirements, logistics and freight, sale and pricing mechanics./n Mr Georger has a Masters Degree in Commercial and Industrial Sciences from the University of Geneva, Switzerland.",
+      "Mr Georger joined the Petrolin Group (Switzerland) in 1995 and is responsible for all crude oil trading activities, including the sale of crude oil cargoes (approx. 60,000 barrels per day) from West Africa and the Far East./n He is also responsible for operations on spot and short-term contracts, in varied regions, including West Africa, Russia, the Middle East, Asia, South America and Egypt. Reporting directly to the Chief Executive Officer, he is responsible for all aspects of contracts including negotiation, credit exposure, legal requirements, logistics and freight, sale and pricing mechanics./n Mr Georger has a Masters Degree in Commercial and Industrial Sciences from the University of Geneva, Switzerland.",
   },
 
   {
@@ -77,11 +77,11 @@ export let BODdata = [
   },
   {
     image: falade,
-    name: "Mr 'Gbite Falade",
+    name: "Mr Adegbite Falade",
     position: "CEO/MD NDEP",
     text: "Eberechukwu Oji joined ND Western as Managing Director/Chief Executive Offier (MD/CEO) in March 2020. He has over 25 years’ experience in the Oil and Gas sector. /n A Fellow of the Nigerian Society of Engineers and a Chattered Engineer with The Council for the Regulation of Engineering in Nigeria, COREN armed with a Master’s in Business Administration (MBA) Warwick University, UK, a Masters in Technology (MTech) Petroleum Engineering, Curtin University, Australia, a Masters in Engineering (MEng) Electrical & Electronics Engineering and a Bachelors in Engineering (BEng) Electrical & Electronics Engineering from Universities of Benin and Federal University of Technology Owerri respectively.",
     fullText:
-      "Mr. ‘Gbite Falade is a First Class (B.S.c) graduate (1995) of Electrical & Electronics Engineering from the University of Ibadan, he also holds an MBA from Warwick Business School, Coventry, in the United Kingdom. Mr. Falade has in the past 14 years served in various Senior Executive positions in the Oil & Gas, Power and Services sectors, with responsibilities for Engineering, Operations, Project Execution, Commercial, Client & Stakeholder Management, Strategy and Enterprise Development. /nHe was previously the Managing Director and Group Chief Operating Officer at Oilserv Group of Companies, based in Port Harcourt. Prior to that, he had served variously as General Manager, Portfolio Development and Chief Operating Officer (COO) at Oando Energy Resources as well as Executive Director, Oando Gas & Power. He was also the Petroleum Economics Discipline & Portfolio Lead for Shell EP, Africa.",
+      "Mr Adegbite Falade is a First Class (B.S.c) graduate (1995) of Electrical & Electronics Engineering from the University of Ibadan, he also holds an MBA from Warwick Business School, Coventry, in the United Kingdom. Mr Falade has in the past 14 years served in various Senior Executive positions in the Oil & Gas, Power and Services sectors, with responsibilities for Engineering, Operations, Project Execution, Commercial, Client & Stakeholder Management, Strategy and Enterprise Development. /nHe was previously the Managing Director and Group Chief Operating Officer at Oilserv Group of Companies, based in Port Harcourt. Prior to that, he had served variously as General Manager, Portfolio Development and Chief Operating Officer (COO) at Oando Energy Resources as well as Executive Director, Oando Gas & Power. He was also the Petroleum Economics Discipline & Portfolio Lead for Shell EP, Africa.",
   },
 
   {
@@ -95,11 +95,11 @@ export let BODdata = [
 
   {
     image: ebenezerAgeh,
-    name: "Mr. Ebenezer Ageh",
+    name: "Mr Ebenezer Ageh",
     position: "Chief Technical Officer (CTO)",
-    text: "Mr. Ageh has over 25 years of experience with a proven record of accomplishments in deep water production operations in the U.S. Gulf of Mexico (Mars Basin), Offshore West Africa (Bonga Main Development, Bonga North Project &amp; EA), and Onshore Assets in Nigeria. During this time, he managed various production engineering projects for Shell across the globe and championed LEAN initiatives in Shell Operations in Sub Saharan Africa.",
+    text: "Mr Ageh has over 25 years of experience with a proven record of accomplishments in deep water production operations in the U.S. Gulf of Mexico (Mars Basin), Offshore West Africa (Bonga Main Development, Bonga North Project &amp; EA), and Onshore Assets in Nigeria. During this time, he managed various production engineering projects for Shell across the globe and championed LEAN initiatives in Shell Operations in Sub Saharan Africa.",
     fullText:
-      "Mr. Ageh has over 25 years of experience with a proven record of accomplishments in deep water production operations in the U.S. Gulf of Mexico (Mars Basin), Offshore West Africa (Bonga Main Development, Bonga North Project & EA), and Onshore Assets in Nigeria. During this time, he managed various production engineering projects for Shell across the globe and championed LEAN initiatives in Shell Operations in Sub Saharan Africa./n He is a PhD holder in Leadership from the Dallas Baptist University, Texas, USA. He also holds Bachelors (B.Eng.) and a Master of Science (M.sc) in Chemical Engineering from Ahmadu Bello University, Zaria, Nigeria and has attended various executive management programs at Harvard Business School, IMD Business School, and the London Management Centre.",
+      "Mr Ageh has over 25 years of experience with a proven record of accomplishments in deep water production operations in the U.S. Gulf of Mexico (Mars Basin), Offshore West Africa (Bonga Main Development, Bonga North Project & EA), and Onshore Assets in Nigeria. During this time, he managed various production engineering projects for Shell across the globe and championed LEAN initiatives in Shell Operations in Sub Saharan Africa./n He is a PhD holder in Leadership from the Dallas Baptist University, Texas, USA. He also holds Bachelors (B.Eng.) and a Master of Science (M.sc) in Chemical Engineering from Ahmadu Bello University, Zaria, Nigeria and has attended various executive management programs at Harvard Business School, IMD Business School, and the London Management Centre.",
   },
 ];
 

@@ -1,24 +1,21 @@
 import React, { useState, useEffect, useRef } from "react";
 import HeaderTwo from "../Components/HeaderTwo";
 import ScrollIntoView from "react-scroll-into-view";
-
 import LowerBanner from "../Components/LowerBanner";
 import PhotoGalleryComponent from "../Components/PhotoGalleryComponent";
-
 import VideoPlayer from "../Components/VideoPlayer";
-import news1 from "../images/NEWSANDLIFESTYLE/news1.jpg";
-import news2 from "../images/NEWSANDLIFESTYLE/news2.jpg";
-import IWD13 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd13.jpg";
-import talent4 from "../images/CAREERS/careers4.jpg";
-import image1 from "../images/CSR/csr15.jpg";
 import { IDWArray } from "../Components/LifeAtNdwData";
 import { talentArray } from "../Components/LifeAtNdwData";
 import { eoyArray } from "../Components/LifeAtNdwData";
 import { outingArray } from "../Components/LifeAtNdwData";
-import IWD15 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd15.jpg";
 
 function LifeAtNDW() {
   let [index, setindex] = useState(0);
+
+  const talent4 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605902/NDWESTERN-MEDIA/images/CAREERS/careers4_wqnm4f.jpg";
+  const IWD15 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606026/NDWESTERN-MEDIA/images/NEWSANDLIFESTYLE/WOMENSDAY/iwd15_aoxyhk.jpg";
 
   const cardOverviewArray = [
     {
@@ -26,7 +23,7 @@ function LifeAtNDW() {
       selector: "#iwd",
       image: IDWArray[3],
     },
-    { text: "End of Year Dinner.", selector: "#eoy", image: eoyArray[3] },
+    { text: "End of Year Dinner", selector: "#eoy", image: eoyArray[3] },
     {
       text: "Our Talents in Action",
       selector: "#talents",

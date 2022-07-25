@@ -1,18 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import Carousel from "react-elastic-carousel";
-import SVGIcons from "./SVGIcons";
-import { Link } from "react-router-dom";
-import Button from "./Button";
-import CustomCursor from "./CustomCursor";
 import PhotoPopup from "./PhotoPopup";
-import gsap from "gsap";
 
 function PhotoGalleryComponent({ imageArray, header }) {
-  const [play, setPlay] = useState(false);
-  const [position, setPosition] = useState("hi");
   const [open, setOpen] = useState(false);
-  const [name, setName] = useState("hello");
-  const [fullBio, setFullBio] = useState("man");
   const [image, setImage] = useState("man");
 
   function Card(image) {
@@ -25,7 +16,7 @@ function PhotoGalleryComponent({ imageArray, header }) {
           onClick={() => {
             getFuntion(image);
           }}
-          className="border-white bg-[#ffffff90] border rounded-full p-4 text mb-8 "
+          className="border-white bg-[#ffffff90] border rounded-full p-4 text mb-8 cursor-pointer "
         >
           View Photo
         </div>
@@ -64,7 +55,6 @@ function PhotoGalleryComponent({ imageArray, header }) {
       </div>
 
       <div className="grid lg:w-5/6 md:w-full w-full card">
-        <CustomCursor />
         <Carousel
           itemsToShow={3.5}
           itemsToScroll={1}

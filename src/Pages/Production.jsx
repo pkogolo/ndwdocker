@@ -1,16 +1,13 @@
 import React from "react";
-import ProfileComponent from "../Components/ProfileComponent";
 import SecondaryHeader from "../Components/SecondaryHeader";
-import operations1 from "../images/OPERATIONS/operations1.jpg";
-import operations2 from "../images/OPERATIONS/operations2.jpg";
-import operations6 from "../images/OPERATIONS/operations6.jpg";
-import operations7 from "../images/OPERATIONS/operations7.jpg";
-import operations8 from "../images/OPERATIONS/operations8.jpg";
 import LegalParagraph from "../Components/LegalParagraph";
-
 import LowerBanner from "../Components/LowerBanner";
 
 function Production() {
+  const operations7 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605908/NDWESTERN-MEDIA/images/OPERATIONS/operations7_ww1obq.jpg";
+  const operations8 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605895/NDWESTERN-MEDIA/images/OPERATIONS/operations8_nys33o.jpg";
   const array = [
     {
       page: "Oil and Gas Assets",

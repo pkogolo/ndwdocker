@@ -1,25 +1,31 @@
 import React from "react";
-import MainCard from "../Components/MainCard";
-
 import LowerBanner from "../Components/LowerBanner";
-import sunday from "../images/sunday.jpg";
-import environmenttowers from "../images/environmenttowers.png";
-import hse2 from "../images/hse2.png";
 import SecondaryHeader from "../Components/SecondaryHeader";
 
-import image1 from "../images/ASSETS/asset19.jpg";
-import image2 from "../images/ASSETS/asset33.jpg";
-import image3 from "../images/ASSETS/asset16.jpg";
-import image5 from "../images/ASSETS/asset15.jpg";
-import image4 from "../images/ASSETS/asset14.jpg";
-import image6 from "../images/ASSETS/asset3.jpg";
-import image7 from "../images/ASSETS/asset27.jpg";
-import image8 from "../images/ASSETS/asset9.jpg";
-import image9 from "../images/ASSETS/asset17.jpg";
-import image10 from "../images/ASSETS/asset36.jpg";
 import TwoColGrid from "../Components/TwoColGrid";
 
 function ESOHS() {
+  const image1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606043/NDWESTERN-MEDIA/images/ASSETS/asset19_pjfhzf.jpg";
+  const image2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606043/NDWESTERN-MEDIA/images/ASSETS/asset33_gxfpbb.jpg";
+  const image3 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606048/NDWESTERN-MEDIA/images/ASSETS/asset16_yy0jax.jpg";
+  const image5 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606048/NDWESTERN-MEDIA/images/ASSETS/asset15_vx3iki.jpg";
+  const image4 =
+    ".https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606049/NDWESTERN-MEDIA/images/ASSETS/asset14_aw2hvf.jpg";
+  const image6 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606050/NDWESTERN-MEDIA/images/ASSETS/asset3_ejgjng.jpg";
+  const image7 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606044/NDWESTERN-MEDIA/images/ASSETS/asset27_zsjx3j.jpg";
+  const image8 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606044/NDWESTERN-MEDIA/images/ASSETS/asset9_jpgdlj.jpg";
+  const image9 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606057/NDWESTERN-MEDIA/images/ASSETS/asset17_rvfxpn.jpg";
+  const image10 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606046/NDWESTERN-MEDIA/images/ASSETS/asset36_spehmt.jpg";
+
   const array = [
     {
       page: "Tracking Emmissions",

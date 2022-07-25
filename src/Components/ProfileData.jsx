@@ -1,26 +1,44 @@
-import chairman from "../images/chairman2.png";
-import hasset1 from "../images/hassests1.png";
-
-import abdul from "../images/abdul.png";
-import titi from "../images/management/titi.jpg";
-import falade from "../images/management/MrFalade.jpg";
-import davidHarris from "../images/management/davidHarris.jpg";
-import james from "../images/management/JamesOkoro.jpg";
-import ebenezerAgeh from "../images/management/MrEbenezerAgeh.jpg";
-import thiery from "../images/management/MrThierryGeorger.jpg";
-import drFatona from "../images/management/DrFatona.jpg";
-import ademola from "../images/management/ademola.jpg";
-import cooPose from "../images/coo.jpg";
-import ebereoji from "../images/ebereoji.jpg";
-import azfar from "../images/afzar2.jpg";
-import basil from "../images/basil.jpg";
-import temitope from "../images/management/temitope2.jpg";
-import oladele from "../images/oladele.png";
-import adeyemi from "../images/management/adeyemi.jpg";
-import ilesanmi from "../images/management/ilesanmi.jpg";
-import lawrence from "../images/lawrence.png";
-import omo from "../images/omo.png";
-import sunday from "../images/sunday.png";
+const hasset1 =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606049/NDWESTERN-MEDIA/images/hassests1_bpb2dz.png";
+const abdul =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606034/NDWESTERN-MEDIA/images/abdul_qmqjvt.png";
+const titi =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605891/NDWESTERN-MEDIA/images/management/titi_ovwmwg.jpg";
+const falade =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605892/NDWESTERN-MEDIA/images/management/MrFalade_esngr4.jpg";
+const davidHarris =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605887/NDWESTERN-MEDIA/images/management/davidHarris_isnit0.jpg";
+const james =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605892/NDWESTERN-MEDIA/images/management/JamesOkoro_lxa3sy.jpg";
+const ebenezerAgeh =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605960/NDWESTERN-MEDIA/images/management/MrEbenezerAgeh_o2aaqf.jpg";
+const thiery =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605937/NDWESTERN-MEDIA/images/management/MrThierryGeorger_ilf68c.jpg";
+const drFatona =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605886/NDWESTERN-MEDIA/images/management/DrFatona_gbfotp.jpg";
+const ademola =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605888/NDWESTERN-MEDIA/images/management/ademola_wx67zs.jpg";
+const cooPose =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606038/NDWESTERN-MEDIA/images/coo_diofke.png";
+const ebereoji =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606040/NDWESTERN-MEDIA/images/ebereoji_n9dpch.jpg";
+const azfar =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605894/NDWESTERN-MEDIA/images/afzar2_v5vtps.jpg";
+const basil =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605901/NDWESTERN-MEDIA/images/basil_l4pljp.jpg";
+const temitope = "../images/management/temitope2.jpg";
+const oladele =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606037/NDWESTERN-MEDIA/images/oladele_g8jwfl.png";
+const adeyemi =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605888/NDWESTERN-MEDIA/images/management/adeyemi_prbqcx.jpg";
+const ilesanmi =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605891/NDWESTERN-MEDIA/images/management/ilesanmi_rpxzv3.jpg";
+const lawrence =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606030/NDWESTERN-MEDIA/images/lawrence_rcgl9f.png";
+const omo =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605900/NDWESTERN-MEDIA/images/omo_yjxhcg.png";
+const sunday =
+  "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605933/NDWESTERN-MEDIA/images/sunday_cz9ypd.jpg";
 
 export let BODdata = [
   {

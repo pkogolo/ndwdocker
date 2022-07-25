@@ -1,23 +1,10 @@
 import React from "react";
 import HeaderTwo from "../Components/HeaderTwo";
-import hseMan from "../images/HSE.png";
-import MainCard from "../Components/MainCard";
-import oilMan from "../images/Operations.jpg";
-import ceo from "../images/ceo_main.jpg";
-import staff from "../images/ABOUT/about3.jpg";
-import paperBg from "../images/paper-background.jpg";
-import hse2 from "../images/hse2.png";
-import towers from "../images/towers.jpg";
-import GreenCard from "../Components/GreenCard";
-import smiles from "../images/smiles.jpg";
-import maninsuit from "../images/maninsuit.jpg";
-import saipec8 from "../images/saipec8.jpg";
 import OurStory from "../Components/OurStory";
 import TwoColGrid from "../Components/TwoColGrid";
 import SmallCard from "../Components/SmallCard";
 import LowerBanner from "../Components/LowerBanner";
-import award from "../images/ESG/esg4.jpg";
-import TextPopup from "../Components/TextPopup";
+
 
 function AboutUs() {
   const array = [
@@ -78,18 +65,20 @@ function AboutUs() {
 
   return (
     <div className="pt-24 sm:pt-0">
-
-      
       <HeaderTwo
         pageText={"We Are the World-class Energy Company of Choice in Africa."}
         pageName={"About Us"}
-        image={staff}
+        image={
+          "https://res.cloudinary.com/ndwestern/image/upload/v1658605893/NDWESTERN-MEDIA/images/ABOUT/about3_c6bi1g.jpg"
+        }
       />
 
       <OurStory />
       <TwoColGrid
         title={"Our Vision"}
-        mainImage={ceo}
+        mainImage={
+          "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605956/NDWESTERN-MEDIA/images/ceo_main_aer1q1.jpg"
+        }
         paragraph={
           "To be a world class Energy Company of choice in Africa, effectively and prudently producing oil and gas, and delivering value to its people and shareholders."
         }
@@ -97,7 +86,9 @@ function AboutUs() {
       />
       <TwoColGrid
         title={"Our Mission"}
-        mainImage={oilMan}
+        mainImage={
+          "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606029/NDWESTERN-MEDIA/images/Operations_ocanfc.jpg"
+        }
         paragraph={
           "To create shareholder value by providing clean energy through sustainable and strategic partnerships in communities we operate in, while adhering to international HSSE Standards and best practices, utilizing innovative technologies and running efficient, cost effective operations with a prepared and motivated work force."
         }
@@ -106,7 +97,7 @@ function AboutUs() {
 
       <div
         style={{
-          backgroundImage: `url(${paperBg})`,
+          backgroundImage: `url(https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606040/NDWESTERN-MEDIA/images/paper-background_rp0ulk.jpg)`,
         }}
         className=" bg-cover  mt-6 pt-12 lg:w-full min-h-screen flex items-center flex-col "
       >
@@ -119,7 +110,12 @@ function AboutUs() {
         </div>
       </div>
       <div className="">
-        <LowerBanner linkArray={array} image={award} />
+        <LowerBanner
+          linkArray={array}
+          image={
+            "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606033/NDWESTERN-MEDIA/images/ESG/ESG4_wkor2h.jpg"
+          }
+        />
       </div>
     </div>
   );

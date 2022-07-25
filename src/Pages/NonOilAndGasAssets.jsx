@@ -1,19 +1,19 @@
 import React from "react";
 import SecondaryHeader from "../Components/SecondaryHeader";
-import MainCard from "../Components/MainCard";
-import lab from "../images/lab.jpg";
-import ogunu from "../images/ogunu.png";
-import edjeba from "../images/edjeba.png";
-import GreenCard from "../Components/GreenCard";
-import operations1 from "../images/OPERATIONS/operations1.jpg";
-import operations3 from "../images/OPERATIONS/operations3.jpg";
-import operations6 from "../images/OPERATIONS/operations6.jpg";
-import operations9 from "../images/OPERATIONS/operations9.jpg";
-import operations5 from "../images/OPERATIONS/operations5.jpg";
 import LowerBanner from "../Components/LowerBanner";
 import TwoColGrid from "../Components/TwoColGrid";
 
 function NonOilAndGasAssets() {
+  const ogunu =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605896/NDWESTERN-MEDIA/images/ogunu_mdclor.png";
+  const edjeba =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605876/NDWESTERN-MEDIA/images/edjeba_kdr1ns.png";
+  const operations3 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605896/NDWESTERN-MEDIA/images/OPERATIONS/operations3_wvzxay.jpg";
+  const operations9 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605895/NDWESTERN-MEDIA/images/OPERATIONS/operations9_bpf39w.jpg";
+  const operations5 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605896/NDWESTERN-MEDIA/images/OPERATIONS/operations5_i7tjy5.jpg";
   const array = [
     {
       page: "Oil and Gas Assets",

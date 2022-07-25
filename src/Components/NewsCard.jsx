@@ -2,7 +2,7 @@ import React from "react";
 
 function NewsCard({ image, heading, text, link, date, source }) {
   return (
-    <div className="grid grid-cols-1 bg-red-300 place-items-center">
+    <div className="grid grid-cols-1 bg-gray-100 place-items-center">
       <div
         style={{ backgroundImage: `url(${image})` }}
         className="bg-cover bg-no-repeat bg-center lg:h-[300px]  lg:w-[300px]  xl:h-[460px] xl:w-[460px] md:h-[280px] md:w-[280px] h-[300px]  w-[300px] "

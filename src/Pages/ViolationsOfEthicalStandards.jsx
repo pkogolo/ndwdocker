@@ -3,13 +3,15 @@ import FormattedParagraph from "../Components/FormattedParagraph";
 import ListArray from "../Components/ListArray";
 import SecondaryHeader from "../Components/SecondaryHeader";
 import LowerBanner from "../Components/LowerBanner";
-import image1 from "../images/LIFEATNDW/landw9.jpg";
-import image2 from "../images/LIFEATNDW/landw11.jpg";
-import image4 from "../images/LIFEATNDW/landw12.jpg";
-
-import image3 from "../images/LIFEATNDW/landw6.jpg";
 
 function ViolationsOfEthicalStandards() {
+  const image1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605927/NDWESTERN-MEDIA/images/LIFEATNDW/landw9_fducux.jpg";
+  const image2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605923/NDWESTERN-MEDIA/images/LIFEATNDW/landw11_oxabbb.jpg";
+  const image4 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605934/NDWESTERN-MEDIA/images/LIFEATNDW/landw12_kqvcfe.jpg";
+
   const array = [
     {
       page: "Life at ND Western",

@@ -1,7 +1,5 @@
 import React from "react";
 
-import crowd2 from "../images/crowd.jpg";
-import news1 from "../images/NEWSANDLIFESTYLE/news1.jpg";
 import InstagramFeed from "../Components/InstagramFeed";
 import HeaderTwo from "../Components/HeaderTwo";
 import NewsCard from "../Components/NewsCard";
@@ -9,6 +7,11 @@ import { newsData } from "../Components/NewsData";
 import LowerBanner from "../Components/LowerBanner";
 
 function NewsAndLifeStyle() {
+  const crowd2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605918/NDWESTERN-MEDIA/images/crowd_q3oowk.jpg";
+  const news1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606077/NDWESTERN-MEDIA/images/NEWSANDLIFESTYLE/news1_rjiaxg.jpg";
+
   function generateCards() {
     const cards = newsData.map((item) => (
       <NewsCard
@@ -55,7 +58,6 @@ function NewsAndLifeStyle() {
         {generateCards()}
       </div>
 
-      
       <div className="">
         <LowerBanner linkArray={array} image={news1} />
       </div>

@@ -1,19 +1,19 @@
 import React from "react";
 import SecondaryHeader from "../Components/SecondaryHeader";
-import image1 from "../images/ASSETS/asset19.jpg";
-import image2 from "../images/ASSETS/asset13.jpg";
-import image3 from "../images/ASSETS/asset16.jpg";
-import image5 from "../images/ASSETS/asset15.jpg";
-import image4 from "../images/ASSETS/asset14.jpg";
-import image6 from "../images/ASSETS/asset3.jpg";
+
 import LegalParagraph from "../Components/LegalParagraph";
 import Button from "../Components/Button";
 
 function PrivacyPolicy() {
+  const image1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658606043/NDWESTERN-MEDIA/images/ASSETS/asset19_pjfhzf.jpg";
+  const image2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658606048/NDWESTERN-MEDIA/images/ASSETS/asset13_lz2hsv.jpg";
+
   return (
     <div>
       <SecondaryHeader
-        imageArray={[image1, image2,]}
+        imageArray={[image1, image2]}
         heading={"Privacy Policy"}
         greenHeader={true}
       />

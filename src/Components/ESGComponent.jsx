@@ -1,13 +1,17 @@
 import React, { useState, useEffect, useRef } from "react";
-import esg1 from "../images/saipec8.jpg";
-import esg2 from "../images/HSE/hse4.jpg";
-import outreach from "../images/communities/medicaloutreach/outreach3.jpg";
+
 import Button from "./Button";
 import gsap from "gsap";
 import Carousel from "react-elastic-carousel";
 
 function ESGComponent() {
   const [color, setColor] = useState("black");
+  const esg1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605909/NDWESTERN-MEDIA/images/saipec8_jiqxqk.jpg";
+  const esg2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605897/NDWESTERN-MEDIA/images/HSE/hse4_zwu392.jpg";
+  const outreach =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605949/NDWESTERN-MEDIA/images/communities/medicaloutreach/outreach3_brvkqp.jpg";
 
   const cardData = [
     {

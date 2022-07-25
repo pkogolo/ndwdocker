@@ -1,6 +1,4 @@
 import React from "react";
-import sportsImage from "../images/sports.jpg";
-import boyRunning from "../images/boy-running.jpg";
 import LowerBanner from "../Components/LowerBanner";
 import HeaderTwo from "../Components/HeaderTwo";
 import TwoColGrid from "../Components/TwoColGrid";
@@ -11,13 +9,18 @@ import { scholarshipData } from "../Components/CommunitiesData";
 import { skillsAqData } from "../Components/CommunitiesData";
 import { deltaData } from "../Components/CommunitiesData";
 import { outreachData } from "../Components/CommunitiesData";
-import library3 from "../images/communities/library/library3.jpg";
-import skillsAq1 from "../images/communities/Skills/skillsAq1.jpg";
-import skillsAq3 from "../images/communities/Skills/skillsAq3.jpg";
-import hse from "../images/HSE/hse1.jpeg";
-import delta7 from "../images/communities/deltaplus/delta7.jpg";
 
 function CSRPage() {
+  const skillsAq1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605885/NDWESTERN-MEDIA/images/communities/Skills/skillsAq1_gjorlj.jpg";
+  const skillsAq3 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605884/NDWESTERN-MEDIA/images/communities/Skills/skillsAq2_xtljgd.jpg";
+  const hse = "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605901/NDWESTERN-MEDIA/images/HSE/hse1_w7qthl.jpg";
+  const delta7 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605884/NDWESTERN-MEDIA/images/communities/Skills/skillsAq3_abmjkm.jpg";
+    const sportsImage = "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605963/NDWESTERN-MEDIA/images/sports_qmvzad.jpg";
+const boyRunning = "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606034/NDWESTERN-MEDIA/images/boy-running_xlrsm1.jpg";
+
   const array = [
     {
       page: "Contact us",

@@ -1,10 +1,4 @@
 import React from "react";
-import HSE1 from "../images/HSE/hse1.jpeg";
-import HSE2 from "../images/HSE/hse2.jpeg";
-import HSE3 from "../images/HSE/hse3.jpeg";
-import HSE4 from "../images/HSE/hse4.jpg";
-import HSE5 from "../images/HSE/hse5.jpg";
-import HSE7 from "../images/HSE/hse7.jpg";
 
 import LowerBanner from "../Components/LowerBanner";
 import TwoColGrid from "../Components/TwoColGrid";
@@ -14,7 +8,20 @@ import CarouselComponent from "../Components/CarouselComponent";
 import SwipeLeftComp from "../Components/SwipeLeftComp";
 
 function HSEPage() {
-  const pictureArray = [HSE1, HSE2, HSE3, HSE5];
+  const HSE1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605901/NDWESTERN-MEDIA/images/HSE/hse1_w7qthl.jpg";
+  const HSE2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605904/NDWESTERN-MEDIA/images/HSE/hse2_astshi.jpg";
+  const HSE3 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605901/NDWESTERN-MEDIA/images/HSE/hse3_ejvte4.jpg";
+  const HSE4 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605897/NDWESTERN-MEDIA/images/HSE/hse4_zwu392.jpg";
+  const HSE5 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605893/NDWESTERN-MEDIA/images/HSE/hse5_ughx77.jpg";
+  const HSE7 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605894/NDWESTERN-MEDIA/images/HSE/hse7_v74o3k.jpg";
+
+  const pictureArray = [HSE1, HSE2, HSE3, HSE5,];
 
   const array = [
     { page: "Operations", link: "/operations" },

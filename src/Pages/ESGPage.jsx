@@ -1,22 +1,21 @@
 import React from "react";
-
-import afzarsaipec from "../images/afzarsaipec.jpg";
 import LowerBanner from "../Components/LowerBanner";
-import manwithboy from "../images/manwithboy.png";
-import CSRGrid from "../Components/CSRGrid";
 import SDGgrid from "../Components/SDGgrid";
-import GreenCard from "../Components/GreenCard";
-import coo from "../images/coo.png";
-import ESG1 from "../images/ESG/ESG1.jpg";
-import ESG2 from "../images/ESG/ESG2.jpg";
-import ESG3 from "../images/ESG/ESG3.jpg";
-import ESG4 from "../images/ESG/ESG6.jpg";
-import ESG5 from "../images/ESG/ESG5.jpeg";
-import smiles from "../images/smiles.jpg";
 import HeaderTwo from "../Components/HeaderTwo";
 import TwoColGrid from "../Components/TwoColGrid";
 
 function ESGPage() {
+  const ESG1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606036/NDWESTERN-MEDIA/images/ESG/ESG1_cbcav9.jpg";
+  const ESG2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606031/NDWESTERN-MEDIA/images/ESG/ESG2_torfj8.jpg";
+  const ESG3 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606114/NDWESTERN-MEDIA/images/ESG/ESG3_xezd6u.jpg";
+  const ESG4 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606033/NDWESTERN-MEDIA/images/ESG/ESG4_wkor2h.jpg";
+  const ESG5 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606031/NDWESTERN-MEDIA/images/ESG/ESG5_cf3uoy.jpg";
+
   const array = [
     {
       page: "Tracking Emmissions",
@@ -42,7 +41,7 @@ function ESGPage() {
         pageText={
           "Our  ESG Framework is closely  aligned to United Nations Sustainable Development Goals (SDGs) Framework"
         }
-        image={smiles}
+        image={"https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606057/NDWESTERN-MEDIA/images/smiles_elas26.jpg"}
       />
 
       <TwoColGrid

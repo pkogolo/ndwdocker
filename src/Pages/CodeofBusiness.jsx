@@ -1,21 +1,17 @@
 import React from "react";
-import coo from "../images/coo.jpg";
-import MainCard from "../Components/MainCard";
-import HeaderMain from "../Components/HeaderMain";
-import sunday from "../images/sunday.jpg";
 import FormattedParagraph from "../Components/FormattedParagraph";
-import LargePageButtons from "../Components/LargePageButtons";
-import groupengineers from "../images/groupengineers.jpg";
-import nog from "../images/nog.jpg";
 import LowerBanner from "../Components/LowerBanner";
-import image1 from "../images/management/mrFalade.jpg";
-import image2 from "../images/management/davidHarris.jpg";
-import image3 from "../images/management/jamesOkoro2.jpg";
 import TwoColGrid from "../Components/TwoColGrid";
 import HeaderTwo from "../Components/HeaderTwo";
 
-
 function CodeofBusiness() {
+  const image1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605892/NDWESTERN-MEDIA/images/management/MrFalade_esngr4.jpg";
+  const image2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605887/NDWESTERN-MEDIA/images/management/davidHarris_isnit0.jpg";
+  const image3 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605887/NDWESTERN-MEDIA/images/management/jamesOkoro2_psis1n.jpg";
+
   const array = [
     {
       page: "About ND Western",

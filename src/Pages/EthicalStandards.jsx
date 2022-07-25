@@ -1,16 +1,17 @@
 import React from "react";
 import FormattedParagraph from "../Components/FormattedParagraph";
 import ListArray from "../Components/ListArray";
-import LargePageButtons from "../Components/LargePageButtons";
-import groupengineers from "../images/groupengineers.jpg";
-import nog from "../images/nog.jpg";
 import SecondaryHeader from "../Components/SecondaryHeader";
 import LowerBanner from "../Components/LowerBanner";
-import image1 from "../images/ABOUT/about1.jpg";
-import image2 from "../images/ABOUT/about2.jpg";
-import image3 from "../images/ABOUT/about3.jpg";
 
 function EthicalStandards() {
+  const image1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605889/NDWESTERN-MEDIA/images/ABOUT/about1_pwtjhu.jpg";
+  const image2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605893/NDWESTERN-MEDIA/images/ABOUT/about2_tfszau.jpg";
+  const image3 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605893/NDWESTERN-MEDIA/images/ABOUT/about3_c6bi1g.jpg";
+
   const array = [
     {
       page: "Life at ND Western",
@@ -114,7 +115,7 @@ function EthicalStandards() {
           />
         </div>
       </div>
-     
+
       <div className="">
         <LowerBanner linkArray={array} image={image2} />
       </div>

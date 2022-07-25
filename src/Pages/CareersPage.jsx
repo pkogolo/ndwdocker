@@ -1,14 +1,17 @@
 import React from "react";
-import FormattedParagraph from "../Components/FormattedParagraph";
 import HeaderTwo from "../Components/HeaderTwo";
-import careers1 from "../images/CAREERS/careers1.jpg";
-import careers2 from "../images/CAREERS/careers2.jpg";
-import careers3 from "../images/CAREERS/careers3.jpg";
-import careers4 from "../images/CAREERS/careers4.jpg";
 import TwoColGrid from "../Components/TwoColGrid";
 import LowerBanner from "../Components/LowerBanner";
 
 function CareersPage() {
+  const careers1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605899/NDWESTERN-MEDIA/images/CAREERS/careers1_yfzx3p.jpg";
+  const careers2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605897/NDWESTERN-MEDIA/images/CAREERS/careers2_q5s7yd.jpg";
+  const careers3 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605898/NDWESTERN-MEDIA/images/CAREERS/careers3_kykyaa.jpg";
+  const careers4 =
+    "https://res.cloudinary.com/ndwestern/image/upload/v1658605902/NDWESTERN-MEDIA/images/CAREERS/careers4_wqnm4f.jpg";
   const array = [
     {
       page: "Contact us",

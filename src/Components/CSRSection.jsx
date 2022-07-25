@@ -1,32 +1,48 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Carousel from "react-elastic-carousel";
-import image1 from "../images/CSR/csr15.jpg";
-import image2 from "../images/CSR/csr2.jpg";
-import image3 from "../images/CSR/csr3.jpg";
-import image4 from "../images/CSR/csr4.jpg";
-import image5 from "../images/CSR/csr5.jpg";
-import image6 from "../images/CSR/csr6.jpg";
-import image7 from "../images/CSR/csr7.jpg";
-import image8 from "../images/CSR/csr8.jpg";
-import image9 from "../images/CSR/csr9.jpg";
-import image10 from "../images/CSR/csr10.jpg";
-import image11 from "../images/CSR/csr11.jpg";
-import image12 from "../images/CSR/csr12.jpg";
-import image13 from "../images/CSR/csr13.jpg";
-import image14 from "../images/CSR/csr14.jpg";
-import image15 from "../images/CSR/csr15.jpg";
 import SVGIcons from "./SVGIcons";
 import Button from "./Button";
-import CustomCursor from "./CustomCursor";
 function CSRSection() {
   const [play, setPlay] = useState(false);
+  const image1 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605878/NDWESTERN-MEDIA/images/CSR/csr15_fm1sco.jpg";
+  const image2 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605878/NDWESTERN-MEDIA/images/CSR/csr2_dfib5j.jpg";
+  const image3 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605879/NDWESTERN-MEDIA/images/CSR/csr3_vlivbl.jpg";
+  const image4 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606015/NDWESTERN-MEDIA/images/CSR/csr4_u6b6eu.jpg";
+  const image5 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605962/NDWESTERN-MEDIA/images/CSR/csr5_s8gq9c.jpg";
+  const image6 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606075/NDWESTERN-MEDIA/images/CSR/csr6_xxznu2.jpg";
+  const image7 = "../images/CSR/csr7.jpg";
+  const image8 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606066/NDWESTERN-MEDIA/images/CSR/csr8_v31scq.jpg";
+  const image9 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605884/NDWESTERN-MEDIA/images/CSR/csr9_ehdpsr.jpg";
+  const image10 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605878/NDWESTERN-MEDIA/images/CSR/csr10_xukbkn.jpg";
+  const image11 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605877/NDWESTERN-MEDIA/images/CSR/csr11_r6ymzg.jpg";
+  const image12 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605876/NDWESTERN-MEDIA/images/CSR/csr12_qxrwtp.jpg";
+  const image13 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605890/NDWESTERN-MEDIA/images/CSR/csr33_mlxush.png";
+  const image14 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605880/NDWESTERN-MEDIA/images/CSR/csr14_wavbi8.jpg";
+  const image21 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605903/NDWESTERN-MEDIA/images/CSR/csr21_rirbml.jpg";
+  const image15 =
+    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605905/NDWESTERN-MEDIA/images/CSR/csr16_bndirm.jpg";
   const cardArray = [
     image5,
     image10,
     image3,
     image4,
     image1,
+    image2,
     image6,
     image7,
     image8,
@@ -36,6 +52,7 @@ function CSRSection() {
     image13,
     image14,
     image15,
+    image21,
   ];
   const breakPoints = [
     { width: 100, itemsToShow: 1.1, itemsToScroll: 1 },
@@ -67,7 +84,6 @@ function CSRSection() {
         }}
         className="grid lg:w-5/6 md:w-full w-full card"
       >
-        <CustomCursor />
         <Carousel
           itemsToShow={3.5}
           itemsToScroll={1}

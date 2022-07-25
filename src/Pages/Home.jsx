@@ -2,9 +2,6 @@ import React, { useEffect, useRef } from "react";
 import HeaderMain from "../Components/HeaderMain";
 import MainCard from "../Components/MainCard";
 import OurVision from "../Components/OurVision";
-import asset1 from "../images/HOME/asset1.jpg";
-import asset10 from "../images/HOME/asset10.jpg";
-import manwithBook from "../images/HOME/ndwasset1.jpg"; 
 import { Link } from "react-router-dom";
 import InstagramFeed from "../Components/InstagramFeed";
 import CSRSection from "../Components/CSRSection";
@@ -15,7 +12,7 @@ import VideoPlayer from "../Components/VideoPlayer";
 gsap.registerPlugin(ScrollTrigger);
 import Button from "../Components/Button";
 import ESGComponent from "../Components/ESGComponent";
-import iwd17 from "../images/NEWSANDLIFESTYLE/WOMENSDAY/iwd17.jpg"
+
 
 function Home() {
   let visionBox = useRef(null);
@@ -81,8 +78,12 @@ function Home() {
         title={
           "We are leading the way in sustainable oil exploration and production"
         }
-        topImage={asset1}
-        bottomImage={manwithBook}
+        topImage={
+          "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605875/NDWESTERN-MEDIA/images/HOME/asset1_lgcbky.jpg"
+        }
+        bottomImage={
+          "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605874/NDWESTERN-MEDIA/images/HOME/ndwasset1_d0v6ir.jpg"
+        }
       />
 
       <div ref={(el) => (visionBox = el)} className="">
@@ -93,7 +94,9 @@ function Home() {
         <MainCard
           title={"Our Operations"}
           buttonLinks={"/operations"}
-          mainImage={asset10}
+          mainImage={
+            "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605875/NDWESTERN-MEDIA/images/HOME/asset10_sqqf4c.jpg"
+          }
           paragraph={
             "We are reshaping the Nigerian Energy industry, one step at a time.View our core services and operational areas"
           }
@@ -108,7 +111,9 @@ function Home() {
           }
           buttonText={"Learn our Culture"}
           buttonLinks={"/about/life_at_NDWestern"}
-          mainImage={iwd17}
+          mainImage={
+            "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606003/NDWESTERN-MEDIA/images/NEWSANDLIFESTYLE/WOMENSDAY/iwd4_pty7tq.jpg"
+          }
         />
       </div>
 

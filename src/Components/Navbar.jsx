@@ -5,7 +5,6 @@ import Logo from "../images/ndwesternlogo.png";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-import Map from "./Map";
 import { Link } from "react-router-dom";
 
 function Navbar() {

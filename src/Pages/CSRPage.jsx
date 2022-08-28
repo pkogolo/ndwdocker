@@ -12,14 +12,14 @@ import { outreachData } from "../Components/CommunitiesData";
 
 function CSRPage() {
   const skillsAq1 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605885/NDWESTERN-MEDIA/images/communities/Skills/skillsAq1_gjorlj.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605885/NDWESTERN-MEDIA/images/communities/Skills/skillsAq1_gjorlj.jpg";
   const skillsAq3 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605884/NDWESTERN-MEDIA/images/communities/Skills/skillsAq2_xtljgd.jpg";
-  const hse = "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605901/NDWESTERN-MEDIA/images/HSE/hse1_w7qthl.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605884/NDWESTERN-MEDIA/images/communities/Skills/skillsAq2_xtljgd.jpg";
+  const hse = "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605901/NDWESTERN-MEDIA/images/HSE/hse1_w7qthl.jpg";
   const delta7 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605884/NDWESTERN-MEDIA/images/communities/Skills/skillsAq3_abmjkm.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605884/NDWESTERN-MEDIA/images/communities/Skills/skillsAq3_abmjkm.jpg";
     const sportsImage = "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605963/NDWESTERN-MEDIA/images/sports_qmvzad.jpg";
-const boyRunning = "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606034/NDWESTERN-MEDIA/images/boy-running_xlrsm1.jpg";
+const boyRunning = "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606034/NDWESTERN-MEDIA/images/boy-running_xlrsm1.jpg";
 
   const array = [
     {

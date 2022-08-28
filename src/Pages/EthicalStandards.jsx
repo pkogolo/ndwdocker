@@ -6,11 +6,11 @@ import LowerBanner from "../Components/LowerBanner";
 
 function EthicalStandards() {
   const image1 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605889/NDWESTERN-MEDIA/images/ABOUT/about1_pwtjhu.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605889/NDWESTERN-MEDIA/images/ABOUT/about1_pwtjhu.jpg";
   const image2 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605893/NDWESTERN-MEDIA/images/ABOUT/about2_tfszau.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605893/NDWESTERN-MEDIA/images/ABOUT/about2_tfszau.jpg";
   const image3 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605893/NDWESTERN-MEDIA/images/ABOUT/about3_c6bi1g.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605893/NDWESTERN-MEDIA/images/ABOUT/about3_c6bi1g.jpg";
 
   const array = [
     {

@@ -6,25 +6,25 @@ import TwoColGrid from "../Components/TwoColGrid";
 
 function ESOHS() {
   const image1 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606043/NDWESTERN-MEDIA/images/ASSETS/asset19_pjfhzf.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606043/NDWESTERN-MEDIA/images/ASSETS/asset19_pjfhzf.jpg";
   const image2 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606043/NDWESTERN-MEDIA/images/ASSETS/asset33_gxfpbb.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606043/NDWESTERN-MEDIA/images/ASSETS/asset33_gxfpbb.jpg";
   const image3 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606048/NDWESTERN-MEDIA/images/ASSETS/asset16_yy0jax.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606048/NDWESTERN-MEDIA/images/ASSETS/asset16_yy0jax.jpg";
   const image5 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606048/NDWESTERN-MEDIA/images/ASSETS/asset15_vx3iki.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606048/NDWESTERN-MEDIA/images/ASSETS/asset15_vx3iki.jpg";
   const image4 =
-    ".https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606049/NDWESTERN-MEDIA/images/ASSETS/asset14_aw2hvf.jpg";
+    ".https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606049/NDWESTERN-MEDIA/images/ASSETS/asset14_aw2hvf.jpg";
   const image6 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606050/NDWESTERN-MEDIA/images/ASSETS/asset3_ejgjng.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606050/NDWESTERN-MEDIA/images/ASSETS/asset3_ejgjng.jpg";
   const image7 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606044/NDWESTERN-MEDIA/images/ASSETS/asset27_zsjx3j.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606044/NDWESTERN-MEDIA/images/ASSETS/asset27_zsjx3j.jpg";
   const image8 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606044/NDWESTERN-MEDIA/images/ASSETS/asset9_jpgdlj.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606044/NDWESTERN-MEDIA/images/ASSETS/asset9_jpgdlj.jpg";
   const image9 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606057/NDWESTERN-MEDIA/images/ASSETS/asset17_rvfxpn.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606057/NDWESTERN-MEDIA/images/ASSETS/asset17_rvfxpn.jpg";
   const image10 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606046/NDWESTERN-MEDIA/images/ASSETS/asset36_spehmt.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606046/NDWESTERN-MEDIA/images/ASSETS/asset36_spehmt.jpg";
 
   const array = [
     {

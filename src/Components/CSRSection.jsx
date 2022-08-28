@@ -6,36 +6,35 @@ import Button from "./Button";
 function CSRSection() {
   const [play, setPlay] = useState(false);
   const image1 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605878/NDWESTERN-MEDIA/images/CSR/csr15_fm1sco.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605878/NDWESTERN-MEDIA/images/CSR/csr15_fm1sco.jpg";
   const image2 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605878/NDWESTERN-MEDIA/images/CSR/csr2_dfib5j.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605878/NDWESTERN-MEDIA/images/CSR/csr2_dfib5j.jpg";
   const image3 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605879/NDWESTERN-MEDIA/images/CSR/csr3_vlivbl.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605879/NDWESTERN-MEDIA/images/CSR/csr3_vlivbl.jpg";
   const image4 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606015/NDWESTERN-MEDIA/images/CSR/csr4_u6b6eu.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658606015/NDWESTERN-MEDIA/images/CSR/csr4_u6b6eu.jpg";
   const image5 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605962/NDWESTERN-MEDIA/images/CSR/csr5_s8gq9c.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605962/NDWESTERN-MEDIA/images/CSR/csr5_s8gq9c.jpg";
   const image6 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606075/NDWESTERN-MEDIA/images/CSR/csr6_xxznu2.jpg";
-  const image7 = "../images/CSR/csr7.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658606075/NDWESTERN-MEDIA/images/CSR/csr6_xxznu2.jpg";
   const image8 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606066/NDWESTERN-MEDIA/images/CSR/csr8_v31scq.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658606066/NDWESTERN-MEDIA/images/CSR/csr8_v31scq.jpg";
   const image9 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605884/NDWESTERN-MEDIA/images/CSR/csr9_ehdpsr.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605884/NDWESTERN-MEDIA/images/CSR/csr9_ehdpsr.jpg";
   const image10 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605878/NDWESTERN-MEDIA/images/CSR/csr10_xukbkn.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605878/NDWESTERN-MEDIA/images/CSR/csr10_xukbkn.jpg";
   const image11 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605877/NDWESTERN-MEDIA/images/CSR/csr11_r6ymzg.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605877/NDWESTERN-MEDIA/images/CSR/csr11_r6ymzg.jpg";
   const image12 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605876/NDWESTERN-MEDIA/images/CSR/csr12_qxrwtp.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605876/NDWESTERN-MEDIA/images/CSR/csr12_qxrwtp.jpg";
   const image13 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605890/NDWESTERN-MEDIA/images/CSR/csr33_mlxush.png";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605890/NDWESTERN-MEDIA/images/CSR/csr33_mlxush.png";
   const image14 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605880/NDWESTERN-MEDIA/images/CSR/csr14_wavbi8.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605880/NDWESTERN-MEDIA/images/CSR/csr14_wavbi8.jpg";
   const image21 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605903/NDWESTERN-MEDIA/images/CSR/csr21_rirbml.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605903/NDWESTERN-MEDIA/images/CSR/csr21_rirbml.jpg";
   const image15 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605905/NDWESTERN-MEDIA/images/CSR/csr16_bndirm.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_35/v1658605905/NDWESTERN-MEDIA/images/CSR/csr16_bndirm.jpg";
   const cardArray = [
     image5,
     image10,
@@ -44,7 +43,6 @@ function CSRSection() {
     image1,
     image2,
     image6,
-    image7,
     image8,
     image9,
     image10,

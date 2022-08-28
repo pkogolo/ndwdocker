@@ -6,15 +6,15 @@ import TwoColGrid from "../Components/TwoColGrid";
 
 function ESGPage() {
   const ESG1 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606036/NDWESTERN-MEDIA/images/ESG/ESG1_cbcav9.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606036/NDWESTERN-MEDIA/images/ESG/ESG1_cbcav9.jpg";
   const ESG2 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606031/NDWESTERN-MEDIA/images/ESG/ESG2_torfj8.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606031/NDWESTERN-MEDIA/images/ESG/ESG2_torfj8.jpg";
   const ESG3 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606114/NDWESTERN-MEDIA/images/ESG/ESG3_xezd6u.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606114/NDWESTERN-MEDIA/images/ESG/ESG3_xezd6u.jpg";
   const ESG4 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606033/NDWESTERN-MEDIA/images/ESG/ESG4_wkor2h.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606033/NDWESTERN-MEDIA/images/ESG/ESG4_wkor2h.jpg";
   const ESG5 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606031/NDWESTERN-MEDIA/images/ESG/ESG5_cf3uoy.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606031/NDWESTERN-MEDIA/images/ESG/ESG5_cf3uoy.jpg";
 
   const array = [
     {
@@ -41,7 +41,7 @@ function ESGPage() {
         pageText={
           "Our  ESG Framework is closely  aligned to United Nations Sustainable Development Goals (SDGs) Framework"
         }
-        image={"https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606057/NDWESTERN-MEDIA/images/smiles_elas26.jpg"}
+        image={"https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606057/NDWESTERN-MEDIA/images/smiles_elas26.jpg"}
       />
 
       <TwoColGrid

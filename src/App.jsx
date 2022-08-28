@@ -2,8 +2,6 @@ import { useState, useRef, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import HeaderMain from "./Components/HeaderMain";
-import OurVision from "./Components/OurVision";
 import Home from "./Pages/Home";
 import Footer from "./Components/Footer";
 import { BrowserRouter, Route } from "react-router-dom";

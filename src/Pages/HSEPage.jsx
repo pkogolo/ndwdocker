@@ -9,17 +9,17 @@ import SwipeLeftComp from "../Components/SwipeLeftComp";
 
 function HSEPage() {
   const HSE1 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605901/NDWESTERN-MEDIA/images/HSE/hse1_w7qthl.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605901/NDWESTERN-MEDIA/images/HSE/hse1_w7qthl.jpg";
   const HSE2 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605904/NDWESTERN-MEDIA/images/HSE/hse2_astshi.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605904/NDWESTERN-MEDIA/images/HSE/hse2_astshi.jpg";
   const HSE3 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605901/NDWESTERN-MEDIA/images/HSE/hse3_ejvte4.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605901/NDWESTERN-MEDIA/images/HSE/hse3_ejvte4.jpg";
   const HSE4 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605897/NDWESTERN-MEDIA/images/HSE/hse4_zwu392.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605897/NDWESTERN-MEDIA/images/HSE/hse4_zwu392.jpg";
   const HSE5 =
     "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605893/NDWESTERN-MEDIA/images/HSE/hse5_ughx77.jpg";
   const HSE7 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605894/NDWESTERN-MEDIA/images/HSE/hse7_v74o3k.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605894/NDWESTERN-MEDIA/images/HSE/hse7_v74o3k.jpg";
 
   const pictureArray = [HSE1, HSE2, HSE3, HSE5,];
 

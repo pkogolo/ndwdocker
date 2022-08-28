@@ -8,20 +8,20 @@ import LowerBanner from "../Components/LowerBanner";
 
 function HumanAssets() {
   const ebereOji =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658606040/NDWESTERN-MEDIA/images/ebereoji_n9dpch.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606040/NDWESTERN-MEDIA/images/ebereoji_n9dpch.jpg";
   const titi =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605891/NDWESTERN-MEDIA/images/management/titi_ovwmwg.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605891/NDWESTERN-MEDIA/images/management/titi_ovwmwg.jpg";
 
   const landw1 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605970/NDWESTERN-MEDIA/images/LIFEATNDW/landw1_eddoqa.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605970/NDWESTERN-MEDIA/images/LIFEATNDW/landw1_eddoqa.jpg";
   const landw2 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605897/NDWESTERN-MEDIA/images/LIFEATNDW/landw2_jlu6nl.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605897/NDWESTERN-MEDIA/images/LIFEATNDW/landw2_jlu6nl.jpg";
   const landw3 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605942/NDWESTERN-MEDIA/images/LIFEATNDW/landw3_jgpwzv.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605942/NDWESTERN-MEDIA/images/LIFEATNDW/landw3_jgpwzv.jpg";
   const landw4 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605955/NDWESTERN-MEDIA/images/LIFEATNDW/landw4_qykfq7.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605955/NDWESTERN-MEDIA/images/LIFEATNDW/landw4_qykfq7.jpg";
   const landw6 =
-    "https://res.cloudinary.com/ndwestern/image/upload/q_auto:best/v1658605986/NDWESTERN-MEDIA/images/LIFEATNDW/landw6_g87lnf.jpg";
+    "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605986/NDWESTERN-MEDIA/images/LIFEATNDW/landw6_g87lnf.jpg";
 
   const slideImages = [titi, ebereOji, landw1, landw2, landw3, landw4, landw6];
   const array = [

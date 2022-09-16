@@ -27,7 +27,7 @@ const azfar =
 const basil =
   "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605901/NDWESTERN-MEDIA/images/basil_l4pljp.jpg";
 const temitope =
-  "https://res.cloudinary.com/ndwestern/image/upload/c_mfit,h_1363/v1661338115/NDWESTERN-MEDIA/images/management/Photos_6_Temitope_Onibudo_Head_IT_bep0ew.jpg";
+  "https://res.cloudinary.com/ndwestern/image/upload/v1661755292/NDWESTERN-MEDIA/images/management/temitope_oah1f0.png";
 const oladele =
   "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606037/NDWESTERN-MEDIA/images/oladele_g8jwfl.png";
 const adeyemi =

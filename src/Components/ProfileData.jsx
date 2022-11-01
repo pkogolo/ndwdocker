@@ -8,8 +8,7 @@ const falade =
   "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605892/NDWESTERN-MEDIA/images/management/MrFalade_esngr4.jpg";
 const davidHarris =
   "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605887/NDWESTERN-MEDIA/images/management/davidHarris_isnit0.jpg";
-const james =
-  "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605892/NDWESTERN-MEDIA/images/management/JamesOkoro_lxa3sy.jpg";
+
 const ebenezerAgeh =
   "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605960/NDWESTERN-MEDIA/images/management/MrEbenezerAgeh_o2aaqf.jpg";
 const thiery =
@@ -18,8 +17,7 @@ const drFatona =
   "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605886/NDWESTERN-MEDIA/images/management/DrFatona_gbfotp.jpg";
 const ademola =
   "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658605888/NDWESTERN-MEDIA/images/management/ademola_wx67zs.jpg";
-const cooPose =
-  "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606038/NDWESTERN-MEDIA/images/coo_diofke.png";
+
 const ebereoji =
   "https://res.cloudinary.com/ndwestern/image/upload/q_50/v1658606040/NDWESTERN-MEDIA/images/ebereoji_n9dpch.jpg";
 const azfar =
@@ -114,8 +112,8 @@ export let BODdata = [
 
   {
     image: ebenezerAgeh,
-    name: "Mr Ebenezer Ageh",
-    position: "Chief Technical Officer (CTO)",
+    name: "Dr Ebenezer Ageh",
+    position: "Director",
     text: "Mr Ageh has over 25 years of experience with a proven record of accomplishments in deep water production operations in the U.S. Gulf of Mexico (Mars Basin), Offshore West Africa (Bonga Main Development, Bonga North Project &amp; EA), and Onshore Assets in Nigeria. During this time, he managed various production engineering projects for Shell across the globe and championed LEAN initiatives in Shell Operations in Sub Saharan Africa.",
     fullText:
       "Mr Ageh has over 25 years of experience with a proven record of accomplishments in deep water production operations in the U.S. Gulf of Mexico (Mars Basin), Offshore West Africa (Bonga Main Development, Bonga North Project & EA), and Onshore Assets in Nigeria. During this time, he managed various production engineering projects for Shell across the globe and championed LEAN initiatives in Shell Operations in Sub Saharan Africa./n He is a PhD holder in Leadership from the Dallas Baptist University, Texas, USA. He also holds Bachelors (B.Eng.) and a Master of Science (M.sc) in Chemical Engineering from Ahmadu Bello University, Zaria, Nigeria and has attended various executive management programs at Harvard Business School, IMD Business School, and the London Management Centre.",
@@ -133,15 +131,6 @@ export const ExecManData = [
   },
 
   {
-    image: cooPose,
-    name: "Edirin James Abamwa",
-    position: "COO OML 34 AMT",
-    text: "Edirin is a Reservoir and Software Engineer with some 32 years of practical experience. He graduated with a B.Sc. in Electrical Engineering (1977) from the University of Lagos and began his oil field career with Schlumberger in 1978 as a Wireline Logging Engineer.",
-    fullText:
-      "Edirin is a Reservoir and Software Engineer with some 32 years of practical experience. He graduated with a B.Sc. in Electrical Engineering (1977) from the University of Lagos and began his oil field career with Schlumberger in 1978 as a Wireline Logging Engineer./n  He joined Shell (Nigeria) in 1980 where over 20 years he acquired rich, practical oil field experiences spanning reserves estimation and administration; field development design, planning and execution; petroleum economics; field operations optimization and production analytics as well as data management and corporate information planning./n  He was pioneer Head of Field Development (2000) of Niger Delta Petroleum Resources Limited responsible for early development of the Ogbele Field, overseeing it through to first oil production in November 2005./n Edirin taught petrophysics and computing at the Shell Intensive Training Program (SITP) for graduate engineers and geoscientists (2000 – 2003) and also taught the reservoir engineering module of Shell's EP00 training program for staff./n He is a member of the Nigeria Society of Engineers, the Society of Petroleum Engineers International as well as ACM – American Computing Machinery; a US based professional society for computer scientists and engineers.",
-  },
-
-  {
     image: azfar,
     name: "Azfar Hussain",
     position: "Chief Financial Officer",
@@ -150,14 +139,6 @@ export const ExecManData = [
       "Azfar Hussain joined ND Western in January 2020./n  As Chief Financial Officer (CFO) he is responsible for Finance and Commercial strategy of the company. With over 20 years’ experience in leadership roles successfully leading capital raising at various life-cycle stages, investments and joint venture transactions. His career has spanned across multiple sectors including Energy, Infrastructure and Technology.",
   },
 
-  {
-    image: james,
-    name: "James Okoro",
-    position: "General Manager Operations",
-    text: "James is an accomplished Oil and Gas Engineer. A graduate of Chemical Engineering from the University of Benin, he joined the Shell Petroleum Development Company in 1985 as a trainee engineer. Thereafter, he worked variously as Facilities, Terminals/Offshore and Conceptual/Appraisal Engineer prior to majoring in Project Management.",
-    fullText:
-      "James is an accomplished Oil and Gas Engineer. A graduate of Chemical Engineering from the University of Benin, he joined the Shell Petroleum Development Company in 1985 as a trainee engineer. Thereafter, he worked variously as Facilities, Terminals/Offshore and Conceptual/Appraisal Engineer prior to majoring in Project Management./n In 1998, he became the Head of Engineering for the Land Area of Shell's Western Division's operations. More recently, in 2008, he became the Resident/Chief Engineer for the world class Gbaran-Ubie integrated oil/gas project with a processing capacity for 1bscf/d of gas and 220,000bbls of liquids. He is a member of the Nigeria Society of Engineers (NSE). He left Shell in 2012 to join ND Western.",
-  },
   {
     image: basil,
     name: "Basil Okoye",
@@ -204,10 +185,10 @@ export const mgmtTeamData = [
   {
     image: omo,
     name: "Omo Omorodion",
-    position: "Legal Counsel",
-    text: "Omo has about 19 years working experience, spanning advocacy and solicitor's practice, company secretarial practice, brand management, human resource management, administration & logistics, marketing, insurance law and practice, banking law and practice, e-payments, oil & gas law and practice.",
+    position: "General Counsel and Compliance",
+    text: "Omo has had more than 26 years working experience, spanning advocacy and solicitor's practice, company secretarial practice, brand management, human resource management, administration & logistics, marketing, insurance, banking, e-payments, and oil & gas. In these areas he has very successfully led multi-functional and highly skilled teams to deliver multifarious objectives.",
     fullText:
-      "Omo has about 19 years working experience, spanning advocacy and solicitor's practice, company secretarial practice, brand management, human resource management, administration & logistics, marketing, insurance law and practice, banking law and practice, e-payments, oil & gas law and practice./nHe was called to the Nigerian bar in 1995, and served pupillage at the law firm of Olatunde Adejuyigbe (SAN) & Co. Thereafter he joined Cornerstone Insurance Plc in 1998 as the Legal/Corporate Affairs Officer, rising to the level of Assistant Manager and Company Secretary/Legal Adviser in 2001. He then left the company to join the Legal Department of Equitorial Trust Bank Limited (then Devcom Bank Limited) for a brief period in 2003, before returning to the insurance sector in the same year as the Head of the Corporate Services Group and Company Secretary/Legal Adviser of Consolidated Hallmark Insurance Plc (then Consolidated Risk Insurers Plc). /n Omo left Consolidated Hallmark Insurance Plc in 2008 and after another brief stint in 3Line Card Management Limited where he applied himself diligently in the card and e-payments sector, he joined Niger Delta Petroleum Resources Limited (a wholly-owned subsidiary of Niger Delta Exploration & Production Plc) in October of the same year as a Senior Legal Officer. Ever since, he has grounded himself firmly in the knowledge and practice of oil and gas law, and served meritoriously in the company. He has risen to the level of Manager and Company Secretary, and was seconded to ND Western Limited in May 2013 as the pioneer Legal Counsel.",
+      "Omo has had more than 26 years working experience, spanning advocacy and solicitor's practice, company secretarial practice, brand management, human resource management, administration & logistics, marketing, insurance, banking, e-payments, and oil & gas. In these areas he has very successfully led multi-functional and highly skilled teams to deliver multifarious objectives./n He was called to the Nigerian bar in 1995, and served pupillage at the Law Firm of Olatunde Adejuyigbe (SAN) & Co. Thereafter he joined Cornerstone Insurance Plc in 1998 as a Legal/Corporate Affairs Officer, rising to the level of Assistant Manager and Acting Company Secretary/Legal Adviser in 2001. He then left the company to join Equatorial Trust Bank Limited (then Devcom Bank Limited) for a brief period in 2003, before returning to the insurance sector in the same year and rising to become an Assistant General Manager in charge of the Corporate Services Group, Company Secretary/Legal Adviser and a member of the Executive Management Team of Consolidated Hallmark Insurance Plc. He led the program for listing the Company on the Nigerian Stock Exchange. /n Omo left Consolidated Hallmark Insurance Plc in 2008 and after a brief stint in 3Line Card Management Limited as Head, Legal and member of the Executive Management Team of the company, he joined Niger Delta Petroleum Resources Limited in October of the same year and rose to the level of Manager/Company Secretary. He was seconded to ND Western in 2013 as the pioneer Legal Counsel, where he has been retained as General Counsel. He represents ND Western on the Board of Directors of FOT Associates Ltd/Gte./n Omo holds a Bachelor of Laws Degree and a Master’s in International Law & Diplomacy from the Lagos State University. He is a member of the Nigerian Bar Association and has attended several managerial and functional development courses in Nigeria and abroad.",
   },
   {
     image: sunday,

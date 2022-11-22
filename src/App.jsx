@@ -29,7 +29,6 @@ import Exploration from "./Pages/Exploration";
 import NewsAndLifeStyle from "./Pages/NewsAndLifeStyle";
 import LifeAtNDW from "./Pages/LifeAtNDW";
 
-
 function App() {
   const [loading, setLoading] = useState(true);
   const spinner = document.getElementById("spinner");
